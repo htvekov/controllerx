@@ -139,6 +139,9 @@ on Mqtt#Connected do rule1 1 endon
 
 RULE3 5
 on switch1#state=4 do backlog publish tasmota_topic inc-dec;publish tasmota_topic;rule3 0 endon
+
+on switch1#state=4 do backlog publish zigbee2mqtt/office_cmnd {\"action\": \"inc-dec\"};publish zigbee2mqtt/office_cmnd {\"action\": \"\"};rule3 0 endon
+
 ```
 
 **NB: Note the extra decimal '5' in RULE3 !!**
@@ -164,8 +167,8 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTc0NzczMzMsMTU1MTUzOTUsLTI2Mz
-M4Njc1NiwyOTI2Mzc0MTYsMzU1MjIwNTE3LC0xNzIyMjcyOTk3
-LC03NzA1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2ODcxMDAxOCwxNj
-g2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
+eyJoaXN0b3J5IjpbMjY0ODQxMDU0LDE1NTE1Mzk1LC0yNjMzOD
+Y3NTYsMjkyNjM3NDE2LDM1NTIyMDUxNywtMTcyMjI3Mjk5Nywt
+NzcwNTQ3MDQwLDE1MDMwODQ5NTYsLTE0Njg3MTAwMTgsMTY4Nj
+IwNTQ5NiwtMTIyNTk2NTk3Nl19
 -->
