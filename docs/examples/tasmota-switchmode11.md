@@ -87,7 +87,7 @@ controller_switchmode11_off:
     inc-dec: sync
 ```
 
-Second example is a more simple setup, where smooth_power_on is enabled instead, when button is held from lights off position.
+Second example is a more simple setup, where `smooth_power_on` is enabled instead, when button is held from lights off position.
 
 ##### ControllerX apps.yaml example no. 2:
 
@@ -148,5 +148,5 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzQ4MjcxNywtMTIyNTk2NTk3Nl19
+eyJoaXN0b3J5IjpbLTYxOTkzMzY0NywtMTIyNTk2NTk3Nl19
 -->
