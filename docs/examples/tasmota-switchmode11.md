@@ -115,7 +115,7 @@ tasmota_switchmode11:
 ```
 
 #### Notes on Appdeamon and HA's state machine:
-Things take time!! Especially when Appdeamon apps has to check HA states by using 
+Things take time!! Especially when Appdeamon apps has to check HA states by using constrain_input_boolean's or 
 
 
 #### Setup needed commands and rules in Tasmota software via console:
@@ -170,7 +170,7 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTExMTI1NywzNTUyMjA1MTcsLTE3Mj
-IyNzI5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4NzEw
-MDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
+eyJoaXN0b3J5IjpbNDI1MTg4NzUzLDM1NTIyMDUxNywtMTcyMj
+I3Mjk5NywtNzcwNTQ3MDQwLDE1MDMwODQ5NTYsLTE0Njg3MTAw
+MTgsMTY4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
 -->
