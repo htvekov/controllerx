@@ -75,7 +75,6 @@ controller_switchmode11_on:
     clear: release
     double: on_full_brightness
 
-
 controller_switchmode11_off:
   module: controllerx
   class: LightController ### working ????
@@ -114,7 +113,7 @@ tasmota_switchmode11:
     clear: release
     double: on_full_brightness
 ```
-
+Some notes 
 #### Setup needed commands and rules in Tasmota software via console:
 
 ```
@@ -167,7 +166,7 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5NzcxOTEwLDM1NTIyMDUxNywtMTcyMj
-I3Mjk5NywtNzcwNTQ3MDQwLDE1MDMwODQ5NTYsLTE0Njg3MTAw
-MTgsMTY4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
+eyJoaXN0b3J5IjpbLTUxNDY2OTA0OSwzNTUyMjA1MTcsLTE3Mj
+IyNzI5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4NzEw
+MDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
 -->
