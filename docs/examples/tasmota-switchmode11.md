@@ -26,12 +26,12 @@ Switchstate=4: inc-dec (HOLD function. Send after delay defined with Setoption32
 Switchstate=5: inv (INVERSE dim direction function. Not used in this implementation, as ControllerX handles this internally)
 Switchstate=6: clear (Delayed RELEASE function. Send when button is released AFTER delay defined with Setoption32. Not used in this implementation)
 Switchstate=7: clear (Normal RELEASE function. Send immediately after button is released
-Switchstate=8: double (DOUBLE press function. Two consequetive presses, within time delay defin
+Switchstate=8: double (DOUBLE press function. Two consequetive presses within time delay defined with SetOption32
 ```
 
 #### Requirements:
 
-Tasmota: v8.3.1.2 or newer
+Tasmota: v8.4.0.2 or newer
 
 ControllerX: v2.7.2 or newer
 
@@ -151,6 +151,6 @@ This feature replaces HOLD FROM LIGHTS OFF to turn on lights at full brightness.
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDc0MjM4NCwtMTQ2ODcxMDAxOCwxNj
+eyJoaXN0b3J5IjpbMjA3ODU2MjA4MywtMTQ2ODcxMDAxOCwxNj
 g2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
 -->
