@@ -61,6 +61,8 @@ controller_switchmode11_on:
 	listen_to: mqtt
 	action_key: action  # Defaults to action if not specified
   light: light.your_light # define your own light entity
+  automatic_steps: 8 ???
+  delay: 400 ???
   constrain_input_boolean: light.your_light,on # This whole configuration will work when the light is on
   mapping:
     toggle: toggle
@@ -212,7 +214,7 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDUwNTgyNiwtMTcyMjI3Mjk5NywtNz
+eyJoaXN0b3J5IjpbMTEwMzM5ODMyNiwtMTcyMjI3Mjk5NywtNz
 cwNTQ3MDQwLDE1MDMwODQ5NTYsLTE0Njg3MTAwMTgsMTY4NjIw
 NTQ5NiwtMTIyNTk2NTk3Nl19
 -->
