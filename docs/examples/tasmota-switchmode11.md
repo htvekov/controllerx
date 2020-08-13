@@ -159,7 +159,7 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 * Initial example documentation June, 2020
 
 **doc v1.1:**
-* Deprecated custom controllers in example. These will be deprecated as well at some point in ControllerX
+* Deprecated custom controllers in example. These will in future be deprecated as well in ControllerX
 * Changed from HA sensor state to official z2m MQTT implementation using JSON objects (speed improvement!)
 * New switchmode 11/12 `DOUBLE` press command implemented
 
@@ -167,10 +167,10 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjA5NzI2NSwtMTkxMDY2NDIyNSwyMz
-Y2MzE4NTUsMTA4Nzc3NTgzLC0xODY5NTQzMTY5LC0xOTIzNTcx
-MDIzLDYwMzAzNTA1LDI2NDg0MTA1NCwxNTUxNTM5NSwtMjYzMz
-g2NzU2LDI5MjYzNzQxNiwzNTUyMjA1MTcsLTE3MjIyNzI5OTcs
-LTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4NzEwMDE4LDE2OD
-YyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
+eyJoaXN0b3J5IjpbLTE2MzYzMDY1MzAsLTE5MTA2NjQyMjUsMj
+M2NjMxODU1LDEwODc3NzU4MywtMTg2OTU0MzE2OSwtMTkyMzU3
+MTAyMyw2MDMwMzUwNSwyNjQ4NDEwNTQsMTU1MTUzOTUsLTI2Mz
+M4Njc1NiwyOTI2Mzc0MTYsMzU1MjIwNTE3LC0xNzIyMjcyOTk3
+LC03NzA1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2ODcxMDAxOCwxNj
+g2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
 -->
