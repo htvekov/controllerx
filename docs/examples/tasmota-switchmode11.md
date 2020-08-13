@@ -61,7 +61,7 @@ controller_switchmode11_on:
   module: controllerx
   class: LightController
   controller: tasmota_topic # Normally z2m friendly name. Here topic used in Tasmota rules
-	integration: state
+  integration: state
 	name: z2m
 	listen_to: mqtt
 	action_key: action  # Defaults to action if not specified
@@ -77,7 +77,7 @@ controller_switchmode11_off:
   module: controllerx
   class: LightController
   controller: tasmota_topic # Normally z2m friendly name. Here topic used in Tasmota rules
-	integration: state
+  integration: state
 	name: z2m
 	listen_to: mqtt
 	action_key: action  # Defaults to action if not specified
@@ -98,7 +98,7 @@ tasmota_switchmode11:
   module: controllerx
   class: LightController
   controller: tasmota_topic  # Normally z2m friendly name. Here topic used in Tasmota rules
-	integration: state
+  integration: state
 	name: z2m
 	listen_to: mqtt
 	action_key: action  # Defaults to action if not specified
@@ -167,9 +167,9 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Nzc3NTgzLC0xODY5NTQzMTY5LC0xOT
-IzNTcxMDIzLDYwMzAzNTA1LDI2NDg0MTA1NCwxNTUxNTM5NSwt
-MjYzMzg2NzU2LDI5MjYzNzQxNiwzNTUyMjA1MTcsLTE3MjIyNz
-I5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4NzEwMDE4
-LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
+eyJoaXN0b3J5IjpbMjg0Mzc1MDQ3LDEwODc3NzU4MywtMTg2OT
+U0MzE2OSwtMTkyMzU3MTAyMyw2MDMwMzUwNSwyNjQ4NDEwNTQs
+MTU1MTUzOTUsLTI2MzM4Njc1NiwyOTI2Mzc0MTYsMzU1MjIwNT
+E3LC0xNzIyMjcyOTk3LC03NzA1NDcwNDAsMTUwMzA4NDk1Niwt
+MTQ2ODcxMDAxOCwxNjg2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
 -->
