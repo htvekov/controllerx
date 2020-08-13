@@ -6,7 +6,7 @@ Example changelog at last page
 
 ### TASMOTA SWITCHMODE 11/12 WALL SWITCH IMPLEMENTATION WITH HOME ASSISTANT / CONTROLLERX
 
-Want to make your 'dumb' wall switches smart and at the same time improve installation of smart lights WAF 👩‍🦰 ? Then the solution could be to 'Tasmotize' your wall switches, and use Home Asssistant with ControllerX app to control the smart light connected to that switch. With this setup, you'll be able to toggle and dim your lights directly from your wall switch. Today, many WIFI switches are so small, that they can fit behind wall outlets/switches or in ceiling outlets. Personally, I've used [Shelly One devices](https://shop.shelly.cloud/shelly-1-wifi-smart-home-automation#50) and [Itead Sonoff Mini's](https://www.itead.cc/sonoff-mini.html). Both are easy to flash with Tasmota using either USB-to-UART adapter or directly OTA. No soldering is actually needed these days. The flash part and build instructions are to comprehensive to elaborate on further in this documentation. Instructions are 'out there' - Google it! 😉
+Want to make your 'dumb' wall switches smart and at the same time improve installation of smart lights WAF 👩‍🦰 ? Then the solution could be to 'Tasmotize' your wall switches, and use Home Asssistant with ControllerX app to control the smart light connected to that switch. With this setup, you'll be able to toggle, turn lights on at full brightness and dim your lights directly from your wall switch. Today, many WIFI switches are so small, that they can fit behind wall outlets/switches or in ceiling outlets. Personally, I've used [Shelly One devices](https://shop.shelly.cloud/shelly-1-wifi-smart-home-automation#50) and [Itead Sonoff Mini's](https://www.itead.cc/sonoff-mini.html). Both are easy to flash with Tasmota using either USB-to-UART adapter or directly OTA. No soldering is actually needed these days. The flash part and build instructions are to comprehensive to elaborate on further in this documentation. Instructions are 'out there' - Google it! 😉
 
 One of my Sonoff Mini installations behind a wall switch. Danish wall switch modules are typically not larger than appx. 50x50mm pr. module (outside measurements). I’ve LK Opus 66 installed, which is a slightly larger type measuring 66mm in width. Still I can squeeze a Sonoff Mini in behind a ‘typical’ double module wall switch. Shelly devices are a bit smaller, round in shape and in general easier to fit than the Sonoff Mini’s.
 
@@ -143,13 +143,13 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 * Initial example documentation June, 2020
 
 **doc v1.1:**
-* Deprecated custom controllers in example to follow ControllerX development.
+* Deprecated custom controllers in example, to follow ControllerX development.
 * Changed from HA sensor state to MQTT implementation (speed improvement!).
 * New switchmode 11/12 `DOUBLE` press command implemented.
 This feature replaces HOLD FROM LIGHTS OFF to turn on lights at full brightness.
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDU3NjgwMjYsMTY4NjIwNTQ5NiwtMT
+eyJoaXN0b3J5IjpbLTE0Njg3MTAwMTgsMTY4NjIwNTQ5NiwtMT
 IyNTk2NTk3Nl19
 -->
