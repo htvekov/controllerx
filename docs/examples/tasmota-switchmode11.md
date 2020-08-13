@@ -66,8 +66,6 @@ controller_switchmode11_on:
 	listen_to: mqtt
 	action_key: action  # Defaults to action if not specified
   light: light.your_light # define your own light entity
-  automatic_steps: 8 # define default. best choice ???
-  delay: 400 # define default. best choice ???
   constrain_input_boolean: light.your_light,on # This whole configuration will work when the light is on
   mapping:
     toggle: toggle
@@ -169,9 +167,9 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk1NDMxNjksLTE5MjM1NzEwMjMsNj
-AzMDM1MDUsMjY0ODQxMDU0LDE1NTE1Mzk1LC0yNjMzODY3NTYs
-MjkyNjM3NDE2LDM1NTIyMDUxNywtMTcyMjI3Mjk5NywtNzcwNT
-Q3MDQwLDE1MDMwODQ5NTYsLTE0Njg3MTAwMTgsMTY4NjIwNTQ5
-NiwtMTIyNTk2NTk3Nl19
+eyJoaXN0b3J5IjpbMTA4Nzc3NTgzLC0xODY5NTQzMTY5LC0xOT
+IzNTcxMDIzLDYwMzAzNTA1LDI2NDg0MTA1NCwxNTUxNTM5NSwt
+MjYzMzg2NzU2LDI5MjYzNzQxNiwzNTUyMjA1MTcsLTE3MjIyNz
+I5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4NzEwMDE4
+LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
 -->
