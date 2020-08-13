@@ -79,8 +79,8 @@ controller_switchmode11_off:
   controller: tasmota_topic # Normally z2m friendly name. Here topic used in Tasmota rules
   integration: state
     name: z2m
-	listen_to: mqtt
-	action_key: action  # Defaults to action if not specified
+    listen_to: mqtt
+    action_key: action  # Defaults to action if not specified
   light: light.your_light # define your own light entity
   constrain_input_boolean: light.your_light,off # This whole configuration will work when the light is off
   mapping:
@@ -167,9 +167,10 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2NjMxODU1LDEwODc3NzU4MywtMTg2OT
-U0MzE2OSwtMTkyMzU3MTAyMyw2MDMwMzUwNSwyNjQ4NDEwNTQs
-MTU1MTUzOTUsLTI2MzM4Njc1NiwyOTI2Mzc0MTYsMzU1MjIwNT
-E3LC0xNzIyMjcyOTk3LC03NzA1NDcwNDAsMTUwMzA4NDk1Niwt
-MTQ2ODcxMDAxOCwxNjg2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
+eyJoaXN0b3J5IjpbMTg3NjA5MjY1NSwyMzY2MzE4NTUsMTA4Nz
+c3NTgzLC0xODY5NTQzMTY5LC0xOTIzNTcxMDIzLDYwMzAzNTA1
+LDI2NDg0MTA1NCwxNTUxNTM5NSwtMjYzMzg2NzU2LDI5MjYzNz
+QxNiwzNTUyMjA1MTcsLTE3MjIyNzI5OTcsLTc3MDU0NzA0MCwx
+NTAzMDg0OTU2LC0xNDY4NzEwMDE4LDE2ODYyMDU0OTYsLTEyMj
+U5NjU5NzZdfQ==
 -->
