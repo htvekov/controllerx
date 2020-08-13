@@ -59,7 +59,7 @@ First example is with two separate controllers. This will also handle `HOLD FROM
 ```yaml
 controller_switchmode11_on:
   module: controllerx
-  class: LightController ### working ????
+  class: LightController
   controller: tasmota_topic # Normally z2m friendly name. Here topic used in Tasmota rules
 	integration: state
 	name: z2m
@@ -77,7 +77,7 @@ controller_switchmode11_on:
 
 controller_switchmode11_off:
   module: controllerx
-  class: LightController ### working ????
+  class: LightController
   controller: tasmota_topic # Normally z2m friendly name. Here topic used in Tasmota rules
 	integration: state
 	name: z2m
@@ -98,7 +98,7 @@ Second example is a more simple setup, where `smooth_power_on` is enabled instea
 ```yaml
 tasmota_switchmode11:
   module: controllerx
-  class: LightController ### working ????
+  class: LightController
   controller: tasmota_topic  # Normally z2m friendly name. Here topic used in Tasmota rules
 	integration: state
 	name: z2m
@@ -169,9 +169,9 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM1NzEwMjMsNjAzMDM1MDUsMjY0OD
-QxMDU0LDE1NTE1Mzk1LC0yNjMzODY3NTYsMjkyNjM3NDE2LDM1
-NTIyMDUxNywtMTcyMjI3Mjk5NywtNzcwNTQ3MDQwLDE1MDMwOD
-Q5NTYsLTE0Njg3MTAwMTgsMTY4NjIwNTQ5NiwtMTIyNTk2NTk3
-Nl19
+eyJoaXN0b3J5IjpbLTE4Njk1NDMxNjksLTE5MjM1NzEwMjMsNj
+AzMDM1MDUsMjY0ODQxMDU0LDE1NTE1Mzk1LC0yNjMzODY3NTYs
+MjkyNjM3NDE2LDM1NTIyMDUxNywtMTcyMjI3Mjk5NywtNzcwNT
+Q3MDQwLDE1MDMwODQ5NTYsLTE0Njg3MTAwMTgsMTY4NjIwNTQ5
+NiwtMTIyNTk2NTk3Nl19
 -->
