@@ -123,7 +123,7 @@ Things take time when HA's state machine is involved! This can for some be notis
 ```
 Powerretain1 1    Retain Tasmota power settings i HA in event of power outage
 Setoption1 1      Allow only single, double and hold press button actions
-Setoption32 8     Delay for HOLD button (in 0,1 sec.). I use 8 = 0,8 sec.
+Setoption32 8     Delay for HOLD button (in 0,1 sec.). I use 8 = 0,8 sec. Max value allowed is 63 !!
 Setoption34 50    Minimize delay between backlog commands to 50 ms. (Default 200 ms.)
 Switchtopic 0     Disable switchtopic. Needed when using rules in Tasmota.
 Switchmode1 11    Set Tasmota to switchmode11
@@ -170,7 +170,7 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjYwNTM5OCwzNTUyMjA1MTcsLTE3Mj
-IyNzI5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4NzEw
-MDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
+eyJoaXN0b3J5IjpbLTE0Mjg0NDg5NjAsMzU1MjIwNTE3LC0xNz
+IyMjcyOTk3LC03NzA1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2ODcx
+MDAxOCwxNjg2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
 -->
