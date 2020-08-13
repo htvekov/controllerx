@@ -131,6 +131,11 @@ Switchmode1 11    Set Tasmota to switchmode11
 RULE1 on switch1#state=2 do backlog publish tasmota_topic toggle;publish tasmota_topic endon
 on switch1#state=7 do backlog publish tasmota_topic clear;rule3 1;publish tasmota_topic endon
 
+on switch1#state=2 do backlog publish zigbee2mqtt/office_cmnd {\"action\": \"toggle\"};publish zigbee2mqtt/office_cmnd {\"action\": \"\"} endon
+on switch1#state=8 do backlog publish zigbee2mqtt/office_cmnd {\"action\": \"double\"};publish zigbee2mqtt/office_cmnd {\"action\": \"\"} endon
+on switch1#state=7 do backlog publish zigbee2mqtt/office_cmnd {\"action\": \"clear\"};rule3 1;publish zigbee2mqtt/office_cmnd {\"action\": \"\"} endon
+
+
 RULE2
 on Mqtt#Disconnected do rule1 0 endon
 on Mqtt#Connected do rule1 1 endon
@@ -162,7 +167,8 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyNjM3NDE2LDM1NTIyMDUxNywtMTcyMj
-I3Mjk5NywtNzcwNTQ3MDQwLDE1MDMwODQ5NTYsLTE0Njg3MTAw
-MTgsMTY4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
+eyJoaXN0b3J5IjpbMTkxMzE2NjQyMiwyOTI2Mzc0MTYsMzU1Mj
+IwNTE3LC0xNzIyMjcyOTk3LC03NzA1NDcwNDAsMTUwMzA4NDk1
+NiwtMTQ2ODcxMDAxOCwxNjg2MjA1NDk2LC0xMjI1OTY1OTc2XX
+0=
 -->
