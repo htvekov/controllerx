@@ -62,7 +62,7 @@ controller_switchmode11_on:
   class: LightController
   controller: tasmota_topic # Normally z2m friendly name. Here topic used in Tasmota rules
   integration: state
-	
+    name: z2m
     listen_to: mqtt
     action_key: action  # Defaults to action if not specified
   light: light.your_light # define your own light entity
@@ -167,10 +167,10 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDMyNDg1NSwyMzY2MzE4NTUsMTA4Nz
-c3NTgzLC0xODY5NTQzMTY5LC0xOTIzNTcxMDIzLDYwMzAzNTA1
-LDI2NDg0MTA1NCwxNTUxNTM5NSwtMjYzMzg2NzU2LDI5MjYzNz
-QxNiwzNTUyMjA1MTcsLTE3MjIyNzI5OTcsLTc3MDU0NzA0MCwx
-NTAzMDg0OTU2LC0xNDY4NzEwMDE4LDE2ODYyMDU0OTYsLTEyMj
-U5NjU5NzZdfQ==
+eyJoaXN0b3J5IjpbLTE5MTA2NjQyMjUsMjM2NjMxODU1LDEwOD
+c3NzU4MywtMTg2OTU0MzE2OSwtMTkyMzU3MTAyMyw2MDMwMzUw
+NSwyNjQ4NDEwNTQsMTU1MTUzOTUsLTI2MzM4Njc1NiwyOTI2Mz
+c0MTYsMzU1MjIwNTE3LC0xNzIyMjcyOTk3LC03NzA1NDcwNDAs
+MTUwMzA4NDk1NiwtMTQ2ODcxMDAxOCwxNjg2MjA1NDk2LC0xMj
+I1OTY1OTc2XX0=
 -->
