@@ -145,7 +145,7 @@ on switch1#state=4 do backlog publish zigbee2mqtt/tasmota_topic {\"action\": \"i
 
 **NB: Note the extra decimal '5' in RULE3 !!**
 
-**RULE1** sends the TOGGLE command via MQTT and afterwards immediately clears the sensor state with an empty payload (just like a physical button does). It also handles the CLEAR command when button is released, enables RULE3 and finally clears payload.
+**RULE1** sends the TOGGLE command via MQTT and afterwards immediately clears the sensor state with an empty payload (just like a physical button does). It also handles the DOUBLE press command and CLEAR command when button is released, enables RULE3 and finally clears payload.
 
 **RULE2** handles the 'fall back' to direct switch control if MQTT server is unavailable. Nice WAF feature, if HA/MQTT server is down. Then lights still can be toggled on/off using the wall switch.
 
@@ -166,8 +166,8 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDQ4ODE4NywyNjQ4NDEwNTQsMTU1MT
-UzOTUsLTI2MzM4Njc1NiwyOTI2Mzc0MTYsMzU1MjIwNTE3LC0x
-NzIyMjcyOTk3LC03NzA1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2OD
-cxMDAxOCwxNjg2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
+eyJoaXN0b3J5IjpbLTE1NDExOTAxNDksMjY0ODQxMDU0LDE1NT
+E1Mzk1LC0yNjMzODY3NTYsMjkyNjM3NDE2LDM1NTIyMDUxNywt
+MTcyMjI3Mjk5NywtNzcwNTQ3MDQwLDE1MDMwODQ5NTYsLTE0Nj
+g3MTAwMTgsMTY4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
 -->
