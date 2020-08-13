@@ -63,8 +63,8 @@ controller_switchmode11_on:
   controller: tasmota_topic # Normally z2m friendly name. Here topic used in Tasmota rules
   integration: state
 	name: z2m
-	listen_to: mqtt
-	action_key: action  # Defaults to action if not specified
+    listen_to: mqtt
+    action_key: action  # Defaults to action if not specified
   light: light.your_light # define your own light entity
   constrain_input_boolean: light.your_light,on # This whole configuration will work when the light is on
   mapping:
@@ -100,8 +100,8 @@ tasmota_switchmode11:
   controller: tasmota_topic  # Normally z2m friendly name. Here topic used in Tasmota rules
   integration: state
 	name: z2m
-	listen_to: mqtt
-	action_key: action  # Defaults to action if not specified
+    listen_to: mqtt
+    action_key: action  # Defaults to action if not specified
   smooth_power_on: true # enable 'smooth power on' feature when button is held from lights off
   delay: 250 # change delay if you want faster/slower dimming response (default: 350 ms.)
   light: light.your_light # define your own light entity
@@ -167,10 +167,10 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NjA5MjY1NSwyMzY2MzE4NTUsMTA4Nz
-c3NTgzLC0xODY5NTQzMTY5LC0xOTIzNTcxMDIzLDYwMzAzNTA1
-LDI2NDg0MTA1NCwxNTUxNTM5NSwtMjYzMzg2NzU2LDI5MjYzNz
-QxNiwzNTUyMjA1MTcsLTE3MjIyNzI5OTcsLTc3MDU0NzA0MCwx
-NTAzMDg0OTU2LC0xNDY4NzEwMDE4LDE2ODYyMDU0OTYsLTEyMj
-U5NjU5NzZdfQ==
+eyJoaXN0b3J5IjpbMjUyMDA4NDMxLDIzNjYzMTg1NSwxMDg3Nz
+c1ODMsLTE4Njk1NDMxNjksLTE5MjM1NzEwMjMsNjAzMDM1MDUs
+MjY0ODQxMDU0LDE1NTE1Mzk1LC0yNjMzODY3NTYsMjkyNjM3ND
+E2LDM1NTIyMDUxNywtMTcyMjI3Mjk5NywtNzcwNTQ3MDQwLDE1
+MDMwODQ5NTYsLTE0Njg3MTAwMTgsMTY4NjIwNTQ5NiwtMTIyNT
+k2NTk3Nl19
 -->
