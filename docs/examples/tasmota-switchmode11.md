@@ -60,7 +60,7 @@ First example is with two separate controllers. This will also handle `HOLD FROM
 controller_switchmode11_on:
   module: controllerx
   class: LightController ### working ????
-  controller: office_cmnd  # z2m friendly name
+  controller: tasmota_topic  # z
 	integration: state
 	name: z2m
 	listen_to: mqtt
@@ -78,7 +78,7 @@ controller_switchmode11_on:
 controller_switchmode11_off:
   module: controllerx
   class: LightController ### working ????
-  controller: office_cmnd # Normally z2m friendly name. Here topic used in Tasmota rules
+  controller: tasmota_topic # Normally z2m friendly name. Here topic used in Tasmota rules
 	integration: state
 	name: z2m
 	listen_to: mqtt
@@ -99,7 +99,7 @@ Second example is a more simple setup, where `smooth_power_on` is enabled instea
 tasmota_switchmode11:
   module: controllerx
   class: LightController ### working ????
-  controller: office_cmnd  # Normally z2m friendly name. Here topic used in Tasmota rules
+  controller: tasmota_topic  # Normally z2m friendly name. Here topic used in Tasmota rules
 	integration: state
 	name: z2m
 	listen_to: mqtt
@@ -154,7 +154,7 @@ on switch1#state=4 do backlog publish zigbee2mqtt/tasmota_topic {\"action\": \"i
 RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number) to prevent some extra HOLD commands gets send before rule is disabled.
 
 Rules also needs to be 'escaped' (as in example) if used with HA automation.
-Tasmota will add needed escape signs if rules are en
+Tasmota will automatically add needed escape signs, if rules are entered without.
 
 #### Changelog:
 **doc v1.0:**
@@ -169,8 +169,8 @@ Tasmota will add needed escape signs if rules are en
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MjI0OTYyOCwyNjQ4NDEwNTQsMTU1MT
-UzOTUsLTI2MzM4Njc1NiwyOTI2Mzc0MTYsMzU1MjIwNTE3LC0x
-NzIyMjcyOTk3LC03NzA1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2OD
-cxMDAxOCwxNjg2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
+eyJoaXN0b3J5IjpbOTA1MTk0MjkyLDI2NDg0MTA1NCwxNTUxNT
+M5NSwtMjYzMzg2NzU2LDI5MjYzNzQxNiwzNTUyMjA1MTcsLTE3
+MjIyNzI5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4Nz
+EwMDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
 -->
