@@ -94,9 +94,12 @@ Second example is a more simple setup, where `smooth_power_on` is enabled instea
 ```yaml
 tasmota_switchmode11:
   module: controllerx
-  class: LightController
-  controller: sensor.tasmota
-  integration: state
+  class: LightController ### working ????
+  controller: office_cmnd  # z2m friendly name
+	integration: state
+	name: z2m
+	listen_to: mqtt
+	action_key: action  # Defaults to action if not specified
   smooth_power_on: true # enable 'smooth power on' feature when button is held from lights off
   delay: 250 # change delay if you want faster/slower dimming response (default: 350 ms.)
   light: light.your_light # define your own light entity
@@ -104,6 +107,7 @@ tasmota_switchmode11:
     toggle: toggle
     inc-dec: hold_brightness_toggle
     clear: release
+    double: on_full_brightness
 ```
 
 #### Setup needed commands and rules in Tasmota software via console:
@@ -158,7 +162,7 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzI2Mjk1NDQsMzU1MjIwNTE3LC0xNz
-IyMjcyOTk3LC03NzA1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2ODcx
-MDAxOCwxNjg2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
+eyJoaXN0b3J5IjpbMTIwMDQwNjMxOSwzNTUyMjA1MTcsLTE3Mj
+IyNzI5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4NzEw
+MDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
 -->
