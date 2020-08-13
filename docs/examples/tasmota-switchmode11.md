@@ -142,11 +142,12 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 * Initial documentation June, 2020
 
 **doc v1.1:**
-* Deprecated custom controllers to follow ControllerX development
+* Deprecated custom controllers in examples to follow ControllerX development
 * Changed from HA sensor state to MQTT implementation (massive speed improvement!)
-* New switchmode 11/12 DOUBLE press command implemented
+* New switchmode 11/12 DOUBLE press command implemented.
+This feature replaces HOLD FROM LIGHTS OFF 
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTkzMzY0NywtMTIyNTk2NTk3Nl19
+eyJoaXN0b3J5IjpbLTMxNjU3NzkyOSwtMTIyNTk2NTk3Nl19
 -->
