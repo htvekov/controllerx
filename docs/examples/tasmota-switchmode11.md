@@ -48,16 +48,7 @@ Module type: Sonoff Basic (1)
 GPIO4: Switch1 (9)
 
 #### Use switchmode 12 !!
-
-#### Setup MQTT sensor in HA's configuration.yaml:
-
-```yaml
-sensor:
-  - platform: mqtt
-      name: "tasmota"
-      state_topic: "tasmota_topic"
 ```
-
 #### Setup ControllerX app:
 
 First example is with two separate controllers. This will also handle HOLD FROM LIGHTS OFF situation. Which, when lights are off, will SYNC light/lights when button is held for 0,8 sec.
@@ -149,8 +140,17 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 * New switchmode 11/12 `DOUBLE` press command implemented.
 This feature replaces HOLD FROM LIGHTS OFF to turn on lights at full brightness.
 
+#### Setup MQTT sensor in HA's configuration.yaml:
+
+```yaml
+sensor:
+  - platform: mqtt
+      name: "tasmota"
+      state_topic: "tasmota_topic"
+
+
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTQ5MTg4NCwtMTQ2ODcxMDAxOCwxNj
+eyJoaXN0b3J5IjpbMTIxMDM3MjY0MiwtMTQ2ODcxMDAxOCwxNj
 g2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
 -->
