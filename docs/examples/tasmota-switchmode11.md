@@ -54,8 +54,8 @@ First example is with two separate controllers. This will also handle HOLD FROM 
 ```yaml
 controller_switchmode11_on:
   module: controllerx
-  class: LightController
-  controller: sensor.tasmota
+  class: LightController ????
+  controller: office_cmnd  # z2m friendly name
   integration: state
   light: light.your_light # define your own light entity
   constrain_input_boolean: light.your_light,on # This whole configuration will work when the light is on
@@ -63,6 +63,67 @@ controller_switchmode11_on:
     toggle: toggle
     inc-dec: hold_brightness_toggle
     clear: release
+
+controller_switchmode11_on_office:
+
+  
+
+module: controllerx
+
+class: E1810Controller
+
+controller: office_cmnd  # Specify z2m friendly name
+
+integration:
+
+name: z2m
+
+listen_to: mqtt
+
+action_key: action  # Defaults to action if not specified
+
+  
+
+#module: controllerx
+
+#class: CustomLightController
+
+#controller: 'zigbee2mqtt/office_cmnd'
+
+#integration: mqtt
+
+  
+
+light: light.0xec1bbdfffed45c3b_light
+
+automatic_steps: 8
+
+delay: 400
+
+#delay: 350
+
+#transition: 350
+
+#add_transition: false
+
+add_transition_turn_toggle: false
+
+#min_brightness: 50
+
+#max_brightness: 200
+
+#constrain_input_boolean: light.0xec1bbdfffed45c3b_light,on # This whole configuration will work when the light is on
+
+mapping:
+
+#toggle: toggle
+
+inc-dec: hold_brightness_toggle
+
+clear: release
+
+double: on_full_brightness
+
 
 controller_switchmode11_off:
   module: controllerx
@@ -147,6 +208,6 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzA4NDk1NiwtMTQ2ODcxMDAxOCwxNj
-g2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
+eyJoaXN0b3J5IjpbNDYxNjYxMTQxLDE1MDMwODQ5NTYsLTE0Nj
+g3MTAwMTgsMTY4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
 -->
