@@ -115,7 +115,7 @@ tasmota_switchmode11:
 ```
 
 #### Notes on Appdeamon and HA's state machine:
-Things take time when HA's state machine is involved! This can for some be notisable, when Appdeamon apps has to check HA states by eg. using constrain_input_boolean's (as in example 1) or change HA states by toggling lights. In my setup using a constrain_input_boolean will add some 100 ms. delay on execution. Not much, but still worth to keep in mind. In my setup toggling lights via HA automation is also some 100 ms. faster than toggling through Appdeamon/ControllerX. In order to get the fastest possible toggle of lights, I'm personally using a simple HA automation for toggling lights and let ControllerX handle everything else 🙂
+Things take time when HA's state machine is involved! This can for some be notisable, when Appdeamon apps has to check HA states by eg. using constrain_input_boolean's (as in example 1) or change HA states by toggling lights. In my setup using a constrain_input_boolean will add some 100 ms. delay on execution. Not much, but still worth to keep in mind. In my setup toggling lights via HA automation is also some 100 ms. faster than toggling through Appdeamon/ControllerX. So in order to get the fastest possible toggle of lights, I'm personally using a simple HA automation for toggling lights and let ControllerX handle everything else 🙂
 
 
 #### Setup needed commands and rules in Tasmota software via console:
@@ -170,7 +170,7 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODk4ODk5ODIsMzU1MjIwNTE3LC0xNz
-IyMjcyOTk3LC03NzA1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2ODcx
-MDAxOCwxNjg2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
+eyJoaXN0b3J5IjpbMTc0NjYwNTM5OCwzNTUyMjA1MTcsLTE3Mj
+IyNzI5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4NzEw
+MDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
 -->
