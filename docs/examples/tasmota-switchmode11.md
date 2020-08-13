@@ -159,18 +159,10 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 * New switchmode 11/12 `DOUBLE` press command implemented.
 
 
-#### Setup MQTT sensor in HA's configuration.yaml:
-
-```yaml
-sensor:
-  - platform: mqtt
-      name: "tasmota"
-      state_topic: "tasmota_topic"
-
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDUzOTQ2OSwzNTUyMjA1MTcsLTE3Mj
-IyNzI5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4NzEw
-MDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
+eyJoaXN0b3J5IjpbMjkyNjM3NDE2LDM1NTIyMDUxNywtMTcyMj
+I3Mjk5NywtNzcwNTQ3MDQwLDE1MDMwODQ5NTYsLTE0Njg3MTAw
+MTgsMTY4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
 -->
