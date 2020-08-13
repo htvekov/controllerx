@@ -16,7 +16,7 @@ One final warning: Using Shelly/Sonoff devices behind wall switches/outlets invo
 
 Following example is with a Shelly One device, placed in the wall socket behind the switch, to control an Ikea WS bulb in the ceiling outlet. The bulb is connected to Home Assistant via Zigbee2MQTT. I've refitted my wall switch with a spring, so it'll act like a push button.
 
-The Switchmode11/12 option in Tasmota gives the user six different switch commands to be used for automation. With ControllerX only the four commands are needed, as ControllerX internally controls changes in dimming direction. These commands are via MQTT send to a HA sensor, which is used directly in ControllerX as a 'virtual' switch.
+The Switchmode11/12 option in Tasmota gives the user six different switch commands to be used for automation. With ControllerX only the four commands are needed, as ControllerX internally controls changes in dimming direction. These commands are via MQTT send directly to ControllerX.
 
 #### Switchmode11/12 Tasmota output commands are:
 
@@ -26,6 +26,7 @@ Switchstate=4: inc-dec (HOLD function. Send after delay defined with Setoption32
 Switchstate=5: inv (INVERSE dim direction function. Not used in this implementation, as ControllerX handles this internally)
 Switchstate=6: clear (Delayed RELEASE function. Send when button is released AFTER delay defined with Setoption32. Not used in this implementation)
 Switchstate=7: clear (Normal RELEASE function. Send immediately after button is released
+Switch
 ```
 
 #### Requirements:
@@ -150,6 +151,6 @@ This feature replaces HOLD FROM LIGHTS OFF to turn on lights at full brightness.
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTIyMzg1MjMsLTE0Njg3MTAwMTgsMT
-Y4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
+eyJoaXN0b3J5IjpbMTAyMTA0NTY1MCwtMTQ2ODcxMDAxOCwxNj
+g2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
 -->
