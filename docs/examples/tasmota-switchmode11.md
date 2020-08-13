@@ -52,7 +52,7 @@ Both examples listed below will:
 * dim light(s) up/down when button is held
 * Turn light(s) on at full brightness upon double press
 
-First example is with two separate controllers. This will also handle HOLD FROM LIGHTS OFF situation. Which, when lights are off, will SYNC light/lights when button is held for 0,8 sec.
+First example is with two separate controllers. This will also handle `HOLD FROM LIGHTS OFF` situation. Which, when lights are off, will `SYNC` light/lights when button is held for 0,8 sec.
 
 ##### ControllerX apps.yaml example no. 1:
 
@@ -167,7 +167,7 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDQwMDY0NiwzNTUyMjA1MTcsLTE3Mj
-IyNzI5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4NzEw
-MDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
+eyJoaXN0b3J5IjpbMzU5NzcxOTEwLDM1NTIyMDUxNywtMTcyMj
+I3Mjk5NywtNzcwNTQ3MDQwLDE1MDMwODQ5NTYsLTE0Njg3MTAw
+MTgsMTY4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
 -->
