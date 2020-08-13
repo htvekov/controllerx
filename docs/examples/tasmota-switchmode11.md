@@ -137,17 +137,17 @@ on switch1#state=4 do backlog publish tasmota_topic inc-dec;publish tasmota_topi
 
 RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number) to prevent some extra HOLD commands gets send before rule is disabled.
 
-#### Change log
+#### Change log:
 **doc v1.0:**
 * Initial documentation June, 2020
 
 **doc v1.1:**
-* Deprecated custom controllers in examples to follow ControllerX development
-* Changed from HA sensor state to MQTT implementation (massive speed improvement!)
+* Deprecated custom controllers in examples to follow ControllerX development.
+* Changed from HA sensor state to MQTT implementation (massive speed improvement!).
 * New switchmode 11/12 DOUBLE press command implemented.
-This feature replaces HOLD FROM LIGHTS OFF 
+This feature replaces HOLD FROM LIGHTS OFF to turn on lights at full brightness.
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjU3NzkyOSwtMTIyNTk2NTk3Nl19
+eyJoaXN0b3J5IjpbMTY4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
 -->
