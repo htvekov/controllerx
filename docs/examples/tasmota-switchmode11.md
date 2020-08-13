@@ -33,7 +33,7 @@ Switchstate=8: double (DOUBLE press function. Two consequetive presses within ti
 
 Tasmota: v8.4.0.2 or newer
 
-ControllerX: v2.7.2 or newer
+ControllerX: v2.7.2 or newer [3.4.0b1](https://github.com/xaviml/controllerx/commit/9c761291037524ccdbb481a55d209b2bca0511a3 "bump: version 3.4.0b0 → 3.4.0b1")
 
 #### Shelly device Tasmota setup:
 
@@ -151,6 +151,6 @@ This feature replaces HOLD FROM LIGHTS OFF to turn on lights at full brightness.
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODU2MjA4MywtMTQ2ODcxMDAxOCwxNj
-g2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
+eyJoaXN0b3J5IjpbLTIxNDcxMTA3MjUsLTE0Njg3MTAwMTgsMT
+Y4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
 -->
