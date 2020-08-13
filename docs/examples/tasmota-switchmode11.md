@@ -128,13 +128,10 @@ Setoption34 50    Minimize delay between backlog commands to 50 ms. (Default 200
 Switchtopic 0     Disable switchtopic. Needed when using rules in Tasmota.
 Switchmode1 11    Set Tasmota to switchmode11
 
-RULE1 on switch1#state=2 do backlog publish tasmota_topic toggle;publish tasmota_topic endon
-on switch1#state=7 do backlog publish tasmota_topic clear;rule3 1;publish tasmota_topic endon
 
 RULE1 on switch1#state=2 do backlog publish zigbee2mqtt/tasmota_topic {\"action\": \"toggle\"};publish zigbee2mqtt/tasmota_topic {\"action\": \"\"} endon
 on switch1#state=8 do backlog publish zigbee2mqtt/tasmota_topic {\"action\": \"double\"};publish zigbee2mqtt/tasmota_topic {\"action\": \"\"} endon
 on switch1#state=7 do backlog publish zigbee2mqtt/tasmota_topic {\"action\": \"clear\"};rule3 1;publish zigbee2mqtt/tasmota_topic {\"action\": \"\"} endon
-
 
 RULE2
 on Mqtt#Disconnected do rule1 0 endon
@@ -167,8 +164,8 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTUzOTUsLTI2MzM4Njc1NiwyOTI2Mz
-c0MTYsMzU1MjIwNTE3LC0xNzIyMjcyOTk3LC03NzA1NDcwNDAs
-MTUwMzA4NDk1NiwtMTQ2ODcxMDAxOCwxNjg2MjA1NDk2LC0xMj
-I1OTY1OTc2XX0=
+eyJoaXN0b3J5IjpbLTE3OTc0NzczMzMsMTU1MTUzOTUsLTI2Mz
+M4Njc1NiwyOTI2Mzc0MTYsMzU1MjIwNTE3LC0xNzIyMjcyOTk3
+LC03NzA1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2ODcxMDAxOCwxNj
+g2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
 -->
