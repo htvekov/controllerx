@@ -139,12 +139,14 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 
 #### Change log
 **doc v1.0:**
-Initial documentation June, 2020
+* Initial documentation June, 2020
+
 **doc v1.1:**
-Deprecated custom controllers to follow ControllerX development and the need for a HA sensor as MQTT im
+* Deprecated custom controllers to follow ControllerX development
+* MQTT implementation is now used.
 
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzM0NDE1NCwtMTIyNTk2NTk3Nl19
+eyJoaXN0b3J5IjpbMTM4NjAzMjcwMiwtMTIyNTk2NTk3Nl19
 -->
