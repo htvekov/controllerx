@@ -26,7 +26,7 @@ Switchstate=4: inc-dec (HOLD function. Send after delay defined with Setoption32
 Switchstate=5: inv (INVERSE dim direction function. Not used in this implementation, as ControllerX handles this internally)
 Switchstate=6: clear (Delayed RELEASE function. Send when button is released AFTER delay defined with Setoption32. Not used in this implementation)
 Switchstate=7: clear (Normal RELEASE function. Send immediately after button is released
-Switch
+Switchstate=8: double (DOUBLE press function. Two consequetive presses, within time delay defin
 ```
 
 #### Requirements:
@@ -151,6 +151,6 @@ This feature replaces HOLD FROM LIGHTS OFF to turn on lights at full brightness.
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTA0NTY1MCwtMTQ2ODcxMDAxOCwxNj
+eyJoaXN0b3J5IjpbLTkyNDc0MjM4NCwtMTQ2ODcxMDAxOCwxNj
 g2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
 -->
