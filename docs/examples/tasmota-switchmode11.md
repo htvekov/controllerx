@@ -54,14 +54,14 @@ First example is with two separate controllers. This will also handle HOLD FROM 
 ```yaml
 controller_switchmode11_on:
   module: controllerx
-  class: LightController ????
+  class: LightController ### working ????
   controller: office_cmnd  # z2m friendly name
 	integration: state
 	name: z2m
 	listen_to: mqtt
 	action_key: action  # Defaults to action if not specified
   light: light.your_light # define your own light entity
-  automatic_steps: 8 ???
+  automatic_steps: 8 # define def???
   delay: 400 ???
   constrain_input_boolean: light.your_light,on # This whole configuration will work when the light is on
   mapping:
@@ -69,66 +69,6 @@ controller_switchmode11_on:
     inc-dec: hold_brightness_toggle
     clear: release
     double: on_full_brightness
-
-controller_switchmode11_on_office:
-
-  
-
-module: controllerx
-
-class: E1810Controller
-
-controller: office_cmnd  # Specify z2m friendly name
-
-integration:
-
-name: z2m
-
-listen_to: mqtt
-
-action_key: action  # Defaults to action if not specified
-
-  
-
-#module: controllerx
-
-#class: CustomLightController
-
-#controller: 'zigbee2mqtt/office_cmnd'
-
-#integration: mqtt
-
-  
-
-light: light.0xec1bbdfffed45c3b_light
-
-automatic_steps: 8
-
-delay: 400
-
-#delay: 350
-
-#transition: 350
-
-#add_transition: false
-
-add_transition_turn_toggle: false
-
-#min_brightness: 50
-
-#max_brightness: 200
-
-#constrain_input_boolean: light.0xec1bbdfffed45c3b_light,on # This whole configuration will work when the light is on
-
-mapping:
-
-#toggle: toggle
-
-inc-dec: hold_brightness_toggle
-
-clear: release
-
-double: on_full_brightness
 
 
 controller_switchmode11_off:
@@ -214,7 +154,7 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzM5ODMyNiwtMTcyMjI3Mjk5NywtNz
+eyJoaXN0b3J5IjpbMjEyNzQ2ODU3MiwtMTcyMjI3Mjk5NywtNz
 cwNTQ3MDQwLDE1MDMwODQ5NTYsLTE0Njg3MTAwMTgsMTY4NjIw
 NTQ5NiwtMTIyNTk2NTk3Nl19
 -->
