@@ -115,7 +115,7 @@ tasmota_switchmode11:
 ```
 
 #### Notes on Appdeamon and HA's state machine:
-Things unfortunately take time when HA's state machine is involved! This can for some be notisable (for others not), when Appdeamon apps has to check HA states by eg. using constrain_input_boolean's (as in example 1) or change HA states by toggling lights. In my setup, using a constrain_input_boolean adds some 100 ms. delay on execution. Not much alone, but still worth to keep in mind. In my setup, toggling lights via HA automation is also some 100 ms. faster than toggling through Appdeamon/ControllerX. So in order to get the fastest possible toggle of lights, I'm personally using a simple HA automation for toggling lights and let ControllerX handle everything else 🙂
+Things unfortunately take time when HA's state machine is involved! This can for some be notisable (for others not), when Appdeamon apps has to check HA states by eg. using constrain_input_boolean's (as in example 1) or change HA states by toggling lights. In my setup, using a constrain_input_boolean adds some 100 ms. delay on execution. Not much on its own, but still worth to keep in mind. In my setup, toggling lights via HA automation is also some 100 ms. faster than toggling through Appdeamon/ControllerX. So in order to get the fastest possible toggle of lights, I'm personally using a simple HA automation for toggling lights and let ControllerX handle everything else 🙂
 
 
 #### Setup needed commands and rules in Tasmota software via console:
@@ -169,8 +169,9 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzMDM1MDUsMjY0ODQxMDU0LDE1NTE1Mz
-k1LC0yNjMzODY3NTYsMjkyNjM3NDE2LDM1NTIyMDUxNywtMTcy
-MjI3Mjk5NywtNzcwNTQ3MDQwLDE1MDMwODQ5NTYsLTE0Njg3MT
-AwMTgsMTY4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
+eyJoaXN0b3J5IjpbLTE5MjM1NzEwMjMsNjAzMDM1MDUsMjY0OD
+QxMDU0LDE1NTE1Mzk1LC0yNjMzODY3NTYsMjkyNjM3NDE2LDM1
+NTIyMDUxNywtMTcyMjI3Mjk5NywtNzcwNTQ3MDQwLDE1MDMwOD
+Q5NTYsLTE0Njg3MTAwMTgsMTY4NjIwNTQ5NiwtMTIyNTk2NTk3
+Nl19
 -->
