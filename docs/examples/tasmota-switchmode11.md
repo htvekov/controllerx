@@ -99,7 +99,7 @@ Second example is a more simple setup, where `smooth_power_on` is enabled instea
 tasmota_switchmode11:
   module: controllerx
   class: LightController ### working ????
-  controller: office_cmnd  # z2m friendly name
+  controller: office_cmnd  # Normally z2m friendly name. Here topic 
 	integration: state
 	name: z2m
 	listen_to: mqtt
@@ -167,7 +167,7 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzE2NjQyMiwyOTI2Mzc0MTYsMzU1Mj
+eyJoaXN0b3J5IjpbLTYzOTQ1NDk3MSwyOTI2Mzc0MTYsMzU1Mj
 IwNTE3LC0xNzIyMjcyOTk3LC03NzA1NDcwNDAsMTUwMzA4NDk1
 NiwtMTQ2ODcxMDAxOCwxNjg2MjA1NDk2LC0xMjI1OTY1OTc2XX
 0=
