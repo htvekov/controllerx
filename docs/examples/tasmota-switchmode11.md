@@ -151,9 +151,10 @@ on switch1#state=4 do backlog publish zigbee2mqtt/tasmota_topic {\"action\": \"i
 
 **RULE3** sends the HOLD command, disables itselves (to ensure only one HOLD command is send) and finally clears payload.
 
-Rules needs to be escaped (as in example) if used with HA automation.
-
 RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number) to prevent some extra HOLD commands gets send before rule is disabled.
+
+Rules also needs to be 'escaped' (as in example) if used with HA automation.
+Tasmota will add needed escape signs if rules are en
 
 #### Changelog:
 **doc v1.0:**
@@ -168,8 +169,8 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3ODYzMjc4LDI2NDg0MTA1NCwxNTUxNT
-M5NSwtMjYzMzg2NzU2LDI5MjYzNzQxNiwzNTUyMjA1MTcsLTE3
-MjIyNzI5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4Nz
-EwMDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
+eyJoaXN0b3J5IjpbMjE0MjI0OTYyOCwyNjQ4NDEwNTQsMTU1MT
+UzOTUsLTI2MzM4Njc1NiwyOTI2Mzc0MTYsMzU1MjIwNTE3LC0x
+NzIyMjcyOTk3LC03NzA1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2OD
+cxMDAxOCwxNjg2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
 -->
