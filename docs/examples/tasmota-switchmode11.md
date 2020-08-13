@@ -47,6 +47,8 @@ GPIO4: Switch1 (9)
 
 #### Setup ControllerX app:
 
+Both examples listed below will toggle, dim light up/down when button is held
+
 First example is with two separate controllers. This will also handle HOLD FROM LIGHTS OFF situation. Which, when lights are off, will SYNC light/lights when button is held for 0,8 sec.
 
 ##### ControllerX apps.yaml example no. 1:
@@ -109,7 +111,6 @@ tasmota_switchmode11:
     clear: release
     double: on_full_brightness
 ```
-Both examples above
 
 #### Setup needed commands and rules in Tasmota software via console:
 
@@ -163,7 +164,7 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjg0NDcxNjgsMzU1MjIwNTE3LC0xNz
+eyJoaXN0b3J5IjpbLTEzMTAzMTEwOTYsMzU1MjIwNTE3LC0xNz
 IyMjcyOTk3LC03NzA1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2ODcx
 MDAxOCwxNjg2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
 -->
