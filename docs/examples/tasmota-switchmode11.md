@@ -35,20 +35,16 @@ Tasmota: v8.4.0.2 or newer
 
 ControllerX: v3.4.0b1 or newer
 
-#### Shelly device Tasmota setup:
+#### Shelly device Tasmota setup (Use switchmode 11 !!):
 
 Module type: Shelly 1 (46): 
 
-#### Use switchmode 11 !!
-
-#### Sonoff Mini device Tasmota setup:
+#### Sonoff Mini device Tasmota setup (Use switchmode 12 !!):
 
 Module type: Sonoff Basic (1)
 
 GPIO4: Switch1 (9)
 
-#### Use switchmode 12 !!
-```
 #### Setup ControllerX app:
 
 First example is with two separate controllers. This will also handle HOLD FROM LIGHTS OFF situation. Which, when lights are off, will SYNC light/lights when button is held for 0,8 sec.
@@ -151,6 +147,6 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDM3MjY0MiwtMTQ2ODcxMDAxOCwxNj
+eyJoaXN0b3J5IjpbMTUwMzA4NDk1NiwtMTQ2ODcxMDAxOCwxNj
 g2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
 -->
