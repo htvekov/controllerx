@@ -56,7 +56,10 @@ controller_switchmode11_on:
   module: controllerx
   class: LightController ????
   controller: office_cmnd  # z2m friendly name
-  integration: state
+	integration: state
+  name: z2m
+  listen_to: mqtt
+  action_key: action  # Defaults to action if not specified
   light: light.your_light # define your own light entity
   constrain_input_boolean: light.your_light,on # This whole configuration will work when the light is on
   mapping:
@@ -208,6 +211,6 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxNjYxMTQxLDE1MDMwODQ5NTYsLTE0Nj
-g3MTAwMTgsMTY4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
+eyJoaXN0b3J5IjpbLTg5NDkyMDI4OCwxNTAzMDg0OTU2LC0xND
+Y4NzEwMDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
 -->
