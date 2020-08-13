@@ -61,8 +61,8 @@ controller_switchmode11_on:
 	listen_to: mqtt
 	action_key: action  # Defaults to action if not specified
   light: light.your_light # define your own light entity
-  automatic_steps: 8 # define def???
-  delay: 400 ???
+  automatic_steps: 8 # define default. best choice ???
+  delay: 400 # define default. best choice ???
   constrain_input_boolean: light.your_light,on # This whole configuration will work when the light is on
   mapping:
     toggle: toggle
@@ -81,6 +81,7 @@ controller_switchmode11_off:
   mapping:
     toggle: toggle
     inc-dec: sync
+    double: on_full_brightness
 ```
 
 Second example is a more simple setup, where `smooth_power_on` is enabled instead, when button is held from lights off position.
@@ -154,7 +155,7 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzQ2ODU3MiwtMTcyMjI3Mjk5NywtNz
-cwNTQ3MDQwLDE1MDMwODQ5NTYsLTE0Njg3MTAwMTgsMTY4NjIw
-NTQ5NiwtMTIyNTk2NTk3Nl19
+eyJoaXN0b3J5IjpbMzU1MjIwNTE3LC0xNzIyMjcyOTk3LC03Nz
+A1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2ODcxMDAxOCwxNjg2MjA1
+NDk2LC0xMjI1OTY1OTc2XX0=
 -->
