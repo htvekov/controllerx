@@ -149,7 +149,9 @@ on switch1#state=4 do backlog publish zigbee2mqtt/tasmota_topic {\"action\": \"i
 
 **RULE2** handles the 'fall back' to direct switch control if MQTT server is unavailable. Nice WAF feature, if HA/MQTT server is down. Then lights still can be toggled on/off using the wall switch.
 
-**RULE3** sends the HOLD command, disables it selves (to ensure only one HOLD command is send) and finally clears payload.
+**RULE3** sends the HOLD command, disables itselves (to ensure only one HOLD command is send) and finally clears payload.
+
+Rules needs to be escaped (as in example) if used with HA automation.
 
 RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number) to prevent some extra HOLD commands gets send before rule is disabled.
 
@@ -166,8 +168,8 @@ RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number)
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDExOTAxNDksMjY0ODQxMDU0LDE1NT
-E1Mzk1LC0yNjMzODY3NTYsMjkyNjM3NDE2LDM1NTIyMDUxNywt
-MTcyMjI3Mjk5NywtNzcwNTQ3MDQwLDE1MDMwODQ5NTYsLTE0Nj
-g3MTAwMTgsMTY4NjIwNTQ5NiwtMTIyNTk2NTk3Nl19
+eyJoaXN0b3J5IjpbMzE3ODYzMjc4LDI2NDg0MTA1NCwxNTUxNT
+M5NSwtMjYzMzg2NzU2LDI5MjYzNzQxNiwzNTUyMjA1MTcsLTE3
+MjIyNzI5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4Nz
+EwMDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
 -->
