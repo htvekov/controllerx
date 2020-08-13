@@ -115,7 +115,7 @@ tasmota_switchmode11:
 ```
 
 #### Notes on Appdeamon and HA's state machine:
-Things take time!! Especially when Appdeamon apps has to check HA states by eg. using constrain_input_boolean's (as in example 1) or change HA states by toggling lights. In my setup using a constrain_input_boolean will add some 100 ms. delay on execution. Not much, but still worth to keep in mind.  
+Things take time!! Especially when Appdeamon apps has to check HA states by eg. using constrain_input_boolean's (as in example 1) or change HA states by toggling lights. In my setup using a constrain_input_boolean will add some 100 ms. delay on execution. Not much, but still worth to keep in mind. Toggling lights via HA automation  
 
 
 #### Setup needed commands and rules in Tasmota software via console:
@@ -170,7 +170,7 @@ sensor:
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQyNTc2MDYsMzU1MjIwNTE3LC0xNz
-IyMjcyOTk3LC03NzA1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2ODcx
-MDAxOCwxNjg2MjA1NDk2LC0xMjI1OTY1OTc2XX0=
+eyJoaXN0b3J5IjpbLTEzODY1OTM5MCwzNTUyMjA1MTcsLTE3Mj
+IyNzI5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xNDY4NzEw
+MDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
 -->
