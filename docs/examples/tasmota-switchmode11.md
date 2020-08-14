@@ -116,9 +116,24 @@ tasmota_switchmode11:
 #### Notes on Appdeamon and HA's state machine:
 Things unfortunately take time when HA's state machine is involved! This can for some be notisable (for others not), when Appdeamon apps has to check HA states by eg. using constrain_input_boolean's (as in example 1) or change HA states by toggling lights. In my setup, using a constrain_input_boolean adds some 100 ms. delay on execution. Not much on its own, but still worth to keep in mind. In my setup, toggling lights via HA automation is also some 100 ms. faster than toggling through Appdeamon/ControllerX. So in order to get the fastest possible toggle of lights, I'm personally using a simple HA automation for toggling lights and let ControllerX handle everything else 🙂
 
-HA toggle automation below
+Optional HA toggle automation below.
 Remember to remove `toggle` from mapping in ControllerX apps.yaml 😉
 
+    # Toggle lights through HA and using MQTT directly. Quicker responce than using platform state or directly in appdeamon ControllerX app
+    
+      
+    
+    - id: kontor_loftlys_cstm_mqtt_toggle
+    alias: kontor_loftlys_cstm_mqtt_toggle
+    trigger:
+    platform: mqtt
+    topic: zigbee2mqtt/office_cmnd
+    payload: "{\"action\": \"toggle\"}"
+    action:
+    - service: light.toggle
+    data:
+    entity_id:
+    - light.0xec1bbdfffed45c3b_light
 
 #### Setup needed commands and rules in Tasmota software via console:
 
@@ -170,12 +185,13 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4MzI3MDU2LDU5NTI1NzY2MSwtMzExMj
-czNzAxLDEzODY2MDMxNDgsLTIxMzI3Njk3MCwtNDMxMjM4Nzcy
-LC0xNjM2MzA2NTMwLC0xOTEwNjY0MjI1LDIzNjYzMTg1NSwxMD
-g3Nzc1ODMsLTE4Njk1NDMxNjksLTE5MjM1NzEwMjMsNjAzMDM1
-MDUsMjY0ODQxMDU0LDE1NTE1Mzk1LC0yNjMzODY3NTYsMjkyNj
-M3NDE2LDM1NTIyMDUxNywtMTcyMjI3Mjk5NywtNzcwNTQ3MDQw
-XX0=
+eyJoaXN0b3J5IjpbMTczNTg0MzgzMyw1OTUyNTc2NjEsLTMxMT
+I3MzcwMSwxMzg2NjAzMTQ4LC0yMTMyNzY5NzAsLTQzMTIzODc3
+MiwtMTYzNjMwNjUzMCwtMTkxMDY2NDIyNSwyMzY2MzE4NTUsMT
+A4Nzc3NTgzLC0xODY5NTQzMTY5LC0xOTIzNTcxMDIzLDYwMzAz
+NTA1LDI2NDg0MTA1NCwxNTUxNTM5NSwtMjYzMzg2NzU2LDI5Mj
+YzNzQxNiwzNTUyMjA1MTcsLTE3MjIyNzI5OTcsLTc3MDU0NzA0
+MF19
 -->
