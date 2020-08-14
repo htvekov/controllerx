@@ -2,7 +2,8 @@
 title: Tasmota SwitchMode 11/12 Example - v1.1
 layout: page
 ---
-Example changelog at last page
+**Updated August, 2020.
+Changelog at last page**
 
 ### TASMOTA SWITCHMODE 11/12 WALL SWITCH IMPLEMENTATION WITH HOME ASSISTANT / CONTROLLERX
 
@@ -167,10 +168,11 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTIzODc3MiwtMTYzNjMwNjUzMCwtMT
-kxMDY2NDIyNSwyMzY2MzE4NTUsMTA4Nzc3NTgzLC0xODY5NTQz
-MTY5LC0xOTIzNTcxMDIzLDYwMzAzNTA1LDI2NDg0MTA1NCwxNT
-UxNTM5NSwtMjYzMzg2NzU2LDI5MjYzNzQxNiwzNTUyMjA1MTcs
-LTE3MjIyNzI5OTcsLTc3MDU0NzA0MCwxNTAzMDg0OTU2LC0xND
-Y4NzEwMDE4LDE2ODYyMDU0OTYsLTEyMjU5NjU5NzZdfQ==
+eyJoaXN0b3J5IjpbLTIxMzI3Njk3MCwtNDMxMjM4NzcyLC0xNj
+M2MzA2NTMwLC0xOTEwNjY0MjI1LDIzNjYzMTg1NSwxMDg3Nzc1
+ODMsLTE4Njk1NDMxNjksLTE5MjM1NzEwMjMsNjAzMDM1MDUsMj
+Y0ODQxMDU0LDE1NTE1Mzk1LC0yNjMzODY3NTYsMjkyNjM3NDE2
+LDM1NTIyMDUxNywtMTcyMjI3Mjk5NywtNzcwNTQ3MDQwLDE1MD
+MwODQ5NTYsLTE0Njg3MTAwMTgsMTY4NjIwNTQ5NiwtMTIyNTk2
+NTk3Nl19
 -->
