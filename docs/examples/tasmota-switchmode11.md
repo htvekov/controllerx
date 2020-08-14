@@ -130,10 +130,8 @@ Remember to remove `toggle` from mapping in ControllerX apps.yaml 😉
   action:
   - service: light.toggle
 	data:
-
-entity_id:
-
-- light.0xec1bbdfffed45c3b_light
+	  entity_id:
+	  - light.your_light
 ```
 
 #### Setup needed commands and rules in Tasmota software via console:
@@ -188,7 +186,7 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzAwMjQ0LDU5NTI1NzY2MSwtMzExMj
+eyJoaXN0b3J5IjpbOTg0ODQ5OTI2LDU5NTI1NzY2MSwtMzExMj
 czNzAxLDEzODY2MDMxNDgsLTIxMzI3Njk3MCwtNDMxMjM4Nzcy
 LC0xNjM2MzA2NTMwLC0xOTEwNjY0MjI1LDIzNjYzMTg1NSwxMD
 g3Nzc1ODMsLTE4Njk1NDMxNjksLTE5MjM1NzEwMjMsNjAzMDM1
