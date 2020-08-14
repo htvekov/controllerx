@@ -173,7 +173,7 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 
 #### Changelog:
 **doc v1.0:**
-* Initial example documentation June, 2020
+* Initial example documentation May, 2020
 
 **doc v1.1:**
 * Deprecated use of custom controllers in example. These will shortly be deprecated as well in ControllerX
@@ -185,11 +185,11 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0NTM1MTQ4LDc3NTcyODY5LDg1NjMyNz
-c3MCwxMDYyNzM5NjIwLDU5NTI1NzY2MSwtMzExMjczNzAxLDEz
-ODY2MDMxNDgsLTIxMzI3Njk3MCwtNDMxMjM4NzcyLC0xNjM2Mz
-A2NTMwLC0xOTEwNjY0MjI1LDIzNjYzMTg1NSwxMDg3Nzc1ODMs
-LTE4Njk1NDMxNjksLTE5MjM1NzEwMjMsNjAzMDM1MDUsMjY0OD
-QxMDU0LDE1NTE1Mzk1LC0yNjMzODY3NTYsMjkyNjM3NDE2XX0=
+eyJoaXN0b3J5IjpbOTA0MDMyMzg5LDIzNDUzNTE0OCw3NzU3Mj
+g2OSw4NTYzMjc3NzAsMTA2MjczOTYyMCw1OTUyNTc2NjEsLTMx
+MTI3MzcwMSwxMzg2NjAzMTQ4LC0yMTMyNzY5NzAsLTQzMTIzOD
+c3MiwtMTYzNjMwNjUzMCwtMTkxMDY2NDIyNSwyMzY2MzE4NTUs
+MTA4Nzc3NTgzLC0xODY5NTQzMTY5LC0xOTIzNTcxMDIzLDYwMz
+AzNTA1LDI2NDg0MTA1NCwxNTUxNTM5NSwtMjYzMzg2NzU2XX0=
 
 -->
