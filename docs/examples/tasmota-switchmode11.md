@@ -117,10 +117,10 @@ tasmota_switchmode11:
 Things unfortunately take time when HA's state machine is involved! This can for some be notisable (for others not), when Appdeamon apps has to check HA states by eg. using constrain_input_boolean's (as in example 1) or change HA states by toggling lights. In my setup, using a constrain_input_boolean adds some 100 ms. delay on execution. Not much on its own, but still worth to keep in mind. In my setup, toggling lights via HA automation is also some 100 ms. faster than toggling through Appdeamon/ControllerX. So in order to get the fastest possible toggle of lights, I'm personally using a simple HA automation for toggling lights and let ControllerX handle everything else 🙂
 
 Optional HA toggle automation below.
-Remember to remove `toggle` from mapping in ControllerX apps.yaml 😉
+Remember to remove `toggle` from mapping in Appdaemon/ControllerX apps.yaml 😉
 
 ```yaml
-# Toggle lights through HA and using MQTT directly. Quicker responce than using platform state or directly in appdeamon ControllerX app
+# Toggle lights through HA and using MQTT directly. Quicker responce than using platform state or directly in appdaemon ControllerX app
 - id: tasmota_switchmode11_toggle
   alias: tasmota_switchmode11_toggle
   trigger:
@@ -186,11 +186,11 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjczOTYyMCw1OTUyNTc2NjEsLTMxMT
-I3MzcwMSwxMzg2NjAzMTQ4LC0yMTMyNzY5NzAsLTQzMTIzODc3
-MiwtMTYzNjMwNjUzMCwtMTkxMDY2NDIyNSwyMzY2MzE4NTUsMT
-A4Nzc3NTgzLC0xODY5NTQzMTY5LC0xOTIzNTcxMDIzLDYwMzAz
-NTA1LDI2NDg0MTA1NCwxNTUxNTM5NSwtMjYzMzg2NzU2LDI5Mj
-YzNzQxNiwzNTUyMjA1MTcsLTE3MjIyNzI5OTcsLTc3MDU0NzA0
-MF19
+eyJoaXN0b3J5IjpbLTIwODIxNjYzMDIsMTA2MjczOTYyMCw1OT
+UyNTc2NjEsLTMxMTI3MzcwMSwxMzg2NjAzMTQ4LC0yMTMyNzY5
+NzAsLTQzMTIzODc3MiwtMTYzNjMwNjUzMCwtMTkxMDY2NDIyNS
+wyMzY2MzE4NTUsMTA4Nzc3NTgzLC0xODY5NTQzMTY5LC0xOTIz
+NTcxMDIzLDYwMzAzNTA1LDI2NDg0MTA1NCwxNTUxNTM5NSwtMj
+YzMzg2NzU2LDI5MjYzNzQxNiwzNTUyMjA1MTcsLTE3MjIyNzI5
+OTddfQ==
 -->
