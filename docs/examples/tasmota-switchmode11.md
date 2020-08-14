@@ -121,13 +121,13 @@ Remember to remove `toggle` from mapping in ControllerX apps.yaml 😉
 
 ```yaml
 # Toggle lights through HA and using MQTT directly. Quicker responce than using platform state or directly in appdeamon ControllerX app
-- id: kontor_loftlys_cstm_mqtt_toggle
-        alias: kontor_loftlys_cstm_mqtt_toggle
-        trigger:
+	- id: kontor_loftlys_cstm_mqtt_toggle
+	  alias: kontor_loftlys_cstm_mqtt_toggle
+	  trigger:
         platform: mqtt
         topic: zigbee2mqtt/office_cmnd
         payload: "{\"action\": \"toggle\"}"
-        action:
+      action:
         - service: light.toggle
         data:
         entity_id:
@@ -218,7 +218,7 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDk0OTgxMCw1OTUyNTc2NjEsLTMxMT
+eyJoaXN0b3J5IjpbLTcwMzU4NDE4Miw1OTUyNTc2NjEsLTMxMT
 I3MzcwMSwxMzg2NjAzMTQ4LC0yMTMyNzY5NzAsLTQzMTIzODc3
 MiwtMTYzNjMwNjUzMCwtMTkxMDY2NDIyNSwyMzY2MzE4NTUsMT
 A4Nzc3NTgzLC0xODY5NTQzMTY5LC0xOTIzNTcxMDIzLDYwMzAz
