@@ -121,14 +121,13 @@ Remember to remove `toggle` from mapping in Appdaemon/ControllerX apps.yaml 😉
 
 ```yaml
 # Toggle lights through HA and using MQTT directly. Quicker responce than using platform state or directly in appdaemon ControllerX app
-- id: tasmota_switchmode11_toggle
-  alias: tasmota_switchmode11_toggle
+- alias: tasmota_switchmode11_toggle
   trigger:
 	platform: mqtt
 	topic: zigbee2mqtt/tasmota_topic
 	payload: "{\"action\": \"toggle\"}" # escape characthers needed !
   action:
-  - service: light.toggle
+	  service: light.toggle
 	data:
 	  entity_id:
 	  - light.your_light
@@ -186,11 +185,11 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2MzI3NzcwLDEwNjI3Mzk2MjAsNTk1Mj
-U3NjYxLC0zMTEyNzM3MDEsMTM4NjYwMzE0OCwtMjEzMjc2OTcw
-LC00MzEyMzg3NzIsLTE2MzYzMDY1MzAsLTE5MTA2NjQyMjUsMj
-M2NjMxODU1LDEwODc3NzU4MywtMTg2OTU0MzE2OSwtMTkyMzU3
-MTAyMyw2MDMwMzUwNSwyNjQ4NDEwNTQsMTU1MTUzOTUsLTI2Mz
-M4Njc1NiwyOTI2Mzc0MTYsMzU1MjIwNTE3LC0xNzIyMjcyOTk3
-XX0=
+eyJoaXN0b3J5IjpbMjAwMDYxMjQ0MCw4NTYzMjc3NzAsMTA2Mj
+czOTYyMCw1OTUyNTc2NjEsLTMxMTI3MzcwMSwxMzg2NjAzMTQ4
+LC0yMTMyNzY5NzAsLTQzMTIzODc3MiwtMTYzNjMwNjUzMCwtMT
+kxMDY2NDIyNSwyMzY2MzE4NTUsMTA4Nzc3NTgzLC0xODY5NTQz
+MTY5LC0xOTIzNTcxMDIzLDYwMzAzNTA1LDI2NDg0MTA1NCwxNT
+UxNTM5NSwtMjYzMzg2NzU2LDI5MjYzNzQxNiwzNTUyMjA1MTdd
+fQ==
 -->
