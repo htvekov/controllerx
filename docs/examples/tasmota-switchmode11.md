@@ -125,7 +125,7 @@ Remember to remove `toggle` from mapping in Appdaemon/ControllerX apps.yaml 😉
   trigger:
     platform: mqtt
     topic: zigbee2mqtt/tasmota_topic
-    payload: "{\"action\": \"toggle\"}" # escape characthers needed !
+    payload: "{\"action\": \"toggle\"}" # escape characters needed !
   action:
     service: light.toggle
     data:
@@ -185,11 +185,11 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzMwNjA2MSw3NzU3Mjg2OSw4NTYzMj
-c3NzAsMTA2MjczOTYyMCw1OTUyNTc2NjEsLTMxMTI3MzcwMSwx
-Mzg2NjAzMTQ4LC0yMTMyNzY5NzAsLTQzMTIzODc3MiwtMTYzNj
-MwNjUzMCwtMTkxMDY2NDIyNSwyMzY2MzE4NTUsMTA4Nzc3NTgz
-LC0xODY5NTQzMTY5LC0xOTIzNTcxMDIzLDYwMzAzNTA1LDI2ND
-g0MTA1NCwxNTUxNTM5NSwtMjYzMzg2NzU2LDI5MjYzNzQxNl19
-
+eyJoaXN0b3J5IjpbLTEyNjE0MDc1OTEsNzc1NzI4NjksODU2Mz
+I3NzcwLDEwNjI3Mzk2MjAsNTk1MjU3NjYxLC0zMTEyNzM3MDEs
+MTM4NjYwMzE0OCwtMjEzMjc2OTcwLC00MzEyMzg3NzIsLTE2Mz
+YzMDY1MzAsLTE5MTA2NjQyMjUsMjM2NjMxODU1LDEwODc3NzU4
+MywtMTg2OTU0MzE2OSwtMTkyMzU3MTAyMyw2MDMwMzUwNSwyNj
+Q4NDEwNTQsMTU1MTUzOTUsLTI2MzM4Njc1NiwyOTI2Mzc0MTZd
+fQ==
 -->
