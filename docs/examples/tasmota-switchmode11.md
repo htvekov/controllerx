@@ -13,7 +13,7 @@ One of my Sonoff Mini installations behind a wall switch. Danish wall switch mod
 
 ![switchmode11-12.jpeg](/controllerx/assets/img/switchmode11-12.jpeg)
 
-One final warning: Using Shelly/Sonoff devices behind wall switches/outlets involves fiddling with HIGH VOLTAGE that could potentially INJURE OR KILL YOU, if not handled/installed correctly !! Furthermore, local building code might prohibit use of such devices in wall outlets and unauthorized installation will most likely be illegal in most countries. If you don't know EXACTLY what you're doing - then DON'T proceed with this project !! Now you've been warned !!
+**One final warning:** Using Shelly/Sonoff devices behind wall switches/outlets involves fiddling with **HIGH VOLTAGE** that could potentially **INJURE OR KILL YOU**, if not handled/installed correctly !! Furthermore, local building code might prohibit use of such devices in wall outlets and unauthorized installation will most likely be illegal in most countries. If you don't know EXACTLY what you're doing - then DON'T proceed with this project !! Now you've been warned !!
 
 Following example is with a Shelly One device, placed in the wall socket behind the switch, to control an Ikea WS bulb in the ceiling outlet. The bulb is connected to Home Assistant via Zigbee2MQTT. I've refitted my wall switch with a spring, so it'll act like a push button.
 
@@ -168,11 +168,11 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI3Njk3MCwtNDMxMjM4NzcyLC0xNj
-M2MzA2NTMwLC0xOTEwNjY0MjI1LDIzNjYzMTg1NSwxMDg3Nzc1
-ODMsLTE4Njk1NDMxNjksLTE5MjM1NzEwMjMsNjAzMDM1MDUsMj
-Y0ODQxMDU0LDE1NTE1Mzk1LC0yNjMzODY3NTYsMjkyNjM3NDE2
-LDM1NTIyMDUxNywtMTcyMjI3Mjk5NywtNzcwNTQ3MDQwLDE1MD
-MwODQ5NTYsLTE0Njg3MTAwMTgsMTY4NjIwNTQ5NiwtMTIyNTk2
-NTk3Nl19
+eyJoaXN0b3J5IjpbMjA4ODkyNTA3OCwtMjEzMjc2OTcwLC00Mz
+EyMzg3NzIsLTE2MzYzMDY1MzAsLTE5MTA2NjQyMjUsMjM2NjMx
+ODU1LDEwODc3NzU4MywtMTg2OTU0MzE2OSwtMTkyMzU3MTAyMy
+w2MDMwMzUwNSwyNjQ4NDEwNTQsMTU1MTUzOTUsLTI2MzM4Njc1
+NiwyOTI2Mzc0MTYsMzU1MjIwNTE3LC0xNzIyMjcyOTk3LC03Nz
+A1NDcwNDAsMTUwMzA4NDk1NiwtMTQ2ODcxMDAxOCwxNjg2MjA1
+NDk2XX0=
 -->
