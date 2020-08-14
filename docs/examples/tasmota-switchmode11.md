@@ -119,11 +119,8 @@ Things unfortunately take time when HA's state machine is involved! This can for
 Optional HA toggle automation below.
 Remember to remove `toggle` from mapping in ControllerX apps.yaml 😉
 
-    # Toggle lights through HA and using MQTT directly. Quicker responce than using platform state or directly in appdeamon ControllerX app
-    
-      
-    
-    - id: kontor_loftlys_cstm_mqtt_toggle
+# Toggle lights through HA and using MQTT directly. Quicker responce than using platform state or directly in appdeamon ControllerX app
+- id: kontor_loftlys_cstm_mqtt_toggle
     alias: kontor_loftlys_cstm_mqtt_toggle
     trigger:
     platform: mqtt
@@ -134,7 +131,6 @@ Remember to remove `toggle` from mapping in ControllerX apps.yaml 😉
     data:
     entity_id:
     - light.0xec1bbdfffed45c3b_light
-
 #### Setup needed commands and rules in Tasmota software via console:
 
 ```
@@ -187,11 +183,11 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTg0MzgzMyw1OTUyNTc2NjEsLTMxMT
-I3MzcwMSwxMzg2NjAzMTQ4LC0yMTMyNzY5NzAsLTQzMTIzODc3
-MiwtMTYzNjMwNjUzMCwtMTkxMDY2NDIyNSwyMzY2MzE4NTUsMT
-A4Nzc3NTgzLC0xODY5NTQzMTY5LC0xOTIzNTcxMDIzLDYwMzAz
-NTA1LDI2NDg0MTA1NCwxNTUxNTM5NSwtMjYzMzg2NzU2LDI5Mj
-YzNzQxNiwzNTUyMjA1MTcsLTE3MjIyNzI5OTcsLTc3MDU0NzA0
-MF19
+eyJoaXN0b3J5IjpbLTE5MzQ4NzgzMTUsNTk1MjU3NjYxLC0zMT
+EyNzM3MDEsMTM4NjYwMzE0OCwtMjEzMjc2OTcwLC00MzEyMzg3
+NzIsLTE2MzYzMDY1MzAsLTE5MTA2NjQyMjUsMjM2NjMxODU1LD
+EwODc3NzU4MywtMTg2OTU0MzE2OSwtMTkyMzU3MTAyMyw2MDMw
+MzUwNSwyNjQ4NDEwNTQsMTU1MTUzOTUsLTI2MzM4Njc1NiwyOT
+I2Mzc0MTYsMzU1MjIwNTE3LC0xNzIyMjcyOTk3LC03NzA1NDcw
+NDBdfQ==
 -->
