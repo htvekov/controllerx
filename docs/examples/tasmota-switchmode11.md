@@ -113,8 +113,8 @@ tasmota_switchmode11:
     double: on_full_brightness
 ```
 
-#### Notes on Appdeamon and HA's state machine:
-Things unfortunately take time when HA's state machine is involved! This can for some be notisable (for others not), when Appdeamon apps has to check HA states by eg. using constrain_input_boolean's (as in example 1) or change HA states by toggling lights. In my setup, using a constrain_input_boolean adds some 100 ms. delay on execution. Not much on its own, but still worth to keep in mind. In my setup, toggling lights via HA automation is also some 100 ms. faster than toggling through Appdeamon/ControllerX. So in order to get the fastest possible toggle of lights, I'm personally using a simple HA automation for toggling lights and let ControllerX handle everything else 🙂
+#### Notes on Appdaemon and HA's state machine:
+Things unfortunately take time when HA's state machine is involved! This can for some be notisable (for others not), when Appdaemon apps has to check HA states by eg. using constrain_input_boolean's (as in example 1) or change HA states by toggling lights. In my setup, using a constrain_input_boolean adds some 100 ms. delay on execution. Not much on its own, but still worth to keep in mind. In my setup, toggling lights via HA automation is also some 100 ms. faster than toggling through Appdaemon/ControllerX. So in order to get the fastest possible toggle of lights, I'm personally using a simple HA automation for toggling lights and let ControllerX handle everything else 🙂
 
 Optional HA toggle automation below.
 Remember to remove `toggle` from mapping in Appdaemon/ControllerX apps.yaml 😉
@@ -186,11 +186,11 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODIxNjYzMDIsMTA2MjczOTYyMCw1OT
-UyNTc2NjEsLTMxMTI3MzcwMSwxMzg2NjAzMTQ4LC0yMTMyNzY5
-NzAsLTQzMTIzODc3MiwtMTYzNjMwNjUzMCwtMTkxMDY2NDIyNS
-wyMzY2MzE4NTUsMTA4Nzc3NTgzLC0xODY5NTQzMTY5LC0xOTIz
-NTcxMDIzLDYwMzAzNTA1LDI2NDg0MTA1NCwxNTUxNTM5NSwtMj
-YzMzg2NzU2LDI5MjYzNzQxNiwzNTUyMjA1MTcsLTE3MjIyNzI5
-OTddfQ==
+eyJoaXN0b3J5IjpbODU2MzI3NzcwLDEwNjI3Mzk2MjAsNTk1Mj
+U3NjYxLC0zMTEyNzM3MDEsMTM4NjYwMzE0OCwtMjEzMjc2OTcw
+LC00MzEyMzg3NzIsLTE2MzYzMDY1MzAsLTE5MTA2NjQyMjUsMj
+M2NjMxODU1LDEwODc3NzU4MywtMTg2OTU0MzE2OSwtMTkyMzU3
+MTAyMyw2MDMwMzUwNSwyNjQ4NDEwNTQsMTU1MTUzOTUsLTI2Mz
+M4Njc1NiwyOTI2Mzc0MTYsMzU1MjIwNTE3LC0xNzIyMjcyOTk3
+XX0=
 -->
