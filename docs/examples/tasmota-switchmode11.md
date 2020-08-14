@@ -169,7 +169,7 @@ on switch1#state=4 do backlog publish zigbee2mqtt/tasmota_topic {\"action\": \"i
 RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number) to prevent some extra HOLD commands gets send before rule is disabled.
 
 Rules also needs to be 'escaped' (as in example) if used with HA automation.
-Tasmota will automatically add needed escape signs, if rules are entered without.
+Tasmota will automatically add needed escape characters, if rules are entered without.
 
 #### Changelog:
 **doc v1.0:**
@@ -185,11 +185,11 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0MDMyMzg5LDIzNDUzNTE0OCw3NzU3Mj
-g2OSw4NTYzMjc3NzAsMTA2MjczOTYyMCw1OTUyNTc2NjEsLTMx
-MTI3MzcwMSwxMzg2NjAzMTQ4LC0yMTMyNzY5NzAsLTQzMTIzOD
-c3MiwtMTYzNjMwNjUzMCwtMTkxMDY2NDIyNSwyMzY2MzE4NTUs
-MTA4Nzc3NTgzLC0xODY5NTQzMTY5LC0xOTIzNTcxMDIzLDYwMz
-AzNTA1LDI2NDg0MTA1NCwxNTUxNTM5NSwtMjYzMzg2NzU2XX0=
+eyJoaXN0b3J5IjpbLTk2NDcxODkzNyw5MDQwMzIzODksMjM0NT
+M1MTQ4LDc3NTcyODY5LDg1NjMyNzc3MCwxMDYyNzM5NjIwLDU5
+NTI1NzY2MSwtMzExMjczNzAxLDEzODY2MDMxNDgsLTIxMzI3Nj
+k3MCwtNDMxMjM4NzcyLC0xNjM2MzA2NTMwLC0xOTEwNjY0MjI1
+LDIzNjYzMTg1NSwxMDg3Nzc1ODMsLTE4Njk1NDMxNjksLTE5Mj
+M1NzEwMjMsNjAzMDM1MDUsMjY0ODQxMDU0LDE1NTE1Mzk1XX0=
 
 -->
