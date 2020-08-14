@@ -130,7 +130,7 @@ Remember to remove `toggle` from mapping in Appdaemon/ControllerX apps.yaml 😉
 	service: light.toggle
 	data:
 	  entity_id:
-	  - light.your_light
+	  light.your_light
 ```
 
 #### Setup needed commands and rules in Tasmota software via console:
@@ -185,11 +185,11 @@ Tasmota will automatically add needed escape signs, if rules are entered without
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ2NDM2MjQsODU2MzI3NzcwLDEwNj
-I3Mzk2MjAsNTk1MjU3NjYxLC0zMTEyNzM3MDEsMTM4NjYwMzE0
-OCwtMjEzMjc2OTcwLC00MzEyMzg3NzIsLTE2MzYzMDY1MzAsLT
-E5MTA2NjQyMjUsMjM2NjMxODU1LDEwODc3NzU4MywtMTg2OTU0
-MzE2OSwtMTkyMzU3MTAyMyw2MDMwMzUwNSwyNjQ4NDEwNTQsMT
-U1MTUzOTUsLTI2MzM4Njc1NiwyOTI2Mzc0MTYsMzU1MjIwNTE3
-XX0=
+eyJoaXN0b3J5IjpbNzc1NzI4NjksODU2MzI3NzcwLDEwNjI3Mz
+k2MjAsNTk1MjU3NjYxLC0zMTEyNzM3MDEsMTM4NjYwMzE0OCwt
+MjEzMjc2OTcwLC00MzEyMzg3NzIsLTE2MzYzMDY1MzAsLTE5MT
+A2NjQyMjUsMjM2NjMxODU1LDEwODc3NzU4MywtMTg2OTU0MzE2
+OSwtMTkyMzU3MTAyMyw2MDMwMzUwNSwyNjQ4NDEwNTQsMTU1MT
+UzOTUsLTI2MzM4Njc1NiwyOTI2Mzc0MTYsMzU1MjIwNTE3XX0=
+
 -->
