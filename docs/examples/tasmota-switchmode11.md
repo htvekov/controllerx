@@ -17,7 +17,7 @@ One of my Sonoff Mini installations behind a wall switch. Danish wall switch mod
 
 Following example is with a Shelly One device, placed in the wall socket behind the switch, to control an Ikea WS bulb in the ceiling outlet. The bulb is connected to Home Assistant via Zigbee2MQTT. I've refitted my wall switch with a spring, so it'll act like a push button.
 
-The Switchmode11/12 option in Tasmota gives the user six different switch commands to be used for automation. With ControllerX only the four commands are needed, as ControllerX internally controls changes in dimming direction. These commands are via MQTT send directly to ControllerX.
+The Switchmode11/12 option in Tasmota, gives the user six different switch commands to be used for automation. With ControllerX only the four commands are needed, as ControllerX internally controls changes in dimming direction. These commands (events) are via MQTT send directly to ControllerX.
 
 #### Switchmode11/12 Tasmota output commands are:
 
@@ -185,11 +185,11 @@ Tasmota will automatically add needed escape characters, if rules are entered wi
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA0OTQ5ODYsMTAwOTkzOTM4MywtOT
-Y0NzE4OTM3LDkwNDAzMjM4OSwyMzQ1MzUxNDgsNzc1NzI4Njks
-ODU2MzI3NzcwLDEwNjI3Mzk2MjAsNTk1MjU3NjYxLC0zMTEyNz
-M3MDEsMTM4NjYwMzE0OCwtMjEzMjc2OTcwLC00MzEyMzg3NzIs
-LTE2MzYzMDY1MzAsLTE5MTA2NjQyMjUsMjM2NjMxODU1LDEwOD
-c3NzU4MywtMTg2OTU0MzE2OSwtMTkyMzU3MTAyMyw2MDMwMzUw
-NV19
+eyJoaXN0b3J5IjpbLTMxNTcyNjk5MiwxMDA5OTM5MzgzLC05Nj
+Q3MTg5MzcsOTA0MDMyMzg5LDIzNDUzNTE0OCw3NzU3Mjg2OSw4
+NTYzMjc3NzAsMTA2MjczOTYyMCw1OTUyNTc2NjEsLTMxMTI3Mz
+cwMSwxMzg2NjAzMTQ4LC0yMTMyNzY5NzAsLTQzMTIzODc3Miwt
+MTYzNjMwNjUzMCwtMTkxMDY2NDIyNSwyMzY2MzE4NTUsMTA4Nz
+c3NTgzLC0xODY5NTQzMTY5LC0xOTIzNTcxMDIzLDYwMzAzNTA1
+XX0=
 -->
