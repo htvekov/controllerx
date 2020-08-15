@@ -150,8 +150,8 @@ on switch1#state=8 do backlog publish zigbee2mqtt/tasmota_topic {\"action\": \"d
 on switch1#state=7 do backlog publish zigbee2mqtt/tasmota_topic {\"action\": \"clear\"};rule3 1;publish zigbee2mqtt/tasmota_topic {\"action\": \"\"} endon
 
 RULE2
-on Mqtt#Disconnected do rule1 0 endon
-on Mqtt#Connected do rule1 1 endon
+on mqtt#disconnected do rule1 0 endon
+on mqtt#connected do rule1 1 endon
 
 RULE3 5
 on switch1#state=4 do backlog publish zigbee2mqtt/office_cmnd {"action": "inc-dec"};rule3 0 endon
@@ -185,7 +185,7 @@ Tasmota will automatically add needed escape characters, if rules are entered wi
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5NTQ2MzczLC05NjQ3MTg5MzcsOTA0MD
+eyJoaXN0b3J5IjpbNzEwNTM5MTQxLC05NjQ3MTg5MzcsOTA0MD
 MyMzg5LDIzNDUzNTE0OCw3NzU3Mjg2OSw4NTYzMjc3NzAsMTA2
 MjczOTYyMCw1OTUyNTc2NjEsLTMxMTI3MzcwMSwxMzg2NjAzMT
 Q4LC0yMTMyNzY5NzAsLTQzMTIzODc3MiwtMTYzNjMwNjUzMCwt
