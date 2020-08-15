@@ -154,7 +154,7 @@ on Mqtt#Disconnected do rule1 0 endon
 on Mqtt#Connected do rule1 1 endon
 
 RULE3 5
-on switch1#state=4 do backlog publish zigbee2mqtt/office_cmnd {\"action\": \"inc-dec\"};rule3 0 endon
+on switch1#state=4 do backlog publish zigbee2mqtt/office_cmnd {"action": "inc-dec"};rule3 0 endon
 
 ```
 
@@ -168,7 +168,7 @@ on switch1#state=4 do backlog publish zigbee2mqtt/office_cmnd {\"action\": \"inc
 
 RULE3 is set as 'run once' in Tasmota (with the decimal 5 after the rule number) to prevent some extra HOLD commands gets send before rule is disabled.
 
-Rules also needs to be 'escaped' (as in example) if used with HA automation.
+Rules also needs to be 'escaped', if used with HA automation.
 Tasmota will automatically add needed escape characters, if rules are entered without.
 
 #### Changelog:
@@ -185,11 +185,11 @@ Tasmota will automatically add needed escape characters, if rules are entered wi
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjEwNTczMTUsLTk2NDcxODkzNyw5MD
-QwMzIzODksMjM0NTM1MTQ4LDc3NTcyODY5LDg1NjMyNzc3MCwx
-MDYyNzM5NjIwLDU5NTI1NzY2MSwtMzExMjczNzAxLDEzODY2MD
-MxNDgsLTIxMzI3Njk3MCwtNDMxMjM4NzcyLC0xNjM2MzA2NTMw
-LC0xOTEwNjY0MjI1LDIzNjYzMTg1NSwxMDg3Nzc1ODMsLTE4Nj
-k1NDMxNjksLTE5MjM1NzEwMjMsNjAzMDM1MDUsMjY0ODQxMDU0
-XX0=
+eyJoaXN0b3J5IjpbNjY5NTQ2MzczLC05NjQ3MTg5MzcsOTA0MD
+MyMzg5LDIzNDUzNTE0OCw3NzU3Mjg2OSw4NTYzMjc3NzAsMTA2
+MjczOTYyMCw1OTUyNTc2NjEsLTMxMTI3MzcwMSwxMzg2NjAzMT
+Q4LC0yMTMyNzY5NzAsLTQzMTIzODc3MiwtMTYzNjMwNjUzMCwt
+MTkxMDY2NDIyNSwyMzY2MzE4NTUsMTA4Nzc3NTgzLC0xODY5NT
+QzMTY5LC0xOTIzNTcxMDIzLDYwMzAzNTA1LDI2NDg0MTA1NF19
+
 -->
