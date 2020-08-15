@@ -120,7 +120,7 @@ Optional HA toggle automation below.
 Remember to remove `toggle` from mapping in Appdaemon/ControllerX apps.yaml 😉
 
 ```yaml
-# Toggle lights through HA and using MQTT directly. Quicker responce than using platform state or directly in appdaemon ControllerX app
+# Toggle lights through HA using direct MQTT events. Quicker responce than using platform state or directly in appdaemon ControllerX app
 - alias: tasmota_switchmode11_toggle
   trigger:
     platform: mqtt
@@ -185,11 +185,11 @@ Tasmota will automatically add needed escape characters, if rules are entered wi
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTkzOTM4MywtOTY0NzE4OTM3LDkwND
-AzMjM4OSwyMzQ1MzUxNDgsNzc1NzI4NjksODU2MzI3NzcwLDEw
-NjI3Mzk2MjAsNTk1MjU3NjYxLC0zMTEyNzM3MDEsMTM4NjYwMz
-E0OCwtMjEzMjc2OTcwLC00MzEyMzg3NzIsLTE2MzYzMDY1MzAs
-LTE5MTA2NjQyMjUsMjM2NjMxODU1LDEwODc3NzU4MywtMTg2OT
-U0MzE2OSwtMTkyMzU3MTAyMyw2MDMwMzUwNSwyNjQ4NDEwNTRd
-fQ==
+eyJoaXN0b3J5IjpbLTExODA0OTQ5ODYsMTAwOTkzOTM4MywtOT
+Y0NzE4OTM3LDkwNDAzMjM4OSwyMzQ1MzUxNDgsNzc1NzI4Njks
+ODU2MzI3NzcwLDEwNjI3Mzk2MjAsNTk1MjU3NjYxLC0zMTEyNz
+M3MDEsMTM4NjYwMzE0OCwtMjEzMjc2OTcwLC00MzEyMzg3NzIs
+LTE2MzYzMDY1MzAsLTE5MTA2NjQyMjUsMjM2NjMxODU1LDEwOD
+c3NzU4MywtMTg2OTU0MzE2OSwtMTkyMzU3MTAyMyw2MDMwMzUw
+NV19
 -->
