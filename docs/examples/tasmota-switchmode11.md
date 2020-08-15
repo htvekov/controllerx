@@ -154,7 +154,7 @@ on Mqtt#Disconnected do rule1 0 endon
 on Mqtt#Connected do rule1 1 endon
 
 RULE3 5
-on switch1#state=4 do backlog publish zigbee2mqtt/tasmota_topic {\"action\": \"inc-dec\"};publish zigbee2mqtt/tasmota_topic {\"action\": \"\"};rule3 0 endon
+on switch1#state=4 do backlog publish zigbee2mqtt/office_cmnd {\"action\": \"inc-dec\"};rule3 0 endon
 
 ```
 
@@ -177,7 +177,7 @@ Tasmota will automatically add needed escape characters, if rules are entered wi
 
 **doc v1.1:**
 * Deprecated use of custom controllers in example. These will shortly be deprecated as well in ControllerX
-* Changed from HA sensor state to official z2m MQTT implementation using JSON objects (speed improvement!)
+* Changed from HA sensor state to official z2m MQTT event implementation using JSON objects (speed improvement!)
 * New switchmode 11/12 `DOUBLE` press command implemented
 
 
@@ -185,11 +185,11 @@ Tasmota will automatically add needed escape characters, if rules are entered wi
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDcxODkzNyw5MDQwMzIzODksMjM0NT
-M1MTQ4LDc3NTcyODY5LDg1NjMyNzc3MCwxMDYyNzM5NjIwLDU5
-NTI1NzY2MSwtMzExMjczNzAxLDEzODY2MDMxNDgsLTIxMzI3Nj
-k3MCwtNDMxMjM4NzcyLC0xNjM2MzA2NTMwLC0xOTEwNjY0MjI1
-LDIzNjYzMTg1NSwxMDg3Nzc1ODMsLTE4Njk1NDMxNjksLTE5Mj
-M1NzEwMjMsNjAzMDM1MDUsMjY0ODQxMDU0LDE1NTE1Mzk1XX0=
-
+eyJoaXN0b3J5IjpbLTE2MjEwNTczMTUsLTk2NDcxODkzNyw5MD
+QwMzIzODksMjM0NTM1MTQ4LDc3NTcyODY5LDg1NjMyNzc3MCwx
+MDYyNzM5NjIwLDU5NTI1NzY2MSwtMzExMjczNzAxLDEzODY2MD
+MxNDgsLTIxMzI3Njk3MCwtNDMxMjM4NzcyLC0xNjM2MzA2NTMw
+LC0xOTEwNjY0MjI1LDIzNjYzMTg1NSwxMDg3Nzc1ODMsLTE4Nj
+k1NDMxNjksLTE5MjM1NzEwMjMsNjAzMDM1MDUsMjY0ODQxMDU0
+XX0=
 -->
