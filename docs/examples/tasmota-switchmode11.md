@@ -145,16 +145,16 @@ Switchmode1 11    Set Tasmota to switchmode11
 
 
 RULE1
-on switch1#state=2 do publish zigbee2mqtt/office_cmnd {"action": "toggle"} endon
-on switch1#state=8 do publish zigbee2mqtt/office_cmnd {"action": "double"} endon
-on switch1#state=7 do backlog publish zigbee2mqtt/office_cmnd {"action": "clear"};rule3 1 endon
+on switch1#state=2 do publish zigbee2mqtt/tasmota_topic {"action": "toggle"} endon
+on switch1#state=8 do publish zigbee2mqtt/tasmota_topic {"action": "double"} endon
+on switch1#state=7 do backlog publish zigbee2mqtt/tasmota_topic {"action": "clear"};rule3 1 endon
 
 RULE2
 on mqtt#disconnected do rule1 0 endon
 on mqtt#connected do rule1 1 endon
 
 RULE3 5
-on switch1#state=4 do backlog publish zigbee2mqtt/office_cmnd {"action": "inc-dec"};rule3 0 endon
+on switch1#state=4 do backlog publish zigbee2mqtt/tasmota_topic {"action": "inc-dec"};rule3 0 endon
 
 ```
 
@@ -185,11 +185,11 @@ Tasmota will automatically add needed escape characters, if rules are entered wi
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxNjQ3MTA5LC05NjQ3MTg5MzcsOTA0MD
-MyMzg5LDIzNDUzNTE0OCw3NzU3Mjg2OSw4NTYzMjc3NzAsMTA2
-MjczOTYyMCw1OTUyNTc2NjEsLTMxMTI3MzcwMSwxMzg2NjAzMT
-Q4LC0yMTMyNzY5NzAsLTQzMTIzODc3MiwtMTYzNjMwNjUzMCwt
-MTkxMDY2NDIyNSwyMzY2MzE4NTUsMTA4Nzc3NTgzLC0xODY5NT
-QzMTY5LC0xOTIzNTcxMDIzLDYwMzAzNTA1LDI2NDg0MTA1NF19
-
+eyJoaXN0b3J5IjpbMTI5NjYwNjk3MywtOTY0NzE4OTM3LDkwND
+AzMjM4OSwyMzQ1MzUxNDgsNzc1NzI4NjksODU2MzI3NzcwLDEw
+NjI3Mzk2MjAsNTk1MjU3NjYxLC0zMTEyNzM3MDEsMTM4NjYwMz
+E0OCwtMjEzMjc2OTcwLC00MzEyMzg3NzIsLTE2MzYzMDY1MzAs
+LTE5MTA2NjQyMjUsMjM2NjMxODU1LDEwODc3NzU4MywtMTg2OT
+U0MzE2OSwtMTkyMzU3MTAyMyw2MDMwMzUwNSwyNjQ4NDEwNTRd
+fQ==
 -->
