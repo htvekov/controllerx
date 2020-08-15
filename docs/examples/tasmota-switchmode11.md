@@ -160,7 +160,7 @@ on switch1#state=4 do backlog publish zigbee2mqtt/tasmota_topic {"action": "inc-
 
 **NB: Note the extra decimal '5' in RULE3 !!**
 
-**RULE1** sends the TOGGLE command via MQTT and afterwards immediately clears the payload value with an empty payload (just like a physical button does). It also handles the DOUBLE press command and CLEAR command when button is released, enables RULE3 and finally clears payload value.
+**RULE1** sends the TOGGLE- and DOUBLE press command via MQTT . It also handles the DOUBLE press command and CLEAR command when button is released, enables RULE3 and finally clears payload value.
 
 **RULE2** handles the 'fall back' to direct switch control if MQTT server is unavailable. Nice WAF feature, if HA/MQTT server is down. Then lights still can be toggled on/off using the wall switch.
 
@@ -185,11 +185,11 @@ Tasmota will automatically add needed escape characters, if rules are entered wi
 _This example was provided by [@htvekov](https://github.com/htvekov)_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjYwNjk3MywtOTY0NzE4OTM3LDkwND
-AzMjM4OSwyMzQ1MzUxNDgsNzc1NzI4NjksODU2MzI3NzcwLDEw
-NjI3Mzk2MjAsNTk1MjU3NjYxLC0zMTEyNzM3MDEsMTM4NjYwMz
-E0OCwtMjEzMjc2OTcwLC00MzEyMzg3NzIsLTE2MzYzMDY1MzAs
-LTE5MTA2NjQyMjUsMjM2NjMxODU1LDEwODc3NzU4MywtMTg2OT
-U0MzE2OSwtMTkyMzU3MTAyMyw2MDMwMzUwNSwyNjQ4NDEwNTRd
-fQ==
+eyJoaXN0b3J5IjpbOTQwMDE3NDkyLC05NjQ3MTg5MzcsOTA0MD
+MyMzg5LDIzNDUzNTE0OCw3NzU3Mjg2OSw4NTYzMjc3NzAsMTA2
+MjczOTYyMCw1OTUyNTc2NjEsLTMxMTI3MzcwMSwxMzg2NjAzMT
+Q4LC0yMTMyNzY5NzAsLTQzMTIzODc3MiwtMTYzNjMwNjUzMCwt
+MTkxMDY2NDIyNSwyMzY2MzE4NTUsMTA4Nzc3NTgzLC0xODY5NT
+QzMTY5LC0xOTIzNTcxMDIzLDYwMzAzNTA1LDI2NDg0MTA1NF19
+
 -->
