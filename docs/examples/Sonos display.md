@@ -13,14 +13,13 @@ All it takes is an ESP8266 with ESPHome software, an appropriate display, a hand
 I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLED display for this build. Resolution is only 128x64. But still enough, when using several pages to be displayed continously. The SSD1306 has a 'big brother' in the SSD1309 display. This display has identical resolution, is priced at some 14 US$, can use same drivers/library as SSD1306 but is much, much larger at 2,42". I really like this good sized and simple I2C display and ended up using this display in the final build, as it's much easier to read from a distance 🙂
 **Revised v1.1
 Not done yet !!
-Opdater font - 5 nye symboler
+Opdater font - 5 nye symboler (Wifi, timer, 3 x højttaler
 Opdater med turn_on() turn_off() commands
-Opater med dynamisk brightness(display_name): 0-1 (float med decimaler)
-Optional you can add PIR sensor and HA switches to control brightness and turn on/off display completely if RST is exposed bla bla bla
-My SSSD1309 has RST control but my two SSD1306 hasn't.
+Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler)
+Optional you can add PIR sensor and HA switches to control brightness and turn on/off display or adjust brightness bla bla bla
 SSD1309 can't be turned completely off with brightness = 0 but that works for my SSD1306 ?? Check what can be used on you hardware and choose implementation bla bla bla
-backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state !! Altså kørt en full cycle
-Bruger pt. 'fake' display on/off pga. heap memory error. Virker perfekt på SSD1306 ver. 
+backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state !! Altså kørt en full cycle ??
+
 **Mangler:**
 Shuffle symbolet er midlertidigt i linie 1. Skal det være der ?
 SKal kun bruges ved playlister så linie 1 er egentlig ok.
@@ -434,6 +433,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDkxNjQxNjAsLTE0MTM1NTgyNzYsLT
-IwNTg5NDQ1MDJdfQ==
+eyJoaXN0b3J5IjpbLTgwOTU2ODI4LC0xNDEzNTU4Mjc2LC0yMD
+U4OTQ0NTAyXX0=
 -->
