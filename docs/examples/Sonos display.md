@@ -13,7 +13,8 @@ All it takes is an ESP8266 with ESPHome software, an appropriate display, a hand
 I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLED display for this build. Resolution is only 128x64. But still enough, when using several pages to be displayed continously. The SSD1306 has a 'big brother' in the SSD1309 display. This display has identical resolution, is priced at some 14 US$, can use same drivers/library as SSD1306 but is much, much larger at 2,42". I really like this good sized and simple I2C display and ended up using this display in the final build, as it's much easier to read from a distance 🙂
 **Revised v1.1
 Not done yet !!
-Opdater font - 5 nye symboler (Wifi, timer, 3 x højttaler
+Opdater font - 6 nye symboler (Wifi, alarm, album + 3 x højttaler)
+Glyphs 
 Opdater med turn_on() turn_off() commands
 Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler)
 Optional you can add PIR sensor and HA switches to control brightness and turn on/off display or adjust brightness bla bla bla
@@ -433,6 +434,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTU2ODI4LC0xNDEzNTU4Mjc2LC0yMD
-U4OTQ0NTAyXX0=
+eyJoaXN0b3J5IjpbMjExOTU5MTMxMSwtMTQxMzU1ODI3NiwtMj
+A1ODk0NDUwMl19
 -->
