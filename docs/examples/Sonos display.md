@@ -25,7 +25,7 @@ backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state
 Shuffle symbolet er midlertidigt i linie 1. Skal det være der ?
 SKal kun bruges ved playlister så linie 1 er egentlig ok.
 **Færdig implementeret:**
-HA sensors: display on/off, HA coonected, reboot ESP
+HA sensors: display on/off, HA coonected status, Wifi strenght, reboot ESP
 display idle "stop" symbol 
 display Mute volume symbol**
 **Mangler: script kørsel af identisk del af display lambda !!**
@@ -435,6 +435,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY3MjAzNjcsLTE0MTM1NTgyNzYsLTIwNT
-g5NDQ1MDJdfQ==
+eyJoaXN0b3J5IjpbLTE2Nzk4NDkxMzUsLTE0MTM1NTgyNzYsLT
+IwNTg5NDQ1MDJdfQ==
 -->
