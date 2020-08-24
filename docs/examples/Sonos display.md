@@ -14,7 +14,7 @@ I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLE
 **Revised v1.1
 Not done yet !!
 Opdater font - 6 nye symboler (Wifi, alarm, album + 3 x højttaler)
-Glyphs 
+Glyphs er opdateret i ESP ssd1309
 Opdater med turn_on() turn_off() commands
 Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler)
 Optional you can add PIR sensor and HA switches to control brightness and turn on/off display or adjust brightness bla bla bla
@@ -25,6 +25,7 @@ backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state
 Shuffle symbolet er midlertidigt i linie 1. Skal det være der ?
 SKal kun bruges ved playlister så linie 1 er egentlig ok.
 **Færdig implementeret:**
+HA sensors: display on/off, HA coonected, reboot ESP
 display idle "stop" symbol 
 display Mute volume symbol**
 **Mangler: script kørsel af identisk del af display lambda !!**
@@ -434,6 +435,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTU5MTMxMSwtMTQxMzU1ODI3NiwtMj
-A1ODk0NDUwMl19
+eyJoaXN0b3J5IjpbNDY3MjAzNjcsLTE0MTM1NTgyNzYsLTIwNT
+g5NDQ1MDJdfQ==
 -->
