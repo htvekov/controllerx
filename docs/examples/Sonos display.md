@@ -15,6 +15,8 @@ I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLE
 Not done yet !!
 Opdater font - 6 nye symboler (Wifi, alarm, album + 3 x højttaler)
 Glyphs er opdateret i ESP ssd1309
+Check orig. ttf font (download fra github og lav den igen)
+Der er noget galt med hovedet på person for artist
 Opdater med turn_on() turn_off() commands
 Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler)
 Optional you can add PIR sensor and HA switches to control brightness and turn on/off display or adjust brightness bla bla bla
@@ -435,6 +437,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzk4NDkxMzUsLTE0MTM1NTgyNzYsLT
-IwNTg5NDQ1MDJdfQ==
+eyJoaXN0b3J5IjpbMTc5MDQ5MjA4NywtMTY3OTg0OTEzNSwtMT
+QxMzU1ODI3NiwtMjA1ODk0NDUwMl19
 -->
