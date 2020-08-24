@@ -14,6 +14,8 @@ I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLE
 **Revised v1.1
 Not done yet !!
 Opdater font - 5 nye symboler
+Opdater med turn_on() turn_off() commands
+Opater med dynamisk brightness(display_name): 0-1 (float med decimaler)
 Optional you can add PIR sensor and HA switches to control brightness and turn on/off display completely if RST is exposed bla bla bla
 My SSSD1309 has RST control but my two SSD1306 hasn't.
 SSD1309 can't be turned completely off with brightness = 0 but that works for my SSD1306 ?? Check what can be used on you hardware and choose implementation bla bla bla
@@ -432,6 +434,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzY0MDg1MSwtMTQxMzU1ODI3NiwtMj
-A1ODk0NDUwMl19
+eyJoaXN0b3J5IjpbLTExMDkxNjQxNjAsLTE0MTM1NTgyNzYsLT
+IwNTg5NDQ1MDJdfQ==
 -->
