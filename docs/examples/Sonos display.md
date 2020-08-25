@@ -15,10 +15,10 @@ I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLE
 Not done yet !!
 Opdater font - 6 nye symboler (Wifi, alarm, album + 3 x højttaler)
 Glyphs er opdateret i ESP ssd1309
-Check orig. ttf font (download fra github og lav den igen)
+Check orig. ttf font (download fra github og lav den igen) - der ER forskel
 Der er noget galt med hovedet på person for artist
-Opdater med turn_on() turn_off() commands
-Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler)
+Opdater med turn_on() turn_off() commands done in ssd1306
+Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler) done in ssd1306
 Optional you can add PIR sensor and HA switches to control brightness and turn on/off display or adjust brightness bla bla bla
 SSD1309 can't be turned completely off with brightness = 0 but that works for my SSD1306 ?? Check what can be used on you hardware and choose implementation bla bla bla
 backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state !! Altså kørt en full cycle ??
@@ -438,6 +438,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDA0OTg1NSwxNzkwNDkyMDg3LC0xNj
-c5ODQ5MTM1LC0xNDEzNTU4Mjc2LC0yMDU4OTQ0NTAyXX0=
+eyJoaXN0b3J5IjpbLTEyOTg3ODQwODYsMTc5MDQ5MjA4NywtMT
+Y3OTg0OTEzNSwtMTQxMzU1ODI3NiwtMjA1ODk0NDUwMl19
 -->
