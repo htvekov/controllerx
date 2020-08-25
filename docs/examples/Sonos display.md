@@ -24,7 +24,8 @@ SSD1309 can't be turned completely off with brightness = 0 but that works for my
 backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state !! Altså kørt en full cycle ??
 
 **Mangler:**
-Condition for display content with Shuffle symbolet er midlertidigt i linie 1. Skal det være der ?
+Condition for display content with PIR & Sonos active playing (skal tage højde for at PIR er optional)
+Shuffle symbolet er midlertidigt i linie 1. Skal det være der ?
 SKal kun bruges ved playlister så linie 1 er egentlig ok.
 **Færdig implementeret:**
 HA sensors: display on/off, HA coonected status, Wifi strenght, reboot ESP
@@ -437,6 +438,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTMwNDY0MCwxNzkwNDkyMDg3LC0xNj
+eyJoaXN0b3J5IjpbMTQ1MDA0OTg1NSwxNzkwNDkyMDg3LC0xNj
 c5ODQ5MTM1LC0xNDEzNTU4Mjc2LC0yMDU4OTQ0NTAyXX0=
 -->
