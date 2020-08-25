@@ -25,6 +25,8 @@ backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state
 
 **Mangler:**
 Condition for display content with PIR & Sonos active playing (skal tage højde for at PIR er optional)
+Display active on: Så virker PIR sensor og kan tænde og slukke displayet
+Display active off: Display kan ikke tændes ved PIR action
 Switch og PIR samtidig er ikke god kombi. Måske binary display on/off sensor og PIR sammen ?
 Shuffle symbolet er midlertidigt i linie 1. Skal det være der ?
 SKal kun bruges ved playlister så linie 1 er egentlig ok.
@@ -439,7 +441,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1NzE0NDA4LC0xMjk4Nzg0MDg2LDE3OT
-A0OTIwODcsLTE2Nzk4NDkxMzUsLTE0MTM1NTgyNzYsLTIwNTg5
-NDQ1MDJdfQ==
+eyJoaXN0b3J5IjpbMTgyMjczMzQyMSwyNTU3MTQ0MDgsLTEyOT
+g3ODQwODYsMTc5MDQ5MjA4NywtMTY3OTg0OTEzNSwtMTQxMzU1
+ODI3NiwtMjA1ODk0NDUwMl19
 -->
