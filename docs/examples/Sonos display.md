@@ -19,10 +19,10 @@ Check orig. ttf font (download fra github og lav den igen) - der ER forskel
 Der er noget galt med hovedet på person for artist
 
 Opdater med turn_on() turn_off() commands **done in ssd1306**
-Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler) done in ssd1306
-Optional you can add PIR sensor and HA switches to control brightness and turn on/off display or adjust brightness bla bla bla
+Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler) **done in ssd1306**
+Optional you can add PIR sensor and HA switches to control brightness and turn on/off display or adjust brightness bla bla bla **done in ssd1306**
 SSD1309 can't be turned completely off with brightness = 0 but that works for my SSD1306 ?? Check what can be used on you hardware and choose implementation bla bla bla
-backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state !! Altså kørt en full cycle ??
+backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state !! Altså kørt en full cycle ?? OMskrevet for længst. **Check om det er ok nu ?**
 
 **Mangler:**
 Condition for display content with PIR & Sonos active playing (skal tage højde for at PIR er optional) Burde ikke være nødvendigt, men husk at sætte display on ved ESP opstart. **Check mangler !**
@@ -445,7 +445,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDM3ODExMTMsLTcyODMwNjA2OSwyNT
-U3MTQ0MDgsLTEyOTg3ODQwODYsMTc5MDQ5MjA4NywtMTY3OTg0
-OTEzNSwtMTQxMzU1ODI3NiwtMjA1ODk0NDUwMl19
+eyJoaXN0b3J5IjpbODIyODIyNjMzLC03MjgzMDYwNjksMjU1Nz
+E0NDA4LC0xMjk4Nzg0MDg2LDE3OTA0OTIwODcsLTE2Nzk4NDkx
+MzUsLTE0MTM1NTgyNzYsLTIwNTg5NDQ1MDJdfQ==
 -->
