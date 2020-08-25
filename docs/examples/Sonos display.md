@@ -24,9 +24,10 @@ SSD1309 can't be turned completely off with brightness = 0 but that works for my
 backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state !! Altså kørt en full cycle ??
 
 **Mangler:**
-Condition for display content with PIR & Sonos active playing (skal tage højde for at PIR er optional)
-Display active on: Så virker PIR sensor og kan tænde og slukke displayet
-Display active off: Display kan ikke tændes ved PIR action
+Condition for display content with PIR & Sonos active playing (skal tage højde for at PIR er optional) Burde ikke være nødvendigt, men husk at sætte display on ved ESP opstart
+Display active on: Så virker PIR sensor og kan tænde og slukke displayet ssd1306 ok
+Display active off: Display kan ikke tændes ved PIR action ssd1306 ok
+
 Switch og PIR samtidig er ikke god kombi. Måske binary display on/off sensor og PIR sammen ?
 Shuffle symbolet er midlertidigt i linie 1. Skal det være der ?
 SKal kun bruges ved playlister så linie 1 er egentlig ok.
@@ -441,7 +442,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjczMzQyMSwyNTU3MTQ0MDgsLTEyOT
-g3ODQwODYsMTc5MDQ5MjA4NywtMTY3OTg0OTEzNSwtMTQxMzU1
-ODI3NiwtMjA1ODk0NDUwMl19
+eyJoaXN0b3J5IjpbLTE1MDc3OTA0MTQsMjU1NzE0NDA4LC0xMj
+k4Nzg0MDg2LDE3OTA0OTIwODcsLTE2Nzk4NDkxMzUsLTE0MTM1
+NTgyNzYsLTIwNTg5NDQ1MDJdfQ==
 -->
