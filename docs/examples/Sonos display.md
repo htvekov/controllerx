@@ -52,12 +52,12 @@ Some links examples for hardware below. These are just some random sellers I've 
 
 [Wemos D1 mini – ESP8266](https://www.aliexpress.com/item/32845253497.html?spm=a2g0s.9042311.0.0.27424c4dFNzmlu)
 
-[0,96" 12864 SSD1306 OLED display](https://www.aliexpress.com/item/32896971385.html?spm=a2g0s.9042311.0.0.27424c4d7omJkq)
+[0,96" 12864 SSD1306 OLED display](https://www.aliexpress.com/item/32896971385.html)
 
 [2,42” 12864 SSD1309 OLED display
-(direct replacement for the much smaller 0,96” SSD1306 display and can use same library)](https://www.aliexpress.com/item/33024448944.html?spm=a2g0s.9042311.0.0.27424c4d28nV4A)
+(direct replacement for the much smaller 0,96” SSD1306 display and can use same library)](https://www.aliexpress.com/item/33024448944.html)
 
-[Alternatively you can use a Wemos NodeMCU ESP8266 with integrated 0,96" OLED display](https://www.aliexpress.com/item/4000287451981.html?spm=a2g0o.productlist.0.0.2d34c80dWlfO69)
+[Alternatively you can use a Wemos NodeMCU ESP8266 with integrated 0,96" OLED display](https://www.aliexpress.com/item/4000287451981.html)
 
 [Movement sensor 1 - RCWL 0516 Microwave Micro Wave Radar Sensor Board](https://www.aliexpress.com/item/33011567518.html)
 
@@ -455,7 +455,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjkwMTUwNCw1MDExNTY5NTIsMTYwOT
+eyJoaXN0b3J5IjpbLTc3NDk3NDE5OSw1MDExNTY5NTIsMTYwOT
 I2MzEyNywtNzI4MzA2MDY5LDI1NTcxNDQwOCwtMTI5ODc4NDA4
 NiwxNzkwNDkyMDg3LC0xNjc5ODQ5MTM1LC0xNDEzNTU4Mjc2LC
 0yMDU4OTQ0NTAyXX0=
