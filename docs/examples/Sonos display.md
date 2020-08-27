@@ -35,16 +35,16 @@ Shuffle symbolet er midlertidigt i linie 1. Skal det være der ?
 SKal kun bruges ved playlister så linie 1 er egentlig ok.
 
 **Færdig implementeret:**
-HA sensors:
+**HA sensors:**
 display active PIR  (on/off) eller bare display on/off hvis ingen PIR
 HA connected status
 Wifi strength
 reboot ESP
 
 Display:
-display idle "stop" symbol 
-display Mute volume symbol**
-script kørsel af identisk del af display lambda !!
+**display idle "stop" symbol** 
+**display Mute volume symbol**
+**script kørsel af identisk del af display lambda !! ssd1306 ok**
 
 
 
@@ -455,7 +455,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTg1MTIzMCw1MDExNTY5NTIsMTYwOT
+eyJoaXN0b3J5IjpbMTczMTcwODY0Miw1MDExNTY5NTIsMTYwOT
 I2MzEyNywtNzI4MzA2MDY5LDI1NTcxNDQwOCwtMTI5ODc4NDA4
 NiwxNzkwNDkyMDg3LC0xNjc5ODQ5MTM1LC0xNDEzNTU4Mjc2LC
 0yMDU4OTQ0NTAyXX0=
