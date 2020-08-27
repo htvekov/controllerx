@@ -59,6 +59,8 @@ Some links examples for hardware below. These are just some random sellers I've 
 
 [Alternatively you can use a Wemos NodeMCU ESP8266 with integrated 0,96" OLED display](https://www.aliexpress.com/item/4000287451981.html?spm=a2g0o.productlist.0.0.2d34c80dWlfO69)
 
+[RCWL 0516 Microwave Micro Wave Radar Sensor Board](https://www.aliexpress.com/item/33011567518.html)
+
 **One note on the SSD1309 display**<br />
 In order to get it to work as I2C instead of SPI, you need to do a bit of soldering. On the specific display type I bought, you need to bridge (short) R5 and move R4 to R3. Remember that display will NOT work unless RES is connected to RST on ESP8266 (or any available pin and controlled in ESPHome sw). Note: Display only supports 3,3v on VCC. Some have reported that display tolerates 5v. I wouldn’t take that risk, though! I’ve kept both CS and DS ‘floating’. Haven’t had any I2C address issues so far. Use pull-up/down resistors if you experience issues.
 
@@ -451,7 +453,8 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTI2MzEyNywtNzI4MzA2MDY5LDI1NT
-cxNDQwOCwtMTI5ODc4NDA4NiwxNzkwNDkyMDg3LC0xNjc5ODQ5
-MTM1LC0xNDEzNTU4Mjc2LC0yMDU4OTQ0NTAyXX0=
+eyJoaXN0b3J5IjpbLTkwMDEyNDI2OSwxNjA5MjYzMTI3LC03Mj
+gzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0MDg2LDE3OTA0OTIw
+ODcsLTE2Nzk4NDkxMzUsLTE0MTM1NTgyNzYsLTIwNTg5NDQ1MD
+JdfQ==
 -->
