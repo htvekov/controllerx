@@ -44,13 +44,13 @@ reboot ESP
 Display:
 display idle "stop" symbol 
 display Mute volume symbol**
-**Mangler: script kørsel af identisk del af display lambda !!**
+script kørsel af identisk del af display lambda !!
 
 
 
 Some links examples for hardware below. These are just some random sellers I've picked. Not necessarily the cheapest or best sellers.
 
-[Wemos D1 mini – ESP8266](https://www.aliexpress.com/item/32845253497.html?spm=a2g0s.9042311.0.0.27424c4dFNzmlu)
+[Wemos D1 mini – ESP8266](https://www.aliexpress.com/item/32845253497.html)
 
 [0,96" 12864 SSD1306 OLED display](https://www.aliexpress.com/item/32896971385.html)
 
@@ -455,7 +455,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDk3NDE5OSw1MDExNTY5NTIsMTYwOT
+eyJoaXN0b3J5IjpbMTYyOTg1MTIzMCw1MDExNTY5NTIsMTYwOT
 I2MzEyNywtNzI4MzA2MDY5LDI1NTcxNDQwOCwtMTI5ODc4NDA4
 NiwxNzkwNDkyMDg3LC0xNjc5ODQ5MTM1LC0xNDEzNTU4Mjc2LC
 0yMDU4OTQ0NTAyXX0=
