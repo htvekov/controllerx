@@ -29,7 +29,8 @@ Condition for display content with PIR & Sonos active playing (skal tage højde 
 
  **Display er IKKE tændt ved boot hvis det var slukket inden boot. Kan ikke sæættes i ESPHome, for så crasher den**
 Virker nu via tweaks. Sæt i2c speed to min. 100khz (her 200khz)
-On boot virker ikke til at sætte 
+On boot virker ikke til at sætte display on (crash) når der er to tællere backly og backly 1.
+Så første gennemløb i display page, kigger efter page=0 og tænder så displayet den ene gang.
 
 
 Display active on: Så virker PIR sensor og kan tænde og slukke displayet. Dynamisk med 2 forskellige timeouts. pt. 5 sec. dæmpning og 10 sec. sluk helt **ssd1306 ok**
@@ -460,7 +461,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDUyOTI3OCwxNjQzMDE4OTYzLDUwMT
+eyJoaXN0b3J5IjpbLTUzNTk0MDQyOSwxNjQzMDE4OTYzLDUwMT
 E1Njk1MiwxNjA5MjYzMTI3LC03MjgzMDYwNjksMjU1NzE0NDA4
 LC0xMjk4Nzg0MDg2LDE3OTA0OTIwODcsLTE2Nzk4NDkxMzUsLT
 E0MTM1NTgyNzYsLTIwNTg5NDQ1MDJdfQ==
