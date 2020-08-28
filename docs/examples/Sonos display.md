@@ -25,7 +25,12 @@ SSD1309 can't be turned completely off with brightness = 0 but that works for my
 backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state !! Altså kørt en full cycle ?? OMskrevet for længst. **Check om det er ok nu ?**
 
 **Mangler:**
-Condition for display content with PIR & Sonos active playing (skal tage højde for at PIR er optional) Burde ikke være nødvendigt, men husk at sætte display on ved ESP opstart. **Display er IKKE tændt ved boot hvis det var slukket inden boot. Kan ikke sæættes i ESPHome, for så crasher den**
+Condition for display content with PIR & Sonos active playing (skal tage højde for at PIR er optional) Burde ikke være nødvendigt, men husk at sætte display on ved ESP opstart.
+
+ **Display er IKKE tændt ved boot hvis det var slukket inden boot. Kan ikke sæættes i ESPHome, for så crasher den**
+Virker nu via tweaks. Sæt i2c speed to min. 100khz (her 200khz)
+On boot virker ikke til at sætte 
+
 
 Display active on: Så virker PIR sensor og kan tænde og slukke displayet. Dynamisk med 2 forskellige timeouts. pt. 5 sec. dæmpning og 10 sec. sluk helt **ssd1306 ok**
 
@@ -455,8 +460,8 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzAxODk2Myw1MDExNTY5NTIsMTYwOT
-I2MzEyNywtNzI4MzA2MDY5LDI1NTcxNDQwOCwtMTI5ODc4NDA4
-NiwxNzkwNDkyMDg3LC0xNjc5ODQ5MTM1LC0xNDEzNTU4Mjc2LC
-0yMDU4OTQ0NTAyXX0=
+eyJoaXN0b3J5IjpbLTgxMDUyOTI3OCwxNjQzMDE4OTYzLDUwMT
+E1Njk1MiwxNjA5MjYzMTI3LC03MjgzMDYwNjksMjU1NzE0NDA4
+LC0xMjk4Nzg0MDg2LDE3OTA0OTIwODcsLTE2Nzk4NDkxMzUsLT
+E0MTM1NTgyNzYsLTIwNTg5NDQ1MDJdfQ==
 -->
