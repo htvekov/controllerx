@@ -31,7 +31,7 @@ backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state
 **Mangler:**
 Condition for display content with PIR & Sonos active playing (skal tage højde for at PIR er optional) Burde ikke være nødvendigt, men husk at sætte display on ved ESP opstart.
 
- **Display er IKKE tændt ved boot hvis det var slukket inden boot. Kan ikke sæættes i ESPHome, for så crasher den**
+
 Virker nu via tweaks. Sæt i2c speed to min. 100khz (her 200khz)
 On boot virker ikke til at sætte display on (crash) når der er to tællere backly og backly 1.
 Så første gennemløb i display page, kigger efter page=0 og tænder så displayet den ene gang.
@@ -471,9 +471,9 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzUwMTA0NywxNDc0NDY2Mjc0LC02ND
-k3OTUwNywtNTM1OTQwNDI5LDE2NDMwMTg5NjMsNTAxMTU2OTUy
-LDE2MDkyNjMxMjcsLTcyODMwNjA2OSwyNTU3MTQ0MDgsLTEyOT
-g3ODQwODYsMTc5MDQ5MjA4NywtMTY3OTg0OTEzNSwtMTQxMzU1
-ODI3NiwtMjA1ODk0NDUwMl19
+eyJoaXN0b3J5IjpbLTM3OTEwMDAzMSwxNDczNTAxMDQ3LDE0Nz
+Q0NjYyNzQsLTY0OTc5NTA3LC01MzU5NDA0MjksMTY0MzAxODk2
+Myw1MDExNTY5NTIsMTYwOTI2MzEyNywtNzI4MzA2MDY5LDI1NT
+cxNDQwOCwtMTI5ODc4NDA4NiwxNzkwNDkyMDg3LC0xNjc5ODQ5
+MTM1LC0xNDEzNTU4Mjc2LC0yMDU4OTQ0NTAyXX0=
 -->
