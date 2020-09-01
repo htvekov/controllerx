@@ -27,6 +27,8 @@ Behold 'gammel' font og reset glyphs. Evt. opdater med nye højttaler symboler. 
 Opdater med turn_on() turn_off() commands **done in ssd1306**
 Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler) **done in ssd1306**
 
+Husk at nævne eks
+
 backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state !! Altså kørt en full cycle ?? OMskrevet for længst. **Check om det er ok nu ?**
 
 **Mangler:**
@@ -473,7 +475,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzAwMjk2OSw0MjIxNjc5MDksMTQ3Mz
+eyJoaXN0b3J5IjpbLTQwNjEwODE1OSw0MjIxNjc5MDksMTQ3Mz
 UwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5
 LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMxMjcsLTcyOD
 MwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQwODYsMTc5MDQ5MjA4
