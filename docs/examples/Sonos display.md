@@ -247,16 +247,16 @@ The automation is written for an Ikea E1810 remote with z2m ControllerX HA integ
 ### ESPHome YAML configuration:
 As ESPHome currently don't support attributes, all data to be displayed has to be in separate HA sensors. Hence the huge amount of sensors.
 
-If you're not using a movement sensor in your build, you don't need to revise YAML. If you experience issues with the 'floting' GPIO PIR sensor, just pull D5 pin permanently low or high.
+If you're not using a movement sensor in your build, you could but actually don't need to revise YAML. If you experience issues with the 'floting' GPIO PIR sensor, just pull D5 pin permanently low or high.
 
 Two entities needs to be entered. Your Sonos master speaker and optional temperature sensor.
 If temperature sensor is omitted, you can just delete page 3 & 4 from the display configuration.
 
 Revise  `sonos_status` and `outdoor_temp` sensors in YAML below, to match your HA entities for Sonos master speaker and outdoor temperature sensor. Create a new ESPHome node and configure it with your WiFi credentials. Edit node and copy/paste revised YAML below (from `time:` and onwards) to your node. Save it, upload and enjoy! 🎉😎
 
-**One final note on current YAML configuration:**
+**One final note on current YAML configuration**
 ESPHome is at **max** with all these sensors, schedulers running and an extensive display lambda. Addding just one extra sensor to current YAML, will make ESPHome crash on boot. Omitting  `fast_connect: true`from WiFi configuration in YAML will also send ESPHome into an eternal stack trace error boot loop 🚀💀
-So 'tweak' YAML with care 😁😉 
+So 'tweak' YAML with care! 😁😉 
 ```yaml
 esphome:
   name: ssd1309
@@ -471,9 +471,9 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDE4NDY5LDE0NzQ0NjYyNzQsLTY0OT
-c5NTA3LC01MzU5NDA0MjksMTY0MzAxODk2Myw1MDExNTY5NTIs
-MTYwOTI2MzEyNywtNzI4MzA2MDY5LDI1NTcxNDQwOCwtMTI5OD
-c4NDA4NiwxNzkwNDkyMDg3LC0xNjc5ODQ5MTM1LC0xNDEzNTU4
-Mjc2LC0yMDU4OTQ0NTAyXX0=
+eyJoaXN0b3J5IjpbMTM1MzMwNTY0MSwxNDc0NDY2Mjc0LC02ND
+k3OTUwNywtNTM1OTQwNDI5LDE2NDMwMTg5NjMsNTAxMTU2OTUy
+LDE2MDkyNjMxMjcsLTcyODMwNjA2OSwyNTU3MTQ0MDgsLTEyOT
+g3ODQwODYsMTc5MDQ5MjA4NywtMTY3OTg0OTEzNSwtMTQxMzU1
+ODI3NiwtMjA1ODk0NDUwMl19
 -->
