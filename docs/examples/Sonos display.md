@@ -22,7 +22,7 @@ Opdater font - 6 nye symboler (Wifi, alarm, album + 3 x højttaler)
 Glyphs er opdateret i ESP ssd1309
 Check orig. ttf font (download fra github og lav den igen) - der ER forskel
 Der er noget galt med hovedet på person for artist
-Behold 'gammel' font og re Evt. opdater med nye højttaler symboler. Der er alligevel ikke plads til flere sensorer uden ESP crasher. 
+Behold 'gammel' font og reset glyphs. Evt. opdater med nye højttaler symboler. Der er alligevel ikke plads til flere sensorer uden ESP crasher. 
 
 Opdater med turn_on() turn_off() commands **done in ssd1306**
 Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler) **done in ssd1306**
@@ -473,10 +473,10 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyMTg3MjcyLDQyMjE2NzkwOSwxNDczNT
-AxMDQ3LDE0NzQ0NjYyNzQsLTY0OTc5NTA3LC01MzU5NDA0Mjks
-MTY0MzAxODk2Myw1MDExNTY5NTIsMTYwOTI2MzEyNywtNzI4Mz
-A2MDY5LDI1NTcxNDQwOCwtMTI5ODc4NDA4NiwxNzkwNDkyMDg3
-LC0xNjc5ODQ5MTM1LC0xNDEzNTU4Mjc2LC0yMDU4OTQ0NTAyXX
-0=
+eyJoaXN0b3J5IjpbMTAxNzAwMjk2OSw0MjIxNjc5MDksMTQ3Mz
+UwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5
+LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMxMjcsLTcyOD
+MwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQwODYsMTc5MDQ5MjA4
+NywtMTY3OTg0OTEzNSwtMTQxMzU1ODI3NiwtMjA1ODk0NDUwMl
+19
 -->
