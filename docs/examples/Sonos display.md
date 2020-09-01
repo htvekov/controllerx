@@ -247,6 +247,8 @@ The automation is written for an Ikea E1810 remote with z2m ControllerX HA integ
 ### ESPHome YAML configuration:
 As ESPHome currently don't support attributes, all data to be displayed has to be in separate HA sensors. Hence the huge amount of sensors.
 
+You don't need to alter yaml 
+
 Two entities needs to be entered. Your Sonos master speaker and optional temperature sensor.
 If temperature sensor is omitted, you can just delete page 3 & 4 from the display configuration.
 
@@ -466,7 +468,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzA5NzQ3OCwxNDc0NDY2Mjc0LC02ND
+eyJoaXN0b3J5IjpbMTM0MjcxMTcxNSwxNDc0NDY2Mjc0LC02ND
 k3OTUwNywtNTM1OTQwNDI5LDE2NDMwMTg5NjMsNTAxMTU2OTUy
 LDE2MDkyNjMxMjcsLTcyODMwNjA2OSwyNTU3MTQ0MDgsLTEyOT
 g3ODQwODYsMTc5MDQ5MjA4NywtMTY3OTg0OTEzNSwtMTQxMzU1
