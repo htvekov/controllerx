@@ -14,6 +14,7 @@ I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLE
 
 An optional PIR sensor or microwave radar sensor can be added for automatic dimming (brightness control) and turning the display on/off completely. The RCWL 0516 sensor is cheap, but can be somewhat difficult to use in 'tight' builds as it's somewhat sensitive to many things - WiFi in particular. So you can experience some false triggers using this sensor if fitted very close to an ESP8266.
 
+Please note that (my displaySSD1309 (my version anyway)can't be turned completely off with brightness = 0 but that works for my SSD1306 ?? Check what can be used on you hardware and choose implementation bla bla bla
 **Revised v1.1
 Not done yet !!
 Opdater font - 6 nye symboler (Wifi, alarm, album + 3 x højttaler)
@@ -465,7 +466,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTg0ODY2OCwtNjQ5Nzk1MDcsLTUzNT
+eyJoaXN0b3J5IjpbMTc1MjQzMDYwMSwtNjQ5Nzk1MDcsLTUzNT
 k0MDQyOSwxNjQzMDE4OTYzLDUwMTE1Njk1MiwxNjA5MjYzMTI3
 LC03MjgzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0MDg2LDE3OT
 A0OTIwODcsLTE2Nzk4NDkxMzUsLTE0MTM1NTgyNzYsLTIwNTg5
