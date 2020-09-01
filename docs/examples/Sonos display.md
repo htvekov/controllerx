@@ -7,10 +7,13 @@
 
 Using ControllerX - Controlling your Sonos speakers have never been easier 😎 But the occasional wish for a visual check on what’s actually playing, volume setting, media artist/title, active speakers in group etc. is still there 👀 Leaving you with no other choice than adding a display integration as the obvious solution for this need 😉
 
-All it takes is an ESP8266 with ESPHome software, an appropriate display, a handfull ( of HA sensors and you’re all set to go 🚀 ESPHome is a system framework for ESP8266 units that has support for several I2C OLED/E-ink display types and numerous sensors, has direct HA integration via add-on and easy, yet powerful YAML configuration. Read more about ESPHome and how to set it up in HA here: https://esphome.io/
+All it takes is an ESP8266 with ESPHome software, an appropriate display, a handfull (well actually 2 handfulls and then some) of HA sensors and you’re all set to go 🚀 ESPHome is a system framework for ESP8266 units that has support for several I2C OLED/E-ink display types and numerous sensors, has direct HA integration via add-on and easy, yet powerful YAML configuration. Read more about ESPHome and how to set it up in HA here: https://esphome.io/
 
 ### Hardware:
 I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLED display for this build. Resolution is only 128x64. But still enough, when using several pages to be displayed continously. The SSD1306 has a 'big brother' in the SSD1309 display. This display has identical resolution as SSD1306, is priced at some 14 US$, can use same drivers/library as SSD1306 but is much, much larger at 2,42". I really like this good sized and simple I2C display and ended up using this display in the final build, as it's much easier to read from a distance 🙂
+
+An optional PIR sensor or 
+
 **Revised v1.1
 Not done yet !!
 Opdater font - 6 nye symboler (Wifi, alarm, album + 3 x højttaler)
@@ -462,7 +465,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDkzMjc2LC02NDk3OTUwNywtNTM1OT
+eyJoaXN0b3J5IjpbOTAwNjM1NjQ2LC02NDk3OTUwNywtNTM1OT
 QwNDI5LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMxMjcs
 LTcyODMwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQwODYsMTc5MD
 Q5MjA4NywtMTY3OTg0OTEzNSwtMTQxMzU1ODI3NiwtMjA1ODk0
