@@ -255,7 +255,7 @@ If temperature sensor is omitted, you can just delete page 3 & 4 from the displa
 Revise  `sonos_status` and `outdoor_temp` sensors in YAML below, to match your HA entities for Sonos master speaker and outdoor temperature sensor. Create a new ESPHome node and configure it with your WiFi credentials. Edit node and copy/paste revised YAML below (from `time:` and onwards) to your node. Save it, upload and enjoy! 🎉😎
 
 **One final note on current YAML configuration**
-ESPHome is at **max** with all these sensors, schedulers running and an extensive display lambda. Addding just one extra sensor to current YAML, will make ESPHome crash on boot. Omitting  `fast_connect: true`from WiFi configuration in YAML will also send ESPHome into an eternal stack trace error boot loop 🚀💀
+ESPHome is at **max** with all these sensors, schedulers running and an extensive display lambda. Addding just one extra sensor to current YAML, will make ESPHome crash on boot. Omitting  `fast_connect: true`from WiFi configuration in YAML will also send ESPHome into an eternal stack trace error boot loop 🚀💀 
 So 'tweak' YAML with care! 😁😉 
 ```yaml
 esphome:
@@ -471,9 +471,9 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTEwMDAzMSwxNDczNTAxMDQ3LDE0Nz
-Q0NjYyNzQsLTY0OTc5NTA3LC01MzU5NDA0MjksMTY0MzAxODk2
-Myw1MDExNTY5NTIsMTYwOTI2MzEyNywtNzI4MzA2MDY5LDI1NT
-cxNDQwOCwtMTI5ODc4NDA4NiwxNzkwNDkyMDg3LC0xNjc5ODQ5
-MTM1LC0xNDEzNTU4Mjc2LC0yMDU4OTQ0NTAyXX0=
+eyJoaXN0b3J5IjpbNDIyMTY3OTA5LDE0NzM1MDEwNDcsMTQ3ND
+Q2NjI3NCwtNjQ5Nzk1MDcsLTUzNTk0MDQyOSwxNjQzMDE4OTYz
+LDUwMTE1Njk1MiwxNjA5MjYzMTI3LC03MjgzMDYwNjksMjU1Nz
+E0NDA4LC0xMjk4Nzg0MDg2LDE3OTA0OTIwODcsLTE2Nzk4NDkx
+MzUsLTE0MTM1NTgyNzYsLTIwNTg5NDQ1MDJdfQ==
 -->
