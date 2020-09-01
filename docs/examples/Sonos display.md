@@ -12,7 +12,7 @@ All it takes is an ESP8266 with ESPHome software, an appropriate display, a hand
 ### Hardware:
 I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLED display for this build. Resolution is only 128x64. But still enough, when using several pages to be displayed continously. The SSD1306 has a 'big brother' in the SSD1309 display. This display has identical resolution as SSD1306, is priced at some 14 US$, can use same drivers/library as SSD1306 but is much, much larger at 2,42". I really like this good sized and simple I2C display and ended up using this display in the final build, as it's much easier to read from a distance 🙂
 
-An optional PIR sensor or microwave radar sensor can be added for automatic dimming and turning the display on/off completely. The RCWL 0516 sensor is cheap, but can be somewhat difficult to use in 'tight' builds as it's somewhat sensitive to many things and WiFi in particular. So you can experience some false triggers using this senand 
+An optional PIR sensor or microwave radar sensor can be added for automatic dimming and turning the display on/off completely. The RCWL 0516 sensor is cheap, but can be somewhat difficult to use in 'tight' builds as it's somewhat sensitive to many things - WiFi in particular. So you can experience some false triggers using this sensor if fitted very close to an ESP8266.
 
 **Revised v1.1
 Not done yet !!
@@ -465,9 +465,9 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzExOTM2ODEsLTY0OTc5NTA3LC01Mz
-U5NDA0MjksMTY0MzAxODk2Myw1MDExNTY5NTIsMTYwOTI2MzEy
-NywtNzI4MzA2MDY5LDI1NTcxNDQwOCwtMTI5ODc4NDA4NiwxNz
-kwNDkyMDg3LC0xNjc5ODQ5MTM1LC0xNDEzNTU4Mjc2LC0yMDU4
-OTQ0NTAyXX0=
+eyJoaXN0b3J5IjpbMTgyOTAxNTc4MywtNjQ5Nzk1MDcsLTUzNT
+k0MDQyOSwxNjQzMDE4OTYzLDUwMTE1Njk1MiwxNjA5MjYzMTI3
+LC03MjgzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0MDg2LDE3OT
+A0OTIwODcsLTE2Nzk4NDkxMzUsLTE0MTM1NTgyNzYsLTIwNTg5
+NDQ1MDJdfQ==
 -->
