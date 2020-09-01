@@ -27,7 +27,7 @@ Behold 'gammel' font og reset glyphs. Evt. opdater med nye højttaler symboler. 
 Opdater med turn_on() turn_off() commands **done in ssd1306**
 Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler) **done in ssd1306**
 
-Husk at nævne eks
+Husk at nævne eksempel med flash light ved Sonos reset to default.
 
 backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state !! Altså kørt en full cycle ?? OMskrevet for længst. **Check om det er ok nu ?**
 
@@ -475,10 +475,10 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjEwODE1OSw0MjIxNjc5MDksMTQ3Mz
-UwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5
-LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMxMjcsLTcyOD
-MwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQwODYsMTc5MDQ5MjA4
-NywtMTY3OTg0OTEzNSwtMTQxMzU1ODI3NiwtMjA1ODk0NDUwMl
-19
+eyJoaXN0b3J5IjpbLTEyNjE5NDIyNzgsNDIyMTY3OTA5LDE0Nz
+M1MDEwNDcsMTQ3NDQ2NjI3NCwtNjQ5Nzk1MDcsLTUzNTk0MDQy
+OSwxNjQzMDE4OTYzLDUwMTE1Njk1MiwxNjA5MjYzMTI3LC03Mj
+gzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0MDg2LDE3OTA0OTIw
+ODcsLTE2Nzk4NDkxMzUsLTE0MTM1NTgyNzYsLTIwNTg5NDQ1MD
+JdfQ==
 -->
