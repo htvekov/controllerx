@@ -12,7 +12,7 @@ All it takes is an ESP8266 with ESPHome software, an appropriate display, a hand
 ### Hardware:
 I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLED display for this build. Resolution is only 128x64. But still enough, when using several pages to be displayed continously. The SSD1306 has a 'big brother' in the SSD1309 display. This display has identical resolution as SSD1306, is priced at some 14 US$, can use same drivers/library as SSD1306 but is much, much larger at 2,42". I really like this good sized and simple I2C display and ended up using this display in the final build, as it's much easier to read from a distance 🙂
 
-An optional PIR sensor or microwave radar sensor can be added for automatic dimming (brightness control) and turning the display on/off completely. The RCWL 0516 sensor is cheap, but can be somewhat difficult to use in 'tight' builds as it's somewhat sensitive to many things - WiFi in particular. So you can experience some false triggers using this sensor if fitted very close to an ESP8266.
+An optional PIR sensor or microwave radar sensor can be added for automatic dimming (brightness control) and turning the display on/off completely. The RCWL 0516 sensor is cheap, but can be somewhat difficult to use in 'tight' builds as it's somewhat sensitive to many things - WiFi in particular. So you can experience some false triggers using this sensor if fitted very close to an ESP8266. AM 312 is a cheap and simple 'no nonsense' PIR sensor that just always works as expected. 
 
 Please note that (at least on my display version) SSD1309 display can't be turned completely off with brightness = 0, but that works perfectly for my SSD1306 display. Instead SSD1309 has be be turned on/off with specific command. Check what works on your specific display and revise implementation method/ESPHome yaml config code accordingly.
 
@@ -466,9 +466,9 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDQ2NjI3NCwtNjQ5Nzk1MDcsLTUzNT
-k0MDQyOSwxNjQzMDE4OTYzLDUwMTE1Njk1MiwxNjA5MjYzMTI3
-LC03MjgzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0MDg2LDE3OT
-A0OTIwODcsLTE2Nzk4NDkxMzUsLTE0MTM1NTgyNzYsLTIwNTg5
-NDQ1MDJdfQ==
+eyJoaXN0b3J5IjpbMTU0NzA5NzQ3OCwxNDc0NDY2Mjc0LC02ND
+k3OTUwNywtNTM1OTQwNDI5LDE2NDMwMTg5NjMsNTAxMTU2OTUy
+LDE2MDkyNjMxMjcsLTcyODMwNjA2OSwyNTU3MTQ0MDgsLTEyOT
+g3ODQwODYsMTc5MDQ5MjA4NywtMTY3OTg0OTEzNSwtMTQxMzU1
+ODI3NiwtMjA1ODk0NDUwMl19
 -->
