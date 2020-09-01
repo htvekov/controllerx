@@ -14,7 +14,7 @@ I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLE
 
 An optional PIR sensor or microwave radar sensor can be added for automatic dimming (brightness control) and turning the display on/off completely. The RCWL 0516 sensor is cheap, but can be somewhat difficult to use in 'tight' builds as it's somewhat sensitive to many things - WiFi in particular. So you could experience some false triggers using this sensor if fitted very close to the ESP8266. AM 312 is a cheap and simple 'no nonsense' PIR sensor that just always works as expected. Sensor can also be used for other purposes as well in HA 🙂 
 
-Please note that (at least on my display version) SSD1309 display can't be turned completely off with brightness = 0, but that works perfectly for my SSD1306 display. Instead SSD1309 has be be turned on/off with specific command. Check what works on your specific display and revise implementation method/ESPHome yaml config code accordingly.
+Please note that (at least on my display version) SSD1309 display can't be turned completely off with brightness = 0, but this works perfectly on my SSD1306 display. Instead SSD1309 has to be turned on/off with specific commands. Check what works on your specific display and revise implementation method/ESPHome yaml config code accordingly.
 
 **Revised v1.1
 Not done yet !!
@@ -475,10 +475,10 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTE1NjM1MSwtMTI2MTk0MjI3OCw0Mj
-IxNjc5MDksMTQ3MzUwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUw
-NywtNTM1OTQwNDI5LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MD
-kyNjMxMjcsLTcyODMwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQw
-ODYsMTc5MDQ5MjA4NywtMTY3OTg0OTEzNSwtMTQxMzU1ODI3Ni
-wtMjA1ODk0NDUwMl19
+eyJoaXN0b3J5IjpbLTE3NjIyNDg1NjcsLTEyNjE5NDIyNzgsND
+IyMTY3OTA5LDE0NzM1MDEwNDcsMTQ3NDQ2NjI3NCwtNjQ5Nzk1
+MDcsLTUzNTk0MDQyOSwxNjQzMDE4OTYzLDUwMTE1Njk1MiwxNj
+A5MjYzMTI3LC03MjgzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0
+MDg2LDE3OTA0OTIwODcsLTE2Nzk4NDkxMzUsLTE0MTM1NTgyNz
+YsLTIwNTg5NDQ1MDJdfQ==
 -->
