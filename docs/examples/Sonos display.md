@@ -126,7 +126,7 @@ Heydings Icons special file link: [https://github.com/htvekov/controllerx/tree/m
 Copy Calibri Bold, Calibri Regular, Calibri Light fonts plus the special Heydings Icons font file to the ESPHome folder `/config/esphome/`
 
 ### Home Assistant sensors:
-Below you’ll find the HA template sensors needed in `configuration.yaml `for ESPHome display to work. ESPHome will establish some four HA sensors as well presented on frontend. PIR sensor, connection status, WiFi strength and display on/off sensor. If display on/off is turned off from HA, then triggering PIR will not turn on display.
+Below you’ll find the HA template sensors needed in `configuration.yaml `for ESPHome display to work. ESPHome will establish some four HA sensors as well, presented on HA frontend: PIR sensor, connection status, WiFi strength and display on/off sensor. If display on/off is turned off from HA, then triggering PIR will not turn on display.
 
 Note: `media_artist` and `media_title` attributes from HA's Sonos integration *could* be swapped for some radio stations, as these attributes are split from one combined string in the stream. Some radio stations have artist - title order, others use title - artist. You really can't tell...
 My danish radio stations (source list) all use the 'swapped' version, so my templates below swap these two attributes for radio stations. 
@@ -475,10 +475,10 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjIyNDg1NjcsLTEyNjE5NDIyNzgsND
-IyMTY3OTA5LDE0NzM1MDEwNDcsMTQ3NDQ2NjI3NCwtNjQ5Nzk1
-MDcsLTUzNTk0MDQyOSwxNjQzMDE4OTYzLDUwMTE1Njk1MiwxNj
-A5MjYzMTI3LC03MjgzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0
-MDg2LDE3OTA0OTIwODcsLTE2Nzk4NDkxMzUsLTE0MTM1NTgyNz
-YsLTIwNTg5NDQ1MDJdfQ==
+eyJoaXN0b3J5IjpbMTU0NTkyMTQ1NiwtMTI2MTk0MjI3OCw0Mj
+IxNjc5MDksMTQ3MzUwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUw
+NywtNTM1OTQwNDI5LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MD
+kyNjMxMjcsLTcyODMwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQw
+ODYsMTc5MDQ5MjA4NywtMTY3OTg0OTEzNSwtMTQxMzU1ODI3Ni
+wtMjA1ODk0NDUwMl19
 -->
