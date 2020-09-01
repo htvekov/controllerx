@@ -12,7 +12,7 @@ All it takes is an ESP8266 with ESPHome software, an appropriate display, a hand
 ### Hardware:
 I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLED display for this build. Resolution is only 128x64. But still enough, when using several pages to be displayed continously. The SSD1306 has a 'big brother' in the SSD1309 display. This display has identical resolution as SSD1306, is priced at some 14 US$, can use same drivers/library as SSD1306 but is much, much larger at 2,42". I really like this good sized and simple I2C display and ended up using this display in the final build, as it's much easier to read from a distance 🙂
 
-An optional PIR sensor or microwave radar sensor can be added for automatic dimming (brightness control) and turning the display on/off completely. The RCWL 0516 sensor is cheap, but can be somewhat difficult to use in 'tight' builds as it's somewhat sensitive to many things - WiFi in particular. So you could experience some false triggers using this sensor if fitted very close to the ESP8266. AM 312 is a cheap and simple 'no nonsense' PIR sensor that just always works as expected. Sensor can also be used for other purposes as well in HA 🙂 Sensor is configured in YAML using pin D5 (GPIO14). Display is set to dim down after 5 minutes with no PIR triggers and completely off after additional 25 minutes without movement 
+An optional PIR sensor or microwave radar sensor can be added for automatic dimming (brightness control) and turning the display on/off completely. The RCWL 0516 sensor is cheap, but can be somewhat difficult to use in 'tight' builds as it's somewhat sensitive to many things - WiFi in particular. So you could experience some false triggers using this sensor if fitted very close to the ESP8266. AM 312 is a cheap and simple 'no nonsense' PIR sensor that just always works as expected. Sensor can also be used for other purposes as well in HA 🙂 Sensor is configured in YAML using pin D5 (GPIO14). Display is set to dim down after 5 minutes with no PIR triggers and completely off after additional 25 minutes without registered movement.
 
 Please note that (at least on my display version) SSD1309 display can't be turned completely off with brightness = 0, but this works perfectly on my SSD1306 display. Instead SSD1309 has to be turned on/off with specific commands. Check what works on your specific display and revise implementation method/ESPHome yaml config code accordingly.
 
@@ -475,11 +475,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODk1NzU2OSwtMTY1NzQ0Njk5MywyMD
-U5MjcyMzkyLC0xMjYxOTQyMjc4LDQyMjE2NzkwOSwxNDczNTAx
-MDQ3LDE0NzQ0NjYyNzQsLTY0OTc5NTA3LC01MzU5NDA0MjksMT
-Y0MzAxODk2Myw1MDExNTY5NTIsMTYwOTI2MzEyNywtNzI4MzA2
-MDY5LDI1NTcxNDQwOCwtMTI5ODc4NDA4NiwxNzkwNDkyMDg3LC
-0xNjc5ODQ5MTM1LC0xNDEzNTU4Mjc2LC0yMDU4OTQ0NTAyXX0=
+eyJoaXN0b3J5IjpbLTM0MDY2ODUxLC0xNjU3NDQ2OTkzLDIwNT
+kyNzIzOTIsLTEyNjE5NDIyNzgsNDIyMTY3OTA5LDE0NzM1MDEw
+NDcsMTQ3NDQ2NjI3NCwtNjQ5Nzk1MDcsLTUzNTk0MDQyOSwxNj
+QzMDE4OTYzLDUwMTE1Njk1MiwxNjA5MjYzMTI3LC03MjgzMDYw
+NjksMjU1NzE0NDA4LC0xMjk4Nzg0MDg2LDE3OTA0OTIwODcsLT
+E2Nzk4NDkxMzUsLTE0MTM1NTgyNzYsLTIwNTg5NDQ1MDJdfQ==
 
 -->
