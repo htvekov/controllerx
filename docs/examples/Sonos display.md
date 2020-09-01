@@ -29,7 +29,8 @@ Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler) **done 
 backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state !! Altså kørt en full cycle ?? OMskrevet for længst. **Check om det er ok nu ?**
 
 **Mangler:**
-Condition for display content with PIR & Sonos active playing (skal tage højde for at PIR er optional) Burde ikke være nødvendigt, men husk at sætte display on ved ESP opstart.
+Condition for display content with PIR & Sonos active playing (skal tage højde for at PIR er optional) Burde ikke være nødvendigt, men husk at sætte display on ved ESP opstart. virker pt. ssd1306 ok.
+
 
 Add needed ESPHome version. Dev. at the moment!!
 
@@ -471,10 +472,10 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDA1MjUwNCw0MjIxNjc5MDksMTQ3Mz
-UwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5
-LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMxMjcsLTcyOD
-MwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQwODYsMTc5MDQ5MjA4
-NywtMTY3OTg0OTEzNSwtMTQxMzU1ODI3NiwtMjA1ODk0NDUwMl
-19
+eyJoaXN0b3J5IjpbLTE5Mzc2NjAwMDMsNDIyMTY3OTA5LDE0Nz
+M1MDEwNDcsMTQ3NDQ2NjI3NCwtNjQ5Nzk1MDcsLTUzNTk0MDQy
+OSwxNjQzMDE4OTYzLDUwMTE1Njk1MiwxNjA5MjYzMTI3LC03Mj
+gzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0MDg2LDE3OTA0OTIw
+ODcsLTE2Nzk4NDkxMzUsLTE0MTM1NTgyNzYsLTIwNTg5NDQ1MD
+JdfQ==
 -->
