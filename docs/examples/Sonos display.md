@@ -7,7 +7,7 @@
 
 Using ControllerX - Controlling your Sonos speakers have never been easier 😎 But the occasional wish for a visual check on what’s actually playing, volume setting, media artist/title, active speakers in group etc. is still there 👀 Leaving you with no other choice than adding a display integration as the obvious solution for this need 😉
 
-All it takes is an ESP8266 with ESPHome software, an appropriate display, a handfull of HA sensors and you’re all set to go 🚀 ESPHome is a system framework for ESP8266 units that has support for several I2C OLED/E-ink display types and numerous sensors, has direct HA integration via add-on and easy, yet powerful YAML configuration. Read more about ESPHome and how to set it up in HA here: https://esphome.io/
+All it takes is an ESP8266 with ESPHome software, an appropriate display, a handfull ( of HA sensors and you’re all set to go 🚀 ESPHome is a system framework for ESP8266 units that has support for several I2C OLED/E-ink display types and numerous sensors, has direct HA integration via add-on and easy, yet powerful YAML configuration. Read more about ESPHome and how to set it up in HA here: https://esphome.io/
 
 ### Hardware:
 I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLED display for this build. Resolution is only 128x64. But still enough, when using several pages to be displayed continously. The SSD1306 has a 'big brother' in the SSD1309 display. This display has identical resolution as SSD1306, is priced at some 14 US$, can use same drivers/library as SSD1306 but is much, much larger at 2,42". I really like this good sized and simple I2C display and ended up using this display in the final build, as it's much easier to read from a distance 🙂
@@ -462,9 +462,9 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjExOTE0OCwtNjQ5Nzk1MDcsLTUzNT
-k0MDQyOSwxNjQzMDE4OTYzLDUwMTE1Njk1MiwxNjA5MjYzMTI3
-LC03MjgzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0MDg2LDE3OT
-A0OTIwODcsLTE2Nzk4NDkxMzUsLTE0MTM1NTgyNzYsLTIwNTg5
-NDQ1MDJdfQ==
+eyJoaXN0b3J5IjpbLTgxNDkzMjc2LC02NDk3OTUwNywtNTM1OT
+QwNDI5LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMxMjcs
+LTcyODMwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQwODYsMTc5MD
+Q5MjA4NywtMTY3OTg0OTEzNSwtMTQxMzU1ODI3NiwtMjA1ODk0
+NDUwMl19
 -->
