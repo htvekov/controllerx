@@ -465,7 +465,7 @@ display:
 - v1.1 published September, 2020
 - Added sensor for brightness control & display on/off
 - Added 'shuffle' & 'mute' signs
-
+- When idle, display 'stop' sign and text 'idle'
 
 
 Improve/simplify templates
@@ -484,7 +484,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDg2MzAyOCw4NTg1MzEyMjIsODI4OT
+eyJoaXN0b3J5IjpbMjEyNjA4NDA1Niw4NTg1MzEyMjIsODI4OT
 U5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMsMjA1OTI3MjM5Miwt
 MTI2MTk0MjI3OCw0MjIxNjc5MDksMTQ3MzUwMTA0NywxNDc0ND
 Y2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5LDE2NDMwMTg5NjMs
