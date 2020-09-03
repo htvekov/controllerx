@@ -1,3 +1,22 @@
+[![Three different Sonos displays](https://github.com/xaviml/controllerx/raw/dev/controllerx/assets/img/sonos_displays_2.jpg)](https://github.com/xaviml/controllerx/blob/dev/controllerx/assets/img/sonos_displays_2.jpg)
+
+### [](https://github.com/xaviml/controllerx/blob/dev/docs/examples/sonos-display.md#sonossymfonisk-display-unit-with-esphome)Sonos/Symfonisk display unit with ESPHome
+
+[![Three different Sonos displays](https://github.com/xaviml/controllerx/raw/dev/controllerx/assets/img/sonos_displays_1.jpg)](https://github.com/xaviml/controllerx/blob/dev/controllerx/assets/img/sonos_displays_1.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6,11 +25,6 @@
 
 ![Three different Sonos displays](https://github.com/htvekov/controllerx/blob/master/docs/assets/img/Sonos_displays_1.jpg)
 
-[![Three different Sonos displays](https://github.com/xaviml/controllerx/raw/dev/controllerx/assets/img/sonos_displays_2.jpg)](https://github.com/xaviml/controllerx/blob/dev/controllerx/assets/img/sonos_displays_2.jpg)
-
-### [](https://github.com/xaviml/controllerx/blob/dev/docs/examples/sonos-display.md#sonossymfonisk-display-unit-with-esphome)Sonos/Symfonisk display unit with ESPHome
-
-[![Three different Sonos displays](https://github.com/xaviml/controllerx/raw/dev/controllerx/assets/img/sonos_displays_1.jpg)](https://github.com/xaviml/controllerx/blob/dev/controllerx/assets/img/sonos_displays_1.jpg)
 
 Using ControllerX - Controlling your Sonos speakers have never been easier 😎 But the occasional wish for a visual check on what’s actually playing, volume setting, media artist/title, active speakers in group etc. is still there 👀 Leaving you with no other choice than adding a display integration as the obvious solution for this need 😉
 
@@ -540,7 +554,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTM4NzcyMCwxNzMwNzA5ODc5LDQ1NT
+eyJoaXN0b3J5IjpbLTg1NDY1NzY1NCwxNzMwNzA5ODc5LDQ1NT
 czMTgzNywzOTQ2NzkzMTUsNTE4NjAzNjI2LC0xMzcyMTcyNDY0
 LC0xOTU0MDI1ODAwLDQ4OTcxNDEzMywzNzM2NzA4MzAsLTE0MT
 Q3NTI5NTYsOTk1NjcxMDgyLDE3NDY0ODM2MzIsLTE3ODk5NDQ3
