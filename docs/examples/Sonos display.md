@@ -307,7 +307,7 @@ sensor:
     # Outdoor temperature sensor - only used in display lambda page 4
   - platform: homeassistant
     id: outdoor_temp
-    entity_id: sensor.0x00158d0002d813f0_temperature
+    entity_id: sensor.your_temperature_sensor
     internal: true
   
   - platform: homeassistant
@@ -556,11 +556,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ3NTI5NTYsOTk1NjcxMDgyLDE3ND
-Y0ODM2MzIsLTE3ODk5NDQ3ODksMTc3ODQwMzI5NSwtMTI1NzAy
-NzgxMyw4NTg1MzEyMjIsODI4OTU5NywtMzQwNjY4NTEsLTE2NT
-c0NDY5OTMsMjA1OTI3MjM5MiwtMTI2MTk0MjI3OCw0MjIxNjc5
-MDksMTQ3MzUwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUwNywtNT
-M1OTQwNDI5LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMx
-MjddfQ==
+eyJoaXN0b3J5IjpbMzczNjcwODMwLC0xNDE0NzUyOTU2LDk5NT
+Y3MTA4MiwxNzQ2NDgzNjMyLC0xNzg5OTQ0Nzg5LDE3Nzg0MDMy
+OTUsLTEyNTcwMjc4MTMsODU4NTMxMjIyLDgyODk1OTcsLTM0MD
+Y2ODUxLC0xNjU3NDQ2OTkzLDIwNTkyNzIzOTIsLTEyNjE5NDIy
+NzgsNDIyMTY3OTA5LDE0NzM1MDEwNDcsMTQ3NDQ2NjI3NCwtNj
+Q5Nzk1MDcsLTUzNTk0MDQyOSwxNjQzMDE4OTYzLDUwMTE1Njk1
+Ml19
 -->
