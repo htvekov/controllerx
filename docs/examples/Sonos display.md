@@ -74,9 +74,11 @@ Following information is displayed on the screen:
 Three 'standard' Calibri TT fonts are used plus a 'special' version of Heydings Icons font in which I've included some Heydings Controls icons as well.
 If you experience some strange characters on the display, you probably need to edit the glyphs in ESPHome YAML and add whatever language specific characters you find are missing. 
 
+
+
 Calibri TTF fonts link: [https://www.fontdload.com/dl/calibri-font/](https://www.fontdload.com/dl/calibri-font/)
 
-Heydings Icons special file link: [https://github.com/htvekov/controllerx/tree/master/docs/assets/img/HeydingsIconsSymbols.ttf](https://github.com/htvekov/controllerx/blob/master/docs/assets/img/HeydingsIconsSymbols.ttf)
+Heydings Icons special file [link](https://github.com/xaviml/controllerx/blob/dev/controllerx/assets/img/HeydingsIconsSymbols.ttf).
 
 Copy Calibri Bold, Calibri Regular, Calibri Light fonts plus the special Heydings Icons font file to the ESPHome folder `/config/esphome/`
 
@@ -534,11 +536,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1NzMxODM3LDM5NDY3OTMxNSw1MTg2MD
-M2MjYsLTEzNzIxNzI0NjQsLTE5NTQwMjU4MDAsNDg5NzE0MTMz
-LDM3MzY3MDgzMCwtMTQxNDc1Mjk1Niw5OTU2NzEwODIsMTc0Nj
-Q4MzYzMiwtMTc4OTk0NDc4OSwxNzc4NDAzMjk1LC0xMjU3MDI3
-ODEzLDg1ODUzMTIyMiw4Mjg5NTk3LC0zNDA2Njg1MSwtMTY1Nz
-Q0Njk5MywyMDU5MjcyMzkyLC0xMjYxOTQyMjc4LDQyMjE2Nzkw
-OV19
+eyJoaXN0b3J5IjpbLTIwOTc3Mzk1NzQsNDU1NzMxODM3LDM5ND
+Y3OTMxNSw1MTg2MDM2MjYsLTEzNzIxNzI0NjQsLTE5NTQwMjU4
+MDAsNDg5NzE0MTMzLDM3MzY3MDgzMCwtMTQxNDc1Mjk1Niw5OT
+U2NzEwODIsMTc0NjQ4MzYzMiwtMTc4OTk0NDc4OSwxNzc4NDAz
+Mjk1LC0xMjU3MDI3ODEzLDg1ODUzMTIyMiw4Mjg5NTk3LC0zND
+A2Njg1MSwtMTY1NzQ0Njk5MywyMDU5MjcyMzkyLC0xMjYxOTQy
+Mjc4XX0=
 -->
