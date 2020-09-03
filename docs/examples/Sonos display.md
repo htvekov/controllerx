@@ -463,7 +463,7 @@ display:
 ## Change log
 - Intitial version published June, 2020
 - Added sensor for auto dimming & display on/off
-- Added 
+- Added 'shuffle' & 'mute' signs
 
 
 
@@ -482,7 +482,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwNTM2NTY4LDgyODk1OTcsLTM0MDY2OD
+eyJoaXN0b3J5IjpbODU4NTMxMjIyLDgyODk1OTcsLTM0MDY2OD
 UxLC0xNjU3NDQ2OTkzLDIwNTkyNzIzOTIsLTEyNjE5NDIyNzgs
 NDIyMTY3OTA5LDE0NzM1MDEwNDcsMTQ3NDQ2NjI3NCwtNjQ5Nz
 k1MDcsLTUzNTk0MDQyOSwxNjQzMDE4OTYzLDUwMTE1Njk1Miwx
