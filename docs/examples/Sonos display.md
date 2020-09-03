@@ -246,20 +246,16 @@ substitutions:
   devicename: sonos_display
   friendly_name: Sonos Display
   device_description: Sonos SSD1306/1309 display for Sonos groups
-
-#esphome:
-#  name: ssd1306
-#  platform: ESP8266
-#  board: d1_mini
+  
 esphome:
   name: $devicename
   comment: ${device_description}
   platform: ESP8266
-  board: nodemcuv2
+  board: d1_mini
   
 wifi:
-  ssid: "UniFi"
-  password: "rasmus03"
+  ssid: "your_ssid"
+  password: "your_password"
   fast_connect: true # Needed for fast WiFi connect to avoid stack trace error on boot
   manual_ip:
     static_ip: 192.168.XX.XX # Enter your static IP address. Needed for fast WiFi connect to avoid stack trace error on boot 
@@ -561,7 +557,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzcwMTEyOSwtMTc4OTk0NDc4OSwxNz
+eyJoaXN0b3J5IjpbLTQ5MjgxMDU4NCwtMTc4OTk0NDc4OSwxNz
 c4NDAzMjk1LC0xMjU3MDI3ODEzLDg1ODUzMTIyMiw4Mjg5NTk3
 LC0zNDA2Njg1MSwtMTY1NzQ0Njk5MywyMDU5MjcyMzkyLC0xMj
 YxOTQyMjc4LDQyMjE2NzkwOSwxNDczNTAxMDQ3LDE0NzQ0NjYy
