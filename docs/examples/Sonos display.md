@@ -62,7 +62,7 @@ Some links examples for hardware below. These are just some random sellers I've 
 [Movement sensor 2 - AM312 # PIR Motion Human Sensor](https://www.aliexpress.com/item/32921030810.html)
 
 **One note on the SSD1309 display**<br />
-In order to get it to work as I2C instead of SPI, you need to do a bit of soldering. On the specific display type I bought, you need to bridge (short) R5 and move R4 to R3. Remember that display will NOT work unless RES is connected to RST on ESP8266 (or any available pin and controlled in ESPHome sw). Note: Display only supports 3,3v on VCC. Some have reported that display tolerates 5v. I wouldn’t take that risk, though! I’ve kept both CS and DS ‘floating’. Haven’t had any I2C address issues so far. Use pull-up/down resistors if you experience issues.
+In order to get display to work with I2C instead of SPI, you need to do a bit of soldering. On the specific display type I bought, you need to bridge (short) R5 and move R4 to R3. Remember that display will NOT work unless RES is connected to RST on ESP8266 (or any available pin and controlled in ESPHome sw). Note: Display only supports 3,3v on VCC. Some have reported that display tolerates 5v. I wouldn’t take that risk, though! I’ve kept both CS and DS ‘floating’. Haven’t had any I2C address issues so far. Use pull-up/down resistors if you experience issues.
 
 **Connections:**
 **SSD1306/1309 --> Wemos D1 mini**
@@ -81,7 +81,6 @@ In order to get it to work as I2C instead of SPI, you need to do a bit of solder
 
 ### Display setup:
 My current display setup consists of four pages that all are displayed for 5 seconds.
-
 Following information is displayed on the screen:
 
 **All pages:** Source (if not present, display ‘Sonos/Playlist’)
@@ -462,11 +461,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjE1NzEzODQsLTEyNTcwMjc4MTMsOD
-U4NTMxMjIyLDgyODk1OTcsLTM0MDY2ODUxLC0xNjU3NDQ2OTkz
-LDIwNTkyNzIzOTIsLTEyNjE5NDIyNzgsNDIyMTY3OTA5LDE0Nz
-M1MDEwNDcsMTQ3NDQ2NjI3NCwtNjQ5Nzk1MDcsLTUzNTk0MDQy
-OSwxNjQzMDE4OTYzLDUwMTE1Njk1MiwxNjA5MjYzMTI3LC03Mj
-gzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0MDg2LDE3OTA0OTIw
-ODddfQ==
+eyJoaXN0b3J5IjpbMTc3ODQwMzI5NSwtMTI1NzAyNzgxMyw4NT
+g1MzEyMjIsODI4OTU5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMs
+MjA1OTI3MjM5MiwtMTI2MTk0MjI3OCw0MjIxNjc5MDksMTQ3Mz
+UwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5
+LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMxMjcsLTcyOD
+MwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQwODYsMTc5MDQ5MjA4
+N119
 -->
