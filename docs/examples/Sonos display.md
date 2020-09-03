@@ -206,7 +206,7 @@ The automation is written for an Ikea E1810 remote with z2m ControllerX HA integ
 ### ESPHome YAML configuration:
 As ESPHome currently don't support attributes, all data to be displayed has to be in separate HA sensors. Hence the huge amount of sensors.
 
-If you're not using a movement sensor in your build, you could, but actually don't need to, revise YAML. If you experience issues with the 'floating' GPIO used for the PIR sensor, just pull pin D5 permanently low or high.
+If you're not using a movement sensor in your build, you could (but actually don't need to) revise YAML. If you experience issues with the 'floating' GPIO used for the PIR sensor, just pull pin D5 permanently low or high.
 
 Two entities needs to be entered. Your Sonos master speaker and optional temperature sensor. If temperature sensor is omitted, you can just revise YAML and delete page 3 & 4 from the display lambda configuration. Also remember to revise `interval` page count from 4 to 2.
 
@@ -534,11 +534,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4NjAzNjI2LC0xMzcyMTcyNDY0LC0xOT
-U0MDI1ODAwLDQ4OTcxNDEzMywzNzM2NzA4MzAsLTE0MTQ3NTI5
-NTYsOTk1NjcxMDgyLDE3NDY0ODM2MzIsLTE3ODk5NDQ3ODksMT
-c3ODQwMzI5NSwtMTI1NzAyNzgxMyw4NTg1MzEyMjIsODI4OTU5
-NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMsMjA1OTI3MjM5MiwtMT
-I2MTk0MjI3OCw0MjIxNjc5MDksMTQ3MzUwMTA0NywxNDc0NDY2
-Mjc0XX0=
+eyJoaXN0b3J5IjpbMzk0Njc5MzE1LDUxODYwMzYyNiwtMTM3Mj
+E3MjQ2NCwtMTk1NDAyNTgwMCw0ODk3MTQxMzMsMzczNjcwODMw
+LC0xNDE0NzUyOTU2LDk5NTY3MTA4MiwxNzQ2NDgzNjMyLC0xNz
+g5OTQ0Nzg5LDE3Nzg0MDMyOTUsLTEyNTcwMjc4MTMsODU4NTMx
+MjIyLDgyODk1OTcsLTM0MDY2ODUxLC0xNjU3NDQ2OTkzLDIwNT
+kyNzIzOTIsLTEyNjE5NDIyNzgsNDIyMTY3OTA5LDE0NzM1MDEw
+NDddfQ==
 -->
