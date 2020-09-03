@@ -541,11 +541,15 @@ display:
 - Added 'shuffle' & 'mute' signs
 - When idle, display 'stop' sign and 'idle' text
 - Revised display lambda page code
-- 4 sensors exposed in HA: Connected status, WiFi strength, Display on/off & PIR 
+- Four ESPHome sensors exposed in HA:
+	- Connected status
+	- WiFi strength
+	- Display on/off
+	- PIR 
 
 Future plans:
 - Design 2,9" E-paper display version
-- Improve/simplify HA sensor templates (if po
+- Improve/simplify HA sensor templates (if possible)
 - Remove need for master entity everywhere in config files
 
 Thank you Xavi for providing the perfect solution for some of my templating issues 👍😎
@@ -555,11 +559,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTQwMjg1OSwzNzM2NzA4MzAsLTE0MT
-Q3NTI5NTYsOTk1NjcxMDgyLDE3NDY0ODM2MzIsLTE3ODk5NDQ3
-ODksMTc3ODQwMzI5NSwtMTI1NzAyNzgxMyw4NTg1MzEyMjIsOD
-I4OTU5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMsMjA1OTI3MjM5
-MiwtMTI2MTk0MjI3OCw0MjIxNjc5MDksMTQ3MzUwMTA0NywxND
-c0NDY2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5LDE2NDMwMTg5
-NjNdfQ==
+eyJoaXN0b3J5IjpbNDg5NzE0MTMzLDM3MzY3MDgzMCwtMTQxND
+c1Mjk1Niw5OTU2NzEwODIsMTc0NjQ4MzYzMiwtMTc4OTk0NDc4
+OSwxNzc4NDAzMjk1LC0xMjU3MDI3ODEzLDg1ODUzMTIyMiw4Mj
+g5NTk3LC0zNDA2Njg1MSwtMTY1NzQ0Njk5MywyMDU5MjcyMzky
+LC0xMjYxOTQyMjc4LDQyMjE2NzkwOSwxNDczNTAxMDQ3LDE0Nz
+Q0NjYyNzQsLTY0OTc5NTA3LC01MzU5NDA0MjksMTY0MzAxODk2
+M119
 -->
