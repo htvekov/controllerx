@@ -26,10 +26,10 @@ Some links examples for hardware below. These are just some random sellers I've 
 
 [0,96" 12864 SSD1306 OLED display](https://www.aliexpress.com/item/32896971385.html)
 
-[2,42” 12864 SSD1309 OLED display
-(direct replacement for the much smaller 0,96” SSD1306 display and can use same library)](https://www.aliexpress.com/item/33024448944.html)
+[2,42” 12864 SSD1309 OLED display](https://www.aliexpress.com/item/33024448944.html)
+(direct replacement for the much smaller 0,96” SSD1306 display and can use same library)
 
-[Alternatively you can use a Wemos NodeMCU ESP8266 with integrated 0,96" OLED display](https://www.aliexpress.com/item/4000287451981.html)
+[Wemos NodeMCU ESP8266 with integrated 0,96" OLED display](https://www.aliexpress.com/item/4000287451981.html)
 
 **Optional sensors to dim display when no movement is detected.**
 [Movement sensor 1 - RCWL 0516 Microwave Micro Wave Radar Sensor Board](https://www.aliexpress.com/item/33011567518.html)
@@ -534,7 +534,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDMwNTMzMTcsNDU1NzMxODM3LDM5ND
+eyJoaXN0b3J5IjpbLTIxMjY0NjA4MTYsNDU1NzMxODM3LDM5ND
 Y3OTMxNSw1MTg2MDM2MjYsLTEzNzIxNzI0NjQsLTE5NTQwMjU4
 MDAsNDg5NzE0MTMzLDM3MzY3MDgzMCwtMTQxNDc1Mjk1Niw5OT
 U2NzEwODIsMTc0NjQ4MzYzMiwtMTc4OTk0NDc4OSwxNzc4NDAz
