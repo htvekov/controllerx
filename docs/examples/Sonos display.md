@@ -20,34 +20,6 @@ An optional PIR sensor or microwave radar sensor can be added for automatic dimm
 
 Please note that (at least on my display version) SSD1309 display can't be turned completely off with brightness = 0, but this works perfectly on my SSD1306 display. Instead SSD1309 has to be turned on/off with specific commands. Check what works on your own display and revise implementation method/ESPHome yaml config code accordingly.
 
-**Revised v1.1
-Not done yet !!
-Opdater font - 6 nye symboler (Wifi, alarm, album + 3 x højttaler)
-Glyphs er opdateret i ESP ssd1309
-Check orig. ttf font (download fra github og lav den igen) - der ER forskel
-Der er noget galt med hovedet på person for artist
-Behold 'gammel' font og reset glyphs. Evt. opdater med nye højttaler symboler. Der er alligevel ikke plads til flere sensorer uden ESP crasher. 
-
-Opdater med turn_on() turn_off() commands **done in ssd1306**
-Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler) **done in ssd1306**
-
-Husk at nævne eksempel med flash light ved Sonos reset to default.
-
-Add needed ESPHome version. Dev. at the moment!!
-
-Virker nu via tweaks. Sæt i2c speed to min. 100khz (her 200khz)
-On boot virker ikke til at sætte display on (crash) når der er to tællere backly og backly 1.
-Så første gennemløb i display page, kigger efter page=0 og tænder så displayet den ene gang.
-
-
-Display active on: Så virker PIR sensor og kan tænde og slukke displayet. Dynamisk med 2 forskellige timeouts. pt. 5 sec. dæmpning og 10 sec. sluk helt **ssd1306 ok**
-
-Display active off: Display kan ikke tændes ved PIR action **ssd1306 ok**
-
-
-
-
-
 Some links examples for hardware below. These are just some random sellers I've picked. Not necessarily the cheapest or best sellers.
 
 [Wemos D1 mini – ESP8266](https://www.aliexpress.com/item/32845253497.html)
@@ -562,11 +534,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODMxNDQ4NSwtMTM3MjE3MjQ2NCwtMT
-k1NDAyNTgwMCw0ODk3MTQxMzMsMzczNjcwODMwLC0xNDE0NzUy
-OTU2LDk5NTY3MTA4MiwxNzQ2NDgzNjMyLC0xNzg5OTQ0Nzg5LD
-E3Nzg0MDMyOTUsLTEyNTcwMjc4MTMsODU4NTMxMjIyLDgyODk1
-OTcsLTM0MDY2ODUxLC0xNjU3NDQ2OTkzLDIwNTkyNzIzOTIsLT
-EyNjE5NDIyNzgsNDIyMTY3OTA5LDE0NzM1MDEwNDcsMTQ3NDQ2
-NjI3NF19
+eyJoaXN0b3J5IjpbNTE4NjAzNjI2LC0xMzcyMTcyNDY0LC0xOT
+U0MDI1ODAwLDQ4OTcxNDEzMywzNzM2NzA4MzAsLTE0MTQ3NTI5
+NTYsOTk1NjcxMDgyLDE3NDY0ODM2MzIsLTE3ODk5NDQ3ODksMT
+c3ODQwMzI5NSwtMTI1NzAyNzgxMyw4NTg1MzEyMjIsODI4OTU5
+NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMsMjA1OTI3MjM5MiwtMT
+I2MTk0MjI3OCw0MjIxNjc5MDksMTQ3MzUwMTA0NywxNDc0NDY2
+Mjc0XX0=
 -->
