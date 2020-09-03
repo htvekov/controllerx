@@ -466,15 +466,12 @@ display:
 - Added optional sensor for brightness control & display on/off
 - Added 'shuffle' & 'mute' signs
 - When idle, display 'stop' sign and text 'idle'
-- Revised display lambda
+- Revised display lambda page code
 - 4 HA sensors: Connected status, WiFi strength, Display on/off & PIR 
 
 Improve/simplify templates
 - Remove need for master entity everywhere in config files
-- Display 'shuffle' and 'mute' sign
-- When idle, display 'stop' sign and text 'idle'
-- Implement brightness control on display
-- Implement display on/off (via local ESPHome PIR sensor)
+
 - Add more information on display using a 2,9" E-ink display
 - Add png file for current media playing for e-paper displays
 - Use e-paper display as status display when Sonos is idle
@@ -485,11 +482,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5MTYzNTUyLC0xMjU3MDI3ODEzLDg1OD
-UzMTIyMiw4Mjg5NTk3LC0zNDA2Njg1MSwtMTY1NzQ0Njk5Mywy
-MDU5MjcyMzkyLC0xMjYxOTQyMjc4LDQyMjE2NzkwOSwxNDczNT
-AxMDQ3LDE0NzQ0NjYyNzQsLTY0OTc5NTA3LC01MzU5NDA0Mjks
-MTY0MzAxODk2Myw1MDExNTY5NTIsMTYwOTI2MzEyNywtNzI4Mz
-A2MDY5LDI1NTcxNDQwOCwtMTI5ODc4NDA4NiwxNzkwNDkyMDg3
-XX0=
+eyJoaXN0b3J5IjpbLTY2NDkwMzc4MywtMTI1NzAyNzgxMyw4NT
+g1MzEyMjIsODI4OTU5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMs
+MjA1OTI3MjM5MiwtMTI2MTk0MjI3OCw0MjIxNjc5MDksMTQ3Mz
+UwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5
+LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMxMjcsLTcyOD
+MwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQwODYsMTc5MDQ5MjA4
+N119
 -->
