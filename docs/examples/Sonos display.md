@@ -397,7 +397,7 @@ binary_sensor:
   - platform: template
     id: dim_display
     filters:
-      - delayed_off: 5s
+      - delayed_off: 5m # Dim display after 5 minutes
     on_press:
       then:
       - lambda: |-
@@ -413,7 +413,7 @@ binary_sensor:
   - platform: template
     id: display_off
     filters:
-      - delayed_off: 10s
+      - delayed_off: 25m # Turn off display after 25 minutes
     on_release:
       then:
       - lambda: |-
@@ -556,11 +556,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjQ4MzYzMiwtMTc4OTk0NDc4OSwxNz
-c4NDAzMjk1LC0xMjU3MDI3ODEzLDg1ODUzMTIyMiw4Mjg5NTk3
-LC0zNDA2Njg1MSwtMTY1NzQ0Njk5MywyMDU5MjcyMzkyLC0xMj
-YxOTQyMjc4LDQyMjE2NzkwOSwxNDczNTAxMDQ3LDE0NzQ0NjYy
-NzQsLTY0OTc5NTA3LC01MzU5NDA0MjksMTY0MzAxODk2Myw1MD
-ExNTY5NTIsMTYwOTI2MzEyNywtNzI4MzA2MDY5LDI1NTcxNDQw
-OF19
+eyJoaXN0b3J5IjpbOTk1NjcxMDgyLDE3NDY0ODM2MzIsLTE3OD
+k5NDQ3ODksMTc3ODQwMzI5NSwtMTI1NzAyNzgxMyw4NTg1MzEy
+MjIsODI4OTU5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMsMjA1OT
+I3MjM5MiwtMTI2MTk0MjI3OCw0MjIxNjc5MDksMTQ3MzUwMTA0
+NywxNDc0NDY2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5LDE2ND
+MwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMxMjcsLTcyODMwNjA2
+OV19
 -->
