@@ -510,7 +510,7 @@ display:
 ```
 
 ## Change log
-- Intitial version published June, 2020
+- Intitial version published July, 2020
 - v1.1 published September, 2020
 - Added optional sensor for brightness control & display on/off
 - Added 'shuffle' & 'mute' signs
@@ -534,11 +534,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0Njc5MzE1LDUxODYwMzYyNiwtMTM3Mj
-E3MjQ2NCwtMTk1NDAyNTgwMCw0ODk3MTQxMzMsMzczNjcwODMw
-LC0xNDE0NzUyOTU2LDk5NTY3MTA4MiwxNzQ2NDgzNjMyLC0xNz
-g5OTQ0Nzg5LDE3Nzg0MDMyOTUsLTEyNTcwMjc4MTMsODU4NTMx
-MjIyLDgyODk1OTcsLTM0MDY2ODUxLC0xNjU3NDQ2OTkzLDIwNT
-kyNzIzOTIsLTEyNjE5NDIyNzgsNDIyMTY3OTA5LDE0NzM1MDEw
-NDddfQ==
+eyJoaXN0b3J5IjpbNDU1NzMxODM3LDM5NDY3OTMxNSw1MTg2MD
+M2MjYsLTEzNzIxNzI0NjQsLTE5NTQwMjU4MDAsNDg5NzE0MTMz
+LDM3MzY3MDgzMCwtMTQxNDc1Mjk1Niw5OTU2NzEwODIsMTc0Nj
+Q4MzYzMiwtMTc4OTk0NDc4OSwxNzc4NDAzMjk1LC0xMjU3MDI3
+ODEzLDg1ODUzMTIyMiw4Mjg5NTk3LC0zNDA2Njg1MSwtMTY1Nz
+Q0Njk5MywyMDU5MjcyMzkyLC0xMjYxOTQyMjc4LDQyMjE2Nzkw
+OV19
 -->
