@@ -444,7 +444,7 @@ display:
 - v1.1 published September, 2020
 - Added optional sensor for brightness control & display on/off
 - Added 'shuffle' & 'mute' signs
-- When idle, display 'stop' sign and text 'idle'
+- When idle, display 'stop' sign and 'idle' text
 - Revised display lambda page code
 - 4 sensors exposed in HA: Connected status, WiFi strength, Display on/off & PIR 
 
@@ -460,11 +460,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzQ1MDAzNSwxNzc4NDAzMjk1LC0xMj
-U3MDI3ODEzLDg1ODUzMTIyMiw4Mjg5NTk3LC0zNDA2Njg1MSwt
-MTY1NzQ0Njk5MywyMDU5MjcyMzkyLC0xMjYxOTQyMjc4LDQyMj
-E2NzkwOSwxNDczNTAxMDQ3LDE0NzQ0NjYyNzQsLTY0OTc5NTA3
-LC01MzU5NDA0MjksMTY0MzAxODk2Myw1MDExNTY5NTIsMTYwOT
-I2MzEyNywtNzI4MzA2MDY5LDI1NTcxNDQwOCwtMTI5ODc4NDA4
-Nl19
+eyJoaXN0b3J5IjpbLTE3ODk5NDQ3ODksMTc3ODQwMzI5NSwtMT
+I1NzAyNzgxMyw4NTg1MzEyMjIsODI4OTU5NywtMzQwNjY4NTEs
+LTE2NTc0NDY5OTMsMjA1OTI3MjM5MiwtMTI2MTk0MjI3OCw0Mj
+IxNjc5MDksMTQ3MzUwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUw
+NywtNTM1OTQwNDI5LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MD
+kyNjMxMjcsLTcyODMwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQw
+ODZdfQ==
 -->
