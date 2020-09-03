@@ -8,9 +8,7 @@
 
 [![Three different Sonos displays](https://github.com/xaviml/controllerx/raw/dev/controllerx/assets/img/sonos_displays_2.jpg)](https://github.com/xaviml/controllerx/blob/dev/controllerx/assets/img/sonos_displays_2.jpg)
 
-### [](https://github.com/xaviml/controllerx/blob/dev/docs/examples/sonos-display.md#sonossymfonisk-display-unit-with-esphome)Sonos/Symfonisk display unit with ESPHome v1.1
-
-**Changelog at last page**
+### [](https://github.com/xaviml/controllerx/blob/dev/docs/examples/sonos-display.md#sonossymfonisk-display-unit-with-esphome)Sonos/Symfonisk display unit with ESPHome
 
 [![Three different Sonos displays](https://github.com/xaviml/controllerx/raw/dev/controllerx/assets/img/sonos_displays_1.jpg)](https://github.com/xaviml/controllerx/blob/dev/controllerx/assets/img/sonos_displays_1.jpg)
 
@@ -542,7 +540,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjUxODE5NCwxNzMwNzA5ODc5LDQ1NT
+eyJoaXN0b3J5IjpbMTQ0MTM4NzcyMCwxNzMwNzA5ODc5LDQ1NT
 czMTgzNywzOTQ2NzkzMTUsNTE4NjAzNjI2LC0xMzcyMTcyNDY0
 LC0xOTU0MDI1ODAwLDQ4OTcxNDEzMywzNzM2NzA4MzAsLTE0MT
 Q3NTI5NTYsOTk1NjcxMDgyLDE3NDY0ODM2MzIsLTE3ODk5NDQ3
