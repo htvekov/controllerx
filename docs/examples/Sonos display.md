@@ -459,7 +459,7 @@ globals:
     initial_value: '0' # On first boot, value=0 initiates display.turn_on() command
 
 interval:
-  - interval: 5s
+  - interval: 5s # Show each page for 5 seconds
     then:
       - lambda: |-
           if (id(display_page) == 0) {
@@ -545,7 +545,7 @@ display:
 
 Future plans:
 - Design 2,9" E-paper display version
-- Improve/simplify templates
+- Improve/simplify HA sensor templates (if po
 - Remove need for master entity everywhere in config files
 
 Thank you Xavi for providing the perfect solution for some of my templating issues 👍😎
@@ -555,7 +555,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjcyMDk0OSwzNzM2NzA4MzAsLTE0MT
+eyJoaXN0b3J5IjpbMTc2OTQwMjg1OSwzNzM2NzA4MzAsLTE0MT
 Q3NTI5NTYsOTk1NjcxMDgyLDE3NDY0ODM2MzIsLTE3ODk5NDQ3
 ODksMTc3ODQwMzI5NSwtMTI1NzAyNzgxMyw4NTg1MzEyMjIsOD
 I4OTU5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMsMjA1OTI3MjM5
