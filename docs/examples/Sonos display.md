@@ -471,7 +471,7 @@ display:
 Improve/simplify templates
 - Remove need for master entity everywhere in config files
 - Display 'shuffle' and 'mute' sign
-- When idle, display 'stop' sign and text 'idle' when idle
+- When idle, display 'stop' sign and text 'idle'
 - Implement brightness control on display
 - Implement display on/off (via local ESPHome PIR sensor)
 - Add more information on display using a 2,9" E-ink display
@@ -484,7 +484,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MTg2NjgzMCw4NTg1MzEyMjIsODI4OT
+eyJoaXN0b3J5IjpbMTA0MDg2MzAyOCw4NTg1MzEyMjIsODI4OT
 U5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMsMjA1OTI3MjM5Miwt
 MTI2MTk0MjI3OCw0MjIxNjc5MDksMTQ3MzUwMTA0NywxNDc0ND
 Y2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5LDE2NDMwMTg5NjMs
