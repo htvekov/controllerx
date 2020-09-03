@@ -29,12 +29,12 @@ Some links examples for hardware below. These are just some random sellers I've 
 [2,42” 12864 SSD1309 OLED display](https://www.aliexpress.com/item/33024448944.html)
 (direct replacement for the much smaller 0,96” SSD1306 display and can use same library)
 
-[Wemos NodeMCU ESP8266 with integrated 0,96" OLED display](https://www.aliexpress.com/item/4000287451981.html)
+Alternatively you can use a [Wemos NodeMCU ESP8266 with integrated 0,96" OLED display](https://www.aliexpress.com/item/4000287451981.html)
 
 **Optional sensors to dim display when no movement is detected.**
-[Movement sensor 1 - RCWL 0516 Microwave Micro Wave Radar Sensor Board](https://www.aliexpress.com/item/33011567518.html)
+Movement sensor 1: [RCWL 0516 Microwave Micro Wave Radar Sensor Board](https://www.aliexpress.com/item/33011567518.html)
 
-[Movement sensor 2 - AM312 # PIR Motion Human Sensor](https://www.aliexpress.com/item/32921030810.html)
+Movement sensor 2: [AM312 # PIR Motion Human Sensor](https://www.aliexpress.com/item/32921030810.html)
 
 **One note on the SSD1309 display**<br />
 In order to get display to work with I2C instead of SPI, you need to do a bit of soldering. On the specific display type I bought, you need to bridge (short) R5 and move R4 to R3. Remember that display will NOT work unless RES is connected to RST on ESP8266 (or any available pin and controlled in ESPHome sw). Note: Display only supports 3,3v on VCC. Some have reported that display tolerates 5v. I wouldn’t take that risk, though! I’ve kept both CS and DS ‘floating’. Haven’t had any I2C address issues so far. Use pull-up/down resistors if you experience issues.
@@ -534,11 +534,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjY0NjA4MTYsNDU1NzMxODM3LDM5ND
-Y3OTMxNSw1MTg2MDM2MjYsLTEzNzIxNzI0NjQsLTE5NTQwMjU4
-MDAsNDg5NzE0MTMzLDM3MzY3MDgzMCwtMTQxNDc1Mjk1Niw5OT
-U2NzEwODIsMTc0NjQ4MzYzMiwtMTc4OTk0NDc4OSwxNzc4NDAz
-Mjk1LC0xMjU3MDI3ODEzLDg1ODUzMTIyMiw4Mjg5NTk3LC0zND
-A2Njg1MSwtMTY1NzQ0Njk5MywyMDU5MjcyMzkyLC0xMjYxOTQy
-Mjc4XX0=
+eyJoaXN0b3J5IjpbLTQ4MTQ1MDU3OSw0NTU3MzE4MzcsMzk0Nj
+c5MzE1LDUxODYwMzYyNiwtMTM3MjE3MjQ2NCwtMTk1NDAyNTgw
+MCw0ODk3MTQxMzMsMzczNjcwODMwLC0xNDE0NzUyOTU2LDk5NT
+Y3MTA4MiwxNzQ2NDgzNjMyLC0xNzg5OTQ0Nzg5LDE3Nzg0MDMy
+OTUsLTEyNTcwMjc4MTMsODU4NTMxMjIyLDgyODk1OTcsLTM0MD
+Y2ODUxLC0xNjU3NDQ2OTkzLDIwNTkyNzIzOTIsLTEyNjE5NDIy
+NzhdfQ==
 -->
