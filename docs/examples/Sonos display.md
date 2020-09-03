@@ -41,9 +41,6 @@ Display active on: Så virker PIR sensor og kan tænde og slukke displayet. Dyna
 
 Display active off: Display kan ikke tændes ved PIR action **ssd1306 ok**
 
-Shuffle symbolet er midlertidigt i linie 1. Skal det være der ?
-SKal kun bruges ved playlister så linie 1 er egentlig ok.
-
 Display:
 **display idle "stop" symbol** 
 **display Mute volume symbol**
@@ -468,11 +465,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE2NDEyNDYsLTEyNTcwMjc4MTMsOD
-U4NTMxMjIyLDgyODk1OTcsLTM0MDY2ODUxLC0xNjU3NDQ2OTkz
-LDIwNTkyNzIzOTIsLTEyNjE5NDIyNzgsNDIyMTY3OTA5LDE0Nz
-M1MDEwNDcsMTQ3NDQ2NjI3NCwtNjQ5Nzk1MDcsLTUzNTk0MDQy
-OSwxNjQzMDE4OTYzLDUwMTE1Njk1MiwxNjA5MjYzMTI3LC03Mj
-gzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0MDg2LDE3OTA0OTIw
-ODddfQ==
+eyJoaXN0b3J5IjpbMTI1MTIyMzE3NCwtMTI1NzAyNzgxMyw4NT
+g1MzEyMjIsODI4OTU5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMs
+MjA1OTI3MjM5MiwtMTI2MTk0MjI3OCw0MjIxNjc5MDksMTQ3Mz
+UwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5
+LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMxMjcsLTcyOD
+MwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQwODYsMTc5MDQ5MjA4
+N119
 -->
