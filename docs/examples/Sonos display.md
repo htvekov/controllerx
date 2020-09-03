@@ -243,8 +243,8 @@ ESPHome is at **max** with all these included sensors, schedulers running and th
 So 'tweak' YAML with care! 😁😉 
 ```yaml
 substitutions:
-  devicename: sonos_display_ssd1306
-  friendly_name: Sonos Display ssd1306
+  devicename: sonos_display
+  friendly_name: Sonos Display
   device_description: Sonos SSD1306/1309 display for Sonos groups
 
 #esphome:
@@ -262,8 +262,8 @@ wifi:
   password: "rasmus03"
   fast_connect: true # Needed for fast WiFi connect to avoid stack trace error on boot
   manual_ip:
-    static_ip: 192.168.0.71 # Enter your static IP address. Needed for fast WiFi connect to avoid stack trace error on boot 
-    gateway: 192.168.0.1 # Enter your gateway
+    static_ip: 192.168.XX.XX # Enter your static IP address. Needed for fast WiFi connect to avoid stack trace error on boot 
+    gateway: 192.168.XX.XX # Enter your gateway
     subnet: 255.255.255.0 # Enter your subnet
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
@@ -561,11 +561,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzI2MTYxMDcsLTE3ODk5NDQ3ODksMT
-c3ODQwMzI5NSwtMTI1NzAyNzgxMyw4NTg1MzEyMjIsODI4OTU5
-NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMsMjA1OTI3MjM5MiwtMT
-I2MTk0MjI3OCw0MjIxNjc5MDksMTQ3MzUwMTA0NywxNDc0NDY2
-Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5LDE2NDMwMTg5NjMsNT
-AxMTU2OTUyLDE2MDkyNjMxMjcsLTcyODMwNjA2OSwyNTU3MTQ0
-MDhdfQ==
+eyJoaXN0b3J5IjpbMTQ1MzcwMTEyOSwtMTc4OTk0NDc4OSwxNz
+c4NDAzMjk1LC0xMjU3MDI3ODEzLDg1ODUzMTIyMiw4Mjg5NTk3
+LC0zNDA2Njg1MSwtMTY1NzQ0Njk5MywyMDU5MjcyMzkyLC0xMj
+YxOTQyMjc4LDQyMjE2NzkwOSwxNDczNTAxMDQ3LDE0NzQ0NjYy
+NzQsLTY0OTc5NTA3LC01MzU5NDA0MjksMTY0MzAxODk2Myw1MD
+ExNTY5NTIsMTYwOTI2MzEyNywtNzI4MzA2MDY5LDI1NTcxNDQw
+OF19
 -->
