@@ -2,6 +2,7 @@
 
 
 ### Sonos/Symfonisk display unit with ESPHome v1.1
+**Changelog at last page**
 
 ![Three different Sonos displays](https://github.com/htvekov/controllerx/blob/master/docs/assets/img/Sonos_displays_1.jpg)
 
@@ -459,8 +460,12 @@ display:
           it.printf(64, 42, id(font_large), TextAlign::TOP_CENTER, "Out: %.1f°C", id(outdoor_temp).state);
 ```
 
-## Future improvement plans
-- Improve/simplify templates
+## Change log
+- Intitial version 
+
+
+
+Improve/simplify templates
 - Remove need for master entity everywhere in config files
 - Display 'shuffle' and 'mute' sign
 - Implement brightness control on display
@@ -475,11 +480,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4OTU5NywtMzQwNjY4NTEsLTE2NTc0ND
-Y5OTMsMjA1OTI3MjM5MiwtMTI2MTk0MjI3OCw0MjIxNjc5MDks
-MTQ3MzUwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUwNywtNTM1OT
-QwNDI5LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMxMjcs
-LTcyODMwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQwODYsMTc5MD
-Q5MjA4NywtMTY3OTg0OTEzNSwtMTQxMzU1ODI3NiwtMjA1ODk0
-NDUwMl19
+eyJoaXN0b3J5IjpbMTI3MjEwNDU5Niw4Mjg5NTk3LC0zNDA2Nj
+g1MSwtMTY1NzQ0Njk5MywyMDU5MjcyMzkyLC0xMjYxOTQyMjc4
+LDQyMjE2NzkwOSwxNDczNTAxMDQ3LDE0NzQ0NjYyNzQsLTY0OT
+c5NTA3LC01MzU5NDA0MjksMTY0MzAxODk2Myw1MDExNTY5NTIs
+MTYwOTI2MzEyNywtNzI4MzA2MDY5LDI1NTcxNDQwOCwtMTI5OD
+c4NDA4NiwxNzkwNDkyMDg3LC0xNjc5ODQ5MTM1LC0xNDEzNTU4
+Mjc2XX0=
 -->
