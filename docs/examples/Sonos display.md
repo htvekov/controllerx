@@ -30,12 +30,6 @@ Opdater med dynamisk brightness(display_name): 0-1 (float med decimaler) **done 
 
 Husk at nævne eksempel med flash light ved Sonos reset to default.
 
-backly i ESPHome sender ikke on/off display hvis den ikke selv har skiftet state !! Altså kørt en full cycle ?? OMskrevet for længst. **Check om det er ok nu ?**
-
-**Mangler:**
-Condition for display content with PIR & Sonos active playing (skal tage højde for at PIR er optional) Burde ikke være nødvendigt, men husk at sætte display on ved ESP opstart. virker pt. ssd1306 ok.
-
-
 Add needed ESPHome version. Dev. at the moment!!
 
 Virker nu via tweaks. Sæt i2c speed to min. 100khz (her 200khz)
@@ -482,7 +476,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDkwMzc4MywtMTI1NzAyNzgxMyw4NT
+eyJoaXN0b3J5IjpbLTEzNDQyMjk3NywtMTI1NzAyNzgxMyw4NT
 g1MzEyMjIsODI4OTU5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMs
 MjA1OTI3MjM5MiwtMTI2MTk0MjI3OCw0MjIxNjc5MDksMTQ3Mz
 UwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5
