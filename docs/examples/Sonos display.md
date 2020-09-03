@@ -462,7 +462,8 @@ display:
 
 ## Change log
 - Intitial version published June, 2020
-- Added sensor for auto dimming & display on/off
+- v1.1 published September, 2020
+- Added sensor for brightness control & display on/off
 - Added 'shuffle' & 'mute' signs
 
 
@@ -482,11 +483,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4NTMxMjIyLDgyODk1OTcsLTM0MDY2OD
-UxLC0xNjU3NDQ2OTkzLDIwNTkyNzIzOTIsLTEyNjE5NDIyNzgs
-NDIyMTY3OTA5LDE0NzM1MDEwNDcsMTQ3NDQ2NjI3NCwtNjQ5Nz
-k1MDcsLTUzNTk0MDQyOSwxNjQzMDE4OTYzLDUwMTE1Njk1Miwx
-NjA5MjYzMTI3LC03MjgzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nz
-g0MDg2LDE3OTA0OTIwODcsLTE2Nzk4NDkxMzUsLTE0MTM1NTgy
-NzZdfQ==
+eyJoaXN0b3J5IjpbLTU0OTEwNTUzMCw4NTg1MzEyMjIsODI4OT
+U5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMsMjA1OTI3MjM5Miwt
+MTI2MTk0MjI3OCw0MjIxNjc5MDksMTQ3MzUwMTA0NywxNDc0ND
+Y2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5LDE2NDMwMTg5NjMs
+NTAxMTU2OTUyLDE2MDkyNjMxMjcsLTcyODMwNjA2OSwyNTU3MT
+Q0MDgsLTEyOTg3ODQwODYsMTc5MDQ5MjA4NywtMTY3OTg0OTEz
+NV19
 -->
