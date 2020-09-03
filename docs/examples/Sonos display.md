@@ -57,8 +57,8 @@ In order to get display to work with I2C instead of SPI, you need to do a bit of
 My current display setup consists of four pages that all are displayed for 5 seconds.
 Following information is displayed on the screen:
 
-**All pages:** Source (if not present, display ‘Sonos/Playlist’)
-						volume setting and play/pause/idle status. Also displays mute sign and shuffle sign 
+**All pages:** Source (if not present, display ‘Sonos/Playlist’), mute sign,
+						volume setting and play/pause/idle status. Also displays 'shuffle on' sign f
 
 **Page 1:** Active master/slave speakers.
 
@@ -533,11 +533,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg1MTY2MzYsNTI1NDg5MzI1LDE3Mz
-A3MDk4NzksNDU1NzMxODM3LDM5NDY3OTMxNSw1MTg2MDM2MjYs
-LTEzNzIxNzI0NjQsLTE5NTQwMjU4MDAsNDg5NzE0MTMzLDM3Mz
-Y3MDgzMCwtMTQxNDc1Mjk1Niw5OTU2NzEwODIsMTc0NjQ4MzYz
-MiwtMTc4OTk0NDc4OSwxNzc4NDAzMjk1LC0xMjU3MDI3ODEzLD
-g1ODUzMTIyMiw4Mjg5NTk3LC0zNDA2Njg1MSwtMTY1NzQ0Njk5
-M119
+eyJoaXN0b3J5IjpbODcxNDkyNzU4LDUyNTQ4OTMyNSwxNzMwNz
+A5ODc5LDQ1NTczMTgzNywzOTQ2NzkzMTUsNTE4NjAzNjI2LC0x
+MzcyMTcyNDY0LC0xOTU0MDI1ODAwLDQ4OTcxNDEzMywzNzM2Nz
+A4MzAsLTE0MTQ3NTI5NTYsOTk1NjcxMDgyLDE3NDY0ODM2MzIs
+LTE3ODk5NDQ3ODksMTc3ODQwMzI5NSwtMTI1NzAyNzgxMyw4NT
+g1MzEyMjIsODI4OTU5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTNd
+fQ==
 -->
