@@ -11,7 +11,7 @@ Using ControllerX - Controlling your Sonos speakers have never been easier 😎 
 All it takes is an ESP8266 with ESPHome software, an appropriate display, a handfull (well actually 2 handfulls and then some) of HA sensors and you’re all set to go 🚀 ESPHome is a system framework for ESP8266 units that has support for several I2C OLED/E-ink display types and numerous sensors, has direct HA integration via add-on and easy, yet powerful YAML configuration. Read more about ESPHome and how to set it up in HA here: https://esphome.io/
 
 Current v1.1 uses newly merged display on/off and brightness commands.
-
+Use ESPHome version 1.16.0-dev until 
 
 
 ### Hardware:
@@ -563,11 +563,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQwMjU4MDAsNDg5NzE0MTMzLDM3Mz
-Y3MDgzMCwtMTQxNDc1Mjk1Niw5OTU2NzEwODIsMTc0NjQ4MzYz
-MiwtMTc4OTk0NDc4OSwxNzc4NDAzMjk1LC0xMjU3MDI3ODEzLD
-g1ODUzMTIyMiw4Mjg5NTk3LC0zNDA2Njg1MSwtMTY1NzQ0Njk5
-MywyMDU5MjcyMzkyLC0xMjYxOTQyMjc4LDQyMjE2NzkwOSwxND
-czNTAxMDQ3LDE0NzQ0NjYyNzQsLTY0OTc5NTA3LC01MzU5NDA0
-MjldfQ==
+eyJoaXN0b3J5IjpbLTEzNzIxNzI0NjQsLTE5NTQwMjU4MDAsND
+g5NzE0MTMzLDM3MzY3MDgzMCwtMTQxNDc1Mjk1Niw5OTU2NzEw
+ODIsMTc0NjQ4MzYzMiwtMTc4OTk0NDc4OSwxNzc4NDAzMjk1LC
+0xMjU3MDI3ODEzLDg1ODUzMTIyMiw4Mjg5NTk3LC0zNDA2Njg1
+MSwtMTY1NzQ0Njk5MywyMDU5MjcyMzkyLC0xMjYxOTQyMjc4LD
+QyMjE2NzkwOSwxNDczNTAxMDQ3LDE0NzQ0NjYyNzQsLTY0OTc5
+NTA3XX0=
 -->
