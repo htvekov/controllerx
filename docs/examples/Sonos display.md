@@ -467,7 +467,7 @@ display:
 - Added 'shuffle' & 'mute' signs
 - When idle, display 'stop' sign and text 'idle'
 - Revised display lambda
-- 4 HA sensors: Connnected, 
+- 4 HA sensors: Status, 
 
 Improve/simplify templates
 - Remove need for master entity everywhere in config files
@@ -485,7 +485,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI5MzI0MjIsODU4NTMxMjIyLDgyOD
+eyJoaXN0b3J5IjpbLTEyNTcwMjc4MTMsODU4NTMxMjIyLDgyOD
 k1OTcsLTM0MDY2ODUxLC0xNjU3NDQ2OTkzLDIwNTkyNzIzOTIs
 LTEyNjE5NDIyNzgsNDIyMTY3OTA5LDE0NzM1MDEwNDcsMTQ3ND
 Q2NjI3NCwtNjQ5Nzk1MDcsLTUzNTk0MDQyOSwxNjQzMDE4OTYz
