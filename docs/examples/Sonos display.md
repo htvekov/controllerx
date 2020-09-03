@@ -463,10 +463,11 @@ display:
 ## Change log
 - Intitial version published June, 2020
 - v1.1 published September, 2020
-- Added sensor for brightness control & display on/off
+- Added optional sensor for brightness control & display on/off
 - Added 'shuffle' & 'mute' signs
 - When idle, display 'stop' sign and text 'idle'
-
+- Revised display lambda
+- 4 HA sensors: Connnected, 
 
 Improve/simplify templates
 - Remove need for master entity everywhere in config files
@@ -484,11 +485,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjA4NDA1Niw4NTg1MzEyMjIsODI4OT
-U5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMsMjA1OTI3MjM5Miwt
-MTI2MTk0MjI3OCw0MjIxNjc5MDksMTQ3MzUwMTA0NywxNDc0ND
-Y2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5LDE2NDMwMTg5NjMs
-NTAxMTU2OTUyLDE2MDkyNjMxMjcsLTcyODMwNjA2OSwyNTU3MT
-Q0MDgsLTEyOTg3ODQwODYsMTc5MDQ5MjA4NywtMTY3OTg0OTEz
-NV19
+eyJoaXN0b3J5IjpbLTEwOTI5MzI0MjIsODU4NTMxMjIyLDgyOD
+k1OTcsLTM0MDY2ODUxLC0xNjU3NDQ2OTkzLDIwNTkyNzIzOTIs
+LTEyNjE5NDIyNzgsNDIyMTY3OTA5LDE0NzM1MDEwNDcsMTQ3ND
+Q2NjI3NCwtNjQ5Nzk1MDcsLTUzNTk0MDQyOSwxNjQzMDE4OTYz
+LDUwMTE1Njk1MiwxNjA5MjYzMTI3LC03MjgzMDYwNjksMjU1Nz
+E0NDA4LC0xMjk4Nzg0MDg2LDE3OTA0OTIwODcsLTE2Nzk4NDkx
+MzVdfQ==
 -->
