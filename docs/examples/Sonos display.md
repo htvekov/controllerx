@@ -44,14 +44,6 @@ Display active off: Display kan ikke tændes ved PIR action **ssd1306 ok**
 Shuffle symbolet er midlertidigt i linie 1. Skal det være der ?
 SKal kun bruges ved playlister så linie 1 er egentlig ok.
 
-
-**Færdig implementeret:**
-**HA sensors:**
-display active PIR  (on/off) eller bare display on/off hvis ingen PIR
-HA connected status
-Wifi strength
-reboot ESP
-
 Display:
 **display idle "stop" symbol** 
 **display Mute volume symbol**
@@ -461,7 +453,7 @@ display:
 - Added 'shuffle' & 'mute' signs
 - When idle, display 'stop' sign and text 'idle'
 - Revised display lambda page code
-- 4 HA sensors: Connected status, WiFi strength, Display on/off & PIR 
+- 4 sensors exposed in HA: Connected status, WiFi strength, Display on/off & PIR 
 
 Improve/simplify templates
 - Remove need for master entity everywhere in config files
@@ -476,11 +468,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQyMjk3NywtMTI1NzAyNzgxMyw4NT
-g1MzEyMjIsODI4OTU5NywtMzQwNjY4NTEsLTE2NTc0NDY5OTMs
-MjA1OTI3MjM5MiwtMTI2MTk0MjI3OCw0MjIxNjc5MDksMTQ3Mz
-UwMTA0NywxNDc0NDY2Mjc0LC02NDk3OTUwNywtNTM1OTQwNDI5
-LDE2NDMwMTg5NjMsNTAxMTU2OTUyLDE2MDkyNjMxMjcsLTcyOD
-MwNjA2OSwyNTU3MTQ0MDgsLTEyOTg3ODQwODYsMTc5MDQ5MjA4
-N119
+eyJoaXN0b3J5IjpbLTE0NTE2NDEyNDYsLTEyNTcwMjc4MTMsOD
+U4NTMxMjIyLDgyODk1OTcsLTM0MDY2ODUxLC0xNjU3NDQ2OTkz
+LDIwNTkyNzIzOTIsLTEyNjE5NDIyNzgsNDIyMTY3OTA5LDE0Nz
+M1MDEwNDcsMTQ3NDQ2NjI3NCwtNjQ5Nzk1MDcsLTUzNTk0MDQy
+OSwxNjQzMDE4OTYzLDUwMTE1Njk1MiwxNjA5MjYzMTI3LC03Mj
+gzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0MDg2LDE3OTA0OTIw
+ODddfQ==
 -->
