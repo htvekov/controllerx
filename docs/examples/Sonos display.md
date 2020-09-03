@@ -448,6 +448,8 @@ display:
 - Revised display lambda page code
 - 4 sensors exposed in HA: Connected status, WiFi strength, Display on/off & PIR 
 
+Future plans:
+- Release 
 Improve/simplify templates
 - Remove need for master entity everywhere in config files
 
@@ -457,15 +459,16 @@ Improve/simplify templates
 
 Thank you Xavi for providing the perfect solution for some of my templating issues 👍😎
 
+September, 2020
 _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Mzg0MzY2NywxNzc4NDAzMjk1LC0xMj
-U3MDI3ODEzLDg1ODUzMTIyMiw4Mjg5NTk3LC0zNDA2Njg1MSwt
-MTY1NzQ0Njk5MywyMDU5MjcyMzkyLC0xMjYxOTQyMjc4LDQyMj
-E2NzkwOSwxNDczNTAxMDQ3LDE0NzQ0NjYyNzQsLTY0OTc5NTA3
-LC01MzU5NDA0MjksMTY0MzAxODk2Myw1MDExNTY5NTIsMTYwOT
-I2MzEyNywtNzI4MzA2MDY5LDI1NTcxNDQwOCwtMTI5ODc4NDA4
-Nl19
+eyJoaXN0b3J5IjpbMjg4OTg2ODY3LDE3Nzg0MDMyOTUsLTEyNT
+cwMjc4MTMsODU4NTMxMjIyLDgyODk1OTcsLTM0MDY2ODUxLC0x
+NjU3NDQ2OTkzLDIwNTkyNzIzOTIsLTEyNjE5NDIyNzgsNDIyMT
+Y3OTA5LDE0NzM1MDEwNDcsMTQ3NDQ2NjI3NCwtNjQ5Nzk1MDcs
+LTUzNTk0MDQyOSwxNjQzMDE4OTYzLDUwMTE1Njk1MiwxNjA5Mj
+YzMTI3LC03MjgzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nzg0MDg2
+XX0=
 -->
