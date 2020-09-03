@@ -58,7 +58,7 @@ My current display setup consists of four pages that all are displayed for 5 sec
 Following information is displayed on the screen:
 
 **All pages:** Source (if not present, display ‘Sonos/Playlist’)
-						volume setting and play/pause/idle status.
+						volume setting and play/pause/idle status. Also displays mute sign and shuffle sign 
 
 **Page 1:** Active master/slave speakers.
 
@@ -533,11 +533,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDU0MTk3OSw1MjU0ODkzMjUsMTczMD
-cwOTg3OSw0NTU3MzE4MzcsMzk0Njc5MzE1LDUxODYwMzYyNiwt
-MTM3MjE3MjQ2NCwtMTk1NDAyNTgwMCw0ODk3MTQxMzMsMzczNj
-cwODMwLC0xNDE0NzUyOTU2LDk5NTY3MTA4MiwxNzQ2NDgzNjMy
-LC0xNzg5OTQ0Nzg5LDE3Nzg0MDMyOTUsLTEyNTcwMjc4MTMsOD
-U4NTMxMjIyLDgyODk1OTcsLTM0MDY2ODUxLC0xNjU3NDQ2OTkz
-XX0=
+eyJoaXN0b3J5IjpbLTExNDg1MTY2MzYsNTI1NDg5MzI1LDE3Mz
+A3MDk4NzksNDU1NzMxODM3LDM5NDY3OTMxNSw1MTg2MDM2MjYs
+LTEzNzIxNzI0NjQsLTE5NTQwMjU4MDAsNDg5NzE0MTMzLDM3Mz
+Y3MDgzMCwtMTQxNDc1Mjk1Niw5OTU2NzEwODIsMTc0NjQ4MzYz
+MiwtMTc4OTk0NDc4OSwxNzc4NDAzMjk1LC0xMjU3MDI3ODEzLD
+g1ODUzMTIyMiw4Mjg5NTk3LC0zNDA2Njg1MSwtMTY1NzQ0Njk5
+M119
 -->
