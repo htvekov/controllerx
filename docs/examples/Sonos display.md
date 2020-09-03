@@ -461,7 +461,9 @@ display:
 ```
 
 ## Change log
-- Intitial version 
+- Intitial version published June, 2020
+- Added sensor for auto dimming & display on/off
+- Added 
 
 
 
@@ -480,11 +482,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjEwNDU5Niw4Mjg5NTk3LC0zNDA2Nj
-g1MSwtMTY1NzQ0Njk5MywyMDU5MjcyMzkyLC0xMjYxOTQyMjc4
-LDQyMjE2NzkwOSwxNDczNTAxMDQ3LDE0NzQ0NjYyNzQsLTY0OT
-c5NTA3LC01MzU5NDA0MjksMTY0MzAxODk2Myw1MDExNTY5NTIs
-MTYwOTI2MzEyNywtNzI4MzA2MDY5LDI1NTcxNDQwOCwtMTI5OD
-c4NDA4NiwxNzkwNDkyMDg3LC0xNjc5ODQ5MTM1LC0xNDEzNTU4
-Mjc2XX0=
+eyJoaXN0b3J5IjpbOTQwNTM2NTY4LDgyODk1OTcsLTM0MDY2OD
+UxLC0xNjU3NDQ2OTkzLDIwNTkyNzIzOTIsLTEyNjE5NDIyNzgs
+NDIyMTY3OTA5LDE0NzM1MDEwNDcsMTQ3NDQ2NjI3NCwtNjQ5Nz
+k1MDcsLTUzNTk0MDQyOSwxNjQzMDE4OTYzLDUwMTE1Njk1Miwx
+NjA5MjYzMTI3LC03MjgzMDYwNjksMjU1NzE0NDA4LC0xMjk4Nz
+g0MDg2LDE3OTA0OTIwODcsLTE2Nzk4NDkxMzUsLTE0MTM1NTgy
+NzZdfQ==
 -->
