@@ -1,31 +1,9 @@
 [![Three different Sonos displays](https://github.com/xaviml/controllerx/raw/dev/controllerx/assets/img/sonos_displays_2.jpg)](https://github.com/xaviml/controllerx/blob/dev/controllerx/assets/img/sonos_displays_2.jpg)
 
 ### [](https://github.com/xaviml/controllerx/blob/dev/docs/examples/sonos-display.md#sonossymfonisk-display-unit-with-esphome)Sonos/Symfonisk display unit with ESPHome v1.1
-Changelog at last page
-
-[![Three different Sonos displays](https://github.com/xaviml/controllerx/raw/dev/controllerx/assets/img/sonos_displays_1.jpg)](https://github.com/xaviml/controllerx/blob/dev/controllerx/assets/img/sonos_displays_1.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Sonos/Symfonisk display unit with ESPHome v1.1
 **Changelog at last page**
 
-![Three different Sonos displays](https://github.com/htvekov/controllerx/blob/master/docs/assets/img/Sonos_displays_1.jpg)
-
+[![Three different Sonos displays](https://github.com/xaviml/controllerx/raw/dev/controllerx/assets/img/sonos_displays_1.jpg)](https://github.com/xaviml/controllerx/blob/dev/controllerx/assets/img/sonos_displays_1.jpg)
 
 Using ControllerX - Controlling your Sonos speakers have never been easier 😎 But the occasional wish for a visual check on what’s actually playing, volume setting, media artist/title, active speakers in group etc. is still there 👀 Leaving you with no other choice than adding a display integration as the obvious solution for this need 😉
 
@@ -555,11 +533,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc0NDMwNDQsMTczMDcwOTg3OSw0NT
-U3MzE4MzcsMzk0Njc5MzE1LDUxODYwMzYyNiwtMTM3MjE3MjQ2
-NCwtMTk1NDAyNTgwMCw0ODk3MTQxMzMsMzczNjcwODMwLC0xND
-E0NzUyOTU2LDk5NTY3MTA4MiwxNzQ2NDgzNjMyLC0xNzg5OTQ0
-Nzg5LDE3Nzg0MDMyOTUsLTEyNTcwMjc4MTMsODU4NTMxMjIyLD
-gyODk1OTcsLTM0MDY2ODUxLC0xNjU3NDQ2OTkzLDIwNTkyNzIz
-OTJdfQ==
+eyJoaXN0b3J5IjpbNTI1NDg5MzI1LDE3MzA3MDk4NzksNDU1Nz
+MxODM3LDM5NDY3OTMxNSw1MTg2MDM2MjYsLTEzNzIxNzI0NjQs
+LTE5NTQwMjU4MDAsNDg5NzE0MTMzLDM3MzY3MDgzMCwtMTQxND
+c1Mjk1Niw5OTU2NzEwODIsMTc0NjQ4MzYzMiwtMTc4OTk0NDc4
+OSwxNzc4NDAzMjk1LC0xMjU3MDI3ODEzLDg1ODUzMTIyMiw4Mj
+g5NTk3LC0zNDA2Njg1MSwtMTY1NzQ0Njk5MywyMDU5MjcyMzky
+XX0=
 -->
