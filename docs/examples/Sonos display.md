@@ -36,7 +36,7 @@ Movement sensor 1: [RCWL 0516 Microwave Micro Wave Radar Sensor Board](https://w
 Movement sensor 2: [AM312 # PIR Motion Human Sensor](https://www.aliexpress.com/item/32921030810.html)
 
 **One note on the SSD1309 display**<br />
-In order to get display to work with I2C instead of SPI, you need to do a bit of soldering. On the specific display type I bought, you need to bridge (short) R5 and move R4 to R3. Remember that display will NOT work unless RES is connected to RST on ESP8266 (or any available pin and controlled in ESPHome sw). Note: Display only supports 3,3v on VCC. Some have reported that display tolerates 5v. I wouldn’t take that risk, though! I’ve kept both CS and DS ‘floating’. Haven’t had any I2C address issues so far. Use pull-up/down resistors if you experience issues.
+In order to get display to work with I2C instead of SPI, you need to do a bit of soldering. On the specific display type I bought, you need to bridge (short) R5 and move R4 to R3. Remember that display will NOT work unless RES is connected to RST on ESP8266 (or any available pin and controlled in ESPHome sw). Note: Display only supports 3,3v on VCC. Some have reported that display tolerates 5v (some might). I wouldn’t take that risk, though! I’ve kept both CS and DS ‘floating’. Haven’t had any I2C address issues so far. Use pull-up/down resistors if you experience issues.
 
 **Connections:**
 **SSD1306/1309 --> Wemos D1 mini**
@@ -533,7 +533,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjA5MzcwNSw1MjU0ODkzMjUsMTczMD
+eyJoaXN0b3J5IjpbLTQxMDU0MTk3OSw1MjU0ODkzMjUsMTczMD
 cwOTg3OSw0NTU3MzE4MzcsMzk0Njc5MzE1LDUxODYwMzYyNiwt
 MTM3MjE3MjQ2NCwtMTk1NDAyNTgwMCw0ODk3MTQxMzMsMzczNj
 cwODMwLC0xNDE0NzUyOTU2LDk5NTY3MTA4MiwxNzQ2NDgzNjMy
