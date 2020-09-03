@@ -236,7 +236,7 @@ If you're not using a movement sensor in your build, you could, but actually don
 Two entities needs to be entered. Your Sonos master speaker and optional temperature sensor.
 If temperature sensor is omitted, you can just delete page 3 & 4 from the display configuration.
 
-Revise  `sonos_status` and `outdoor_temp` sensors in YAML below, to match your HA entities for Sonos master speaker and outdoor temperature sensor. Create a new ESPHome node and configure it with your WiFi credentials. Edit node and copy/paste revised YAML below (from `time:` and onwards) to your node. Save it, upload and enjoy! 🎉😎
+Revise  `sonos_status` and `outdoor_temp` sensors in YAML below, to match your HA entities for Sonos master speaker and outdoor temperature sensor. Create a new ESPHome node and configure it with your ESP8266 board settings and WiFi credentials. Edit node and copy/paste revised YAML below to your node. Paste  Save it, upload and enjoy! 🎉😎
 
 **One final note on current YAML configuration**
 ESPHome is at **max** with all these included sensors, schedulers running and the quite extensive display lambda. Addding just one extra sensor to current YAML, will make ESPHome crash on boot. Omitting  `fast_connect: true`from WiFi configuration in YAML will also send ESPHome into an eternal stack trace error boot loop 🚀💀 
@@ -556,11 +556,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczNjcwODMwLC0xNDE0NzUyOTU2LDk5NT
-Y3MTA4MiwxNzQ2NDgzNjMyLC0xNzg5OTQ0Nzg5LDE3Nzg0MDMy
-OTUsLTEyNTcwMjc4MTMsODU4NTMxMjIyLDgyODk1OTcsLTM0MD
-Y2ODUxLC0xNjU3NDQ2OTkzLDIwNTkyNzIzOTIsLTEyNjE5NDIy
-NzgsNDIyMTY3OTA5LDE0NzM1MDEwNDcsMTQ3NDQ2NjI3NCwtNj
-Q5Nzk1MDcsLTUzNTk0MDQyOSwxNjQzMDE4OTYzLDUwMTE1Njk1
-Ml19
+eyJoaXN0b3J5IjpbMTQ5Mjg3NzkyLDM3MzY3MDgzMCwtMTQxND
+c1Mjk1Niw5OTU2NzEwODIsMTc0NjQ4MzYzMiwtMTc4OTk0NDc4
+OSwxNzc4NDAzMjk1LC0xMjU3MDI3ODEzLDg1ODUzMTIyMiw4Mj
+g5NTk3LC0zNDA2Njg1MSwtMTY1NzQ0Njk5MywyMDU5MjcyMzky
+LC0xMjYxOTQyMjc4LDQyMjE2NzkwOSwxNDczNTAxMDQ3LDE0Nz
+Q0NjYyNzQsLTY0OTc5NTA3LC01MzU5NDA0MjksMTY0MzAxODk2
+M119
 -->
