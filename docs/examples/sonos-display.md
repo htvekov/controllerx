@@ -434,7 +434,7 @@ globals:
   - id: display_page
     type: int
     restore_value: no
-    initial_value: '0' # On first boot, value=0 initiates display.turn_on() command
+    initial_value: '0' # On first boot, value=0 initiates display.turn_on() command. Can't run as on_boot command
 
 interval:
   - interval: 5s # Show each page for 5 seconds
@@ -537,6 +537,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEyOTk4MDIsLTE0OTA3ODU5MiwtMj
-M5NjUxOTY1LC0xMzQ1OTUyNzI4LDkzNzgzNTc4NV19
+eyJoaXN0b3J5IjpbMTQwMzE5MTY3LC0xNDkwNzg1OTIsLTIzOT
+Y1MTk2NSwtMTM0NTk1MjcyOCw5Mzc4MzU3ODVdfQ==
 -->
