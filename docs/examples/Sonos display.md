@@ -32,6 +32,7 @@ Some links examples for hardware below. These are just some random sellers I've 
 Alternatively you can use a [Wemos NodeMCU ESP8266 with integrated 0,96" OLED display](https://www.aliexpress.com/item/4000287451981.html)
 
 **Optional sensors to dim display when no movement is detected.**
+
 Movement sensor 1: [RCWL 0516 Microwave Micro Wave Radar Sensor Board](https://www.aliexpress.com/item/33011567518.html)
 
 Movement sensor 2: [AM312 # PIR Motion Human Sensor](https://www.aliexpress.com/item/32921030810.html)
@@ -535,11 +536,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5MjgxMDUxLC00ODA2OTg4NjEsLTM2ND
-g1OTU2Nyw1MjU0ODkzMjUsMTczMDcwOTg3OSw0NTU3MzE4Mzcs
-Mzk0Njc5MzE1LDUxODYwMzYyNiwtMTM3MjE3MjQ2NCwtMTk1ND
-AyNTgwMCw0ODk3MTQxMzMsMzczNjcwODMwLC0xNDE0NzUyOTU2
-LDk5NTY3MTA4MiwxNzQ2NDgzNjMyLC0xNzg5OTQ0Nzg5LDE3Nz
-g0MDMyOTUsLTEyNTcwMjc4MTMsODU4NTMxMjIyLDgyODk1OTdd
-fQ==
+eyJoaXN0b3J5IjpbOTM3ODM1Nzg1LDgwOTI4MTA1MSwtNDgwNj
+k4ODYxLC0zNjQ4NTk1NjcsNTI1NDg5MzI1LDE3MzA3MDk4Nzks
+NDU1NzMxODM3LDM5NDY3OTMxNSw1MTg2MDM2MjYsLTEzNzIxNz
+I0NjQsLTE5NTQwMjU4MDAsNDg5NzE0MTMzLDM3MzY3MDgzMCwt
+MTQxNDc1Mjk1Niw5OTU2NzEwODIsMTc0NjQ4MzYzMiwtMTc4OT
+k0NDc4OSwxNzc4NDAzMjk1LC0xMjU3MDI3ODEzLDg1ODUzMTIy
+Ml19
 -->
