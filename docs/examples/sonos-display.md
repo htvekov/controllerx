@@ -375,7 +375,7 @@ binary_sensor:
     id: dim_display
     filters:
       - delayed_off: 5min # Dim display after 5 minutes
-    on_press:
+    on_press: 
       then:
       - lambda: |-
           if (id(sonos_display).state == true) {
@@ -537,6 +537,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA3ODU5MiwtMjM5NjUxOTY1LC0xMz
-Q1OTUyNzI4LDkzNzgzNTc4NV19
+eyJoaXN0b3J5IjpbOTEyNTU5MzQyLC0xNDkwNzg1OTIsLTIzOT
+Y1MTk2NSwtMTM0NTk1MjcyOCw5Mzc4MzU3ODVdfQ==
 -->
