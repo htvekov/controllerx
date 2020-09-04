@@ -11,6 +11,7 @@ All it takes is an ESP8266 with ESPHome software, an appropriate display, a hand
 
 **Current v1.1 display code uses newly merged display on/off and brightness commands. Use ESPHome version [1.15.0b4](https://github.com/esphome/esphome/releases/tag/v1.15.0b4) or newer !**
 
+YAML has been tested on both NodemCU and Wemos 
 
 ### Hardware:
 I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLED display for this build. Resolution is only 128x64. But still enough, when using several pages to be displayed continously. The SSD1306 has a 'big brother' in the SSD1309 display. This display has identical resolution as SSD1306, is priced at some 14 US$, can use same drivers/library as SSD1306 but is much, much larger at 2,42". I really like this good sized and simple I2C display and ended up using this display in the final build, as it's much easier to read from a distance 🙂
@@ -534,11 +535,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDg1OTU2Nyw1MjU0ODkzMjUsMTczMD
-cwOTg3OSw0NTU3MzE4MzcsMzk0Njc5MzE1LDUxODYwMzYyNiwt
-MTM3MjE3MjQ2NCwtMTk1NDAyNTgwMCw0ODk3MTQxMzMsMzczNj
-cwODMwLC0xNDE0NzUyOTU2LDk5NTY3MTA4MiwxNzQ2NDgzNjMy
-LC0xNzg5OTQ0Nzg5LDE3Nzg0MDMyOTUsLTEyNTcwMjc4MTMsOD
-U4NTMxMjIyLDgyODk1OTcsLTM0MDY2ODUxLC0xNjU3NDQ2OTkz
-XX0=
+eyJoaXN0b3J5IjpbLTgzNDkyNjIyNCwtMzY0ODU5NTY3LDUyNT
+Q4OTMyNSwxNzMwNzA5ODc5LDQ1NTczMTgzNywzOTQ2NzkzMTUs
+NTE4NjAzNjI2LC0xMzcyMTcyNDY0LC0xOTU0MDI1ODAwLDQ4OT
+cxNDEzMywzNzM2NzA4MzAsLTE0MTQ3NTI5NTYsOTk1NjcxMDgy
+LDE3NDY0ODM2MzIsLTE3ODk5NDQ3ODksMTc3ODQwMzI5NSwtMT
+I1NzAyNzgxMyw4NTg1MzEyMjIsODI4OTU5NywtMzQwNjY4NTFd
+fQ==
 -->
