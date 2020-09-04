@@ -375,14 +375,14 @@ binary_sensor:
     id: dim_display
     filters:
       - delayed_off: 5min # Dim display after 5 minutes
-    on_press: 
+    on_press: # brightness is float (from 0 to 1). 1 = 100%
       then:
       - lambda: |-
           if (id(sonos_display).state == true) {
             id(sonos).turn_on();
             id(sonos).set_brightness(1);
           }
-    on_release:
+    on_release: # brightness is float (from 0 to 1). 0.01 = 1%
       then:
       - lambda: |-
           id(sonos).set_brightness(0.01);
@@ -537,6 +537,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyNTU5MzQyLC0xNDkwNzg1OTIsLTIzOT
-Y1MTk2NSwtMTM0NTk1MjcyOCw5Mzc4MzU3ODVdfQ==
+eyJoaXN0b3J5IjpbLTEwMjEyOTk4MDIsLTE0OTA3ODU5MiwtMj
+M5NjUxOTY1LC0xMzQ1OTUyNzI4LDkzNzgzNTc4NV19
 -->
