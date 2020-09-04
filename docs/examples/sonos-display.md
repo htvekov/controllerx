@@ -80,7 +80,7 @@ Calibri TTF fonts [link](https://www.fontdload.com/dl/calibri-font/)
 
 Heydings Icons special file [link](https://github.com/xaviml/controllerx/blob/dev/controllerx/assets/img/HeydingsIconsSymbols.ttf)
 
-Copy Calibri Bold, Calibri Regular, Calibri Light fonts plus the special Heydings Icons font file to the ESPHome folder `/config/esphome/`
+Copy Calibri Bold, Calibri Regular, Calibri Light fonts plus the special Heydings Icons Symbols font file to the ESPHome folder `/config/esphome/`
 
 ### Home Assistant sensors:
 Below you’ll find the HA template sensors needed in `configuration.yaml `for ESPHome display to work. ESPHome will establish some four HA sensors as well, presented on HA frontend: PIR sensor, connection status, WiFi strength and display on/off sensor. If display on/off is turned off from HA, then triggering PIR will not turn on display or alter brightness.
@@ -536,5 +536,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDU5NTI3MjgsOTM3ODM1Nzg1XX0=
+eyJoaXN0b3J5IjpbLTIzOTY1MTk2NSwtMTM0NTk1MjcyOCw5Mz
+c4MzU3ODVdfQ==
 -->
