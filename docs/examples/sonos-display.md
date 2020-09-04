@@ -216,6 +216,7 @@ Revise  `sonos_status` and `outdoor_temp` sensors in YAML below, to match your H
 
 **One final note on current YAML configuration**
 ESPHome is at **max** with all these included sensors, schedulers running and the quite extensive display lambda. Addding just one extra sensor to current YAML, will make ESPHome crash on boot. Omitting  `fast_connect: true`from WiFi configuration in YAML will also send ESPHome into an eternal stack trace error boot loop 🚀💀 
+
 So 'tweak' YAML with care! 😁😉 
 ```yaml
 substitutions:
@@ -536,6 +537,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjgxNjc1NzAsLTIzOTY1MTk2NSwtMT
-M0NTk1MjcyOCw5Mzc4MzU3ODVdfQ==
+eyJoaXN0b3J5IjpbLTg3Nzg5MzY2OCwtMjM5NjUxOTY1LC0xMz
+Q1OTUyNzI4LDkzNzgzNTc4NV19
 -->
