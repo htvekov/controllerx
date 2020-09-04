@@ -18,9 +18,9 @@ I initially used the simple and inexpensive (less than 2 US$ ) SSD1306 0,96" OLE
 
 An optional PIR sensor or microwave radar sensor can be added for automatic dimming (brightness control) and turning the display on/off completely. The RCWL 0516 sensor is cheap, but can be somewhat difficult to use in 'tight' builds as it's somewhat sensitive to many things - WiFi in particular. So you could experience some false triggers using this sensor if fitted very close to the ESP8266. AM 312 is a cheap and simple 'no nonsense' PIR sensor that just always works as expected. Sensor can also be used for other purposes as well in HA 🙂 Sensor is configured in YAML using pin D5 (GPIO14). Display is set to dim down after 5 minutes with no PIR triggers and completely off after additional 10 minutes without registered movement.
 
-Please note that (at least on my display version) SSD1309 display can't be turned completely off with `id(display_id).set_brightness(0)`  command, but this works perfectly on my SSD1306 display. Instead SSD1309 has to be turned on/off with specific `id(display_id).turn_on()`/`id(display_id).turn_off()` commands. Check what works on your display and revise implementation method/ESPHome yaml config code accordingly.
+Please note that (at least on my display version) SSD1309 display can't be turned completely off with `id(display_id).set_brightness(0)`  command, but this works perfectly on my SSD1306 display. Instead SSD1309 has to be turned on/off with specific `id(display_id).turn_on()`/`id(display_id).turn_off()` commands. Check what works on **your** display and revise implementation method/ESPHome yaml config code accordingly.
 
-Some links examples for hardware below. These are just some random sellers I've picked. Not necessarily the cheapest or best sellers.
+I've collected some hardware link examples below. These are just some random sellers I've picked. Not necessarily the cheapest or best sellers.
 
 [Wemos D1 mini – ESP8266](https://www.aliexpress.com/item/32845253497.html)
 
@@ -536,5 +536,5 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzEyMjk1OCw5Mzc4MzU3ODVdfQ==
+eyJoaXN0b3J5IjpbLTEzNDU5NTI3MjgsOTM3ODM1Nzg1XX0=
 -->
