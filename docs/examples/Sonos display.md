@@ -517,7 +517,7 @@ display:
 - Added 'shuffle' & 'mute' signs
 - When idle, display 'stop' sign and 'idle' text
 - Revised display lambda page code
-- Four ESPHome sensors exposed in HA:
+- Four ESPHome sensors exposed in HA
 	- Connected status
 	- WiFi strength
 	- Display on/off
@@ -535,11 +535,11 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDY5ODg2MSwtMzY0ODU5NTY3LDUyNT
-Q4OTMyNSwxNzMwNzA5ODc5LDQ1NTczMTgzNywzOTQ2NzkzMTUs
-NTE4NjAzNjI2LC0xMzcyMTcyNDY0LC0xOTU0MDI1ODAwLDQ4OT
-cxNDEzMywzNzM2NzA4MzAsLTE0MTQ3NTI5NTYsOTk1NjcxMDgy
-LDE3NDY0ODM2MzIsLTE3ODk5NDQ3ODksMTc3ODQwMzI5NSwtMT
-I1NzAyNzgxMyw4NTg1MzEyMjIsODI4OTU5NywtMzQwNjY4NTFd
+eyJoaXN0b3J5IjpbODA5MjgxMDUxLC00ODA2OTg4NjEsLTM2ND
+g1OTU2Nyw1MjU0ODkzMjUsMTczMDcwOTg3OSw0NTU3MzE4Mzcs
+Mzk0Njc5MzE1LDUxODYwMzYyNiwtMTM3MjE3MjQ2NCwtMTk1ND
+AyNTgwMCw0ODk3MTQxMzMsMzczNjcwODMwLC0xNDE0NzUyOTU2
+LDk5NTY3MTA4MiwxNzQ2NDgzNjMyLC0xNzg5OTQ0Nzg5LDE3Nz
+g0MDMyOTUsLTEyNTcwMjc4MTMsODU4NTMxMjIyLDgyODk1OTdd
 fQ==
 -->
