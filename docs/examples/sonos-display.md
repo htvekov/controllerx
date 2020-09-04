@@ -233,7 +233,7 @@ esphome:
 wifi:
   ssid: "your_ssid"
   password: "your_password"
-  fast_connect: true # Needed for fast WiFi connect to avoid stack trace error on boot
+  fast_connect: true # Mandatory for fast WiFi connect to avoid stack trace error on boot
   manual_ip:
     static_ip: 192.168.XX.XX # Enter your static IP address. Needed for fast WiFi connect to avoid stack trace error on boot 
     gateway: 192.168.XX.XX # Enter your gateway
@@ -537,6 +537,6 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Nzg5MzY2OCwtMjM5NjUxOTY1LC0xMz
+eyJoaXN0b3J5IjpbLTE0OTA3ODU5MiwtMjM5NjUxOTY1LC0xMz
 Q1OTUyNzI4LDkzNzgzNTc4NV19
 -->
