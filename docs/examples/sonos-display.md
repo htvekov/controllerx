@@ -306,7 +306,7 @@ text_sensor:
     # Sonos master speaker
   - platform: homeassistant  
     id: sonos_status
-    entity_id: media_player.kokken
+    entity_id: media_player.your_master_speaker
     internal: true
   
   - platform: homeassistant  
@@ -542,7 +542,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDQ3ODExNywxNDAzMTkxNjcsLTE0OT
-A3ODU5MiwtMjM5NjUxOTY1LC0xMzQ1OTUyNzI4LDkzNzgzNTc4
-NV19
+eyJoaXN0b3J5IjpbMTAyNjUxMTIzNCwxNTU0NDc4MTE3LDE0MD
+MxOTE2NywtMTQ5MDc4NTkyLC0yMzk2NTE5NjUsLTEzNDU5NTI3
+MjgsOTM3ODM1Nzg1XX0=
 -->
