@@ -5,10 +5,10 @@ layout: page
 
 ![Three different Sonos displays](/controllerx/assets/img/sonos_displays_2.jpg)
 
+![Three different Sonos displays](/controllerx/assets/img/sonos_displays_1.jpg)
+
 ### Sonos/Symfonisk display with ESPHome - v1.1
 **Changelog at last page**
-
-![Three different Sonos displays](/controllerx/assets/img/sonos_displays_1.jpg)
 
 Using ControllerX - Controlling your Sonos speakers have never been easier 😎 But the occasional wish for a visual check on what’s actually playing, volume setting, media artist/title, active speakers in group etc. is still there 👀 Leaving you with no other choice than adding a display integration as the obvious solution for this need 😉
 
@@ -541,7 +541,7 @@ _[@htvekov](https://github.com/htvekov)_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTY3MTYwMSwxMDI2NTExMjM0LDE1NT
-Q0NzgxMTcsMTQwMzE5MTY3LC0xNDkwNzg1OTIsLTIzOTY1MTk2
-NSwtMTM0NTk1MjcyOCw5Mzc4MzU3ODVdfQ==
+eyJoaXN0b3J5IjpbMjEyNjMyMjU5MywxMzg1NjcxNjAxLDEwMj
+Y1MTEyMzQsMTU1NDQ3ODExNywxNDAzMTkxNjcsLTE0OTA3ODU5
+MiwtMjM5NjUxOTY1LC0xMzQ1OTUyNzI4LDkzNzgzNTc4NV19
 -->
